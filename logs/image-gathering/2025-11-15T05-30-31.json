@@ -1,0 +1,42 @@
+[
+  {
+    "location": {
+      "slug": "fremont",
+      "name": "Fremont",
+      "state": "CA"
+    },
+    "imageUrl": null,
+    "savedPath": null,
+    "error": "No image URL found"
+  },
+  {
+    "location": {
+      "slug": "hayward",
+      "name": "Hayward",
+      "state": "CA"
+    },
+    "imageUrl": null,
+    "savedPath": null,
+    "error": "No image URL found"
+  },
+  {
+    "location": {
+      "slug": "daly-city",
+      "name": "Daly City",
+      "state": "CA"
+    },
+    "imageUrl": null,
+    "savedPath": null,
+    "error": "No image URL found"
+  },
+  {
+    "location": {
+      "slug": "south-san-francisco",
+      "name": "South San Francisco",
+      "state": "CA"
+    },
+    "imageUrl": null,
+    "savedPath": null,
+    "error": "No image URL found"
+  }
+]

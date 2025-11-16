@@ -1,0 +1,148 @@
+import type { LocationItem } from "./types";
+
+export const locationsData: LocationItem[] = [
+  {
+    slug: "san-francisco-ca",
+    name: "San Francisco",
+    route: "/service-areas/san-francisco-ca",
+    type: "city",
+  },
+  {
+    slug: "financial-district-ca",
+    name: "Financial District",
+    parent: "san-francisco-ca",
+    route: "/service-areas/financial-district-ca",
+    type: "district",
+  },
+  {
+    slug: "soma-ca",
+    name: "SOMA",
+    parent: "san-francisco-ca",
+    route: "/service-areas/soma-ca",
+    type: "district",
+  },
+  {
+    slug: "mission-bay-ca",
+    name: "Mission Bay",
+    parent: "san-francisco-ca",
+    route: "/service-areas/mission-bay-ca",
+    type: "neighborhood",
+  },
+  {
+    slug: "marina-district-ca",
+    name: "Marina District",
+    parent: "san-francisco-ca",
+    route: "/service-areas/marina-district-ca",
+    type: "district",
+  },
+  {
+    slug: "pacific-heights-ca",
+    name: "Pacific Heights",
+    parent: "san-francisco-ca",
+    route: "/service-areas/pacific-heights-ca",
+    type: "neighborhood",
+  },
+  {
+    slug: "oakland-ca",
+    name: "Oakland",
+    route: "/service-areas/oakland-ca",
+    type: "city",
+  },
+  {
+    slug: "berkeley-ca",
+    name: "Berkeley",
+    route: "/service-areas/berkeley-ca",
+    type: "city",
+  },
+  {
+    slug: "san-mateo-ca",
+    name: "San Mateo",
+    route: "/service-areas/san-mateo-ca",
+    type: "city",
+  },
+  {
+    slug: "redwood-city-ca",
+    name: "Redwood City",
+    route: "/service-areas/redwood-city-ca",
+    type: "city",
+  },
+  {
+    slug: "palo-alto-ca",
+    name: "Palo Alto",
+    route: "/service-areas/palo-alto-ca",
+    type: "city",
+  },
+  {
+    slug: "mountain-view-ca",
+    name: "Mountain View",
+    route: "/service-areas/mountain-view-ca",
+    type: "city",
+  },
+  {
+    slug: "sunnyvale-ca",
+    name: "Sunnyvale",
+    route: "/service-areas/sunnyvale-ca",
+    type: "city",
+  },
+  {
+    slug: "fremont-ca",
+    name: "Fremont",
+    route: "/service-areas/fremont-ca",
+    type: "city",
+  },
+  {
+    slug: "hayward-ca",
+    name: "Hayward",
+    route: "/service-areas/hayward-ca",
+    type: "city",
+  },
+  {
+    slug: "daly-city-ca",
+    name: "Daly City",
+    route: "/service-areas/daly-city-ca",
+    type: "city",
+  },
+  {
+    slug: "south-san-francisco-ca",
+    name: "South San Francisco",
+    route: "/service-areas/south-san-francisco-ca",
+    type: "city",
+  },
+  {
+    slug: "san-rafael-ca",
+    name: "San Rafael",
+    route: "/service-areas/san-rafael-ca",
+    type: "city",
+  },
+  {
+    slug: "novato-ca",
+    name: "Novato",
+    route: "/service-areas/novato-ca",
+    type: "city",
+  },
+  {
+    slug: "petaluma-ca",
+    name: "Petaluma",
+    route: "/service-areas/petaluma-ca",
+    type: "city",
+  },
+  {
+    slug: "napa-ca",
+    name: "Napa",
+    route: "/service-areas/napa-ca",
+    type: "city",
+  },
+  {
+    slug: "vallejo-ca",
+    name: "Vallejo",
+    route: "/service-areas/vallejo-ca",
+    type: "city",
+  },
+  {
+    slug: "nationwide",
+    name: "Nationwide",
+    route: "/service-areas/nationwide",
+    type: "remote",
+  },
+];
+

@@ -1,0 +1,16 @@
+{
+  "company": "1031 Exchange San Francisco",
+  "phone": "",
+  "phoneDigits": "",
+  "mainCity": "San Francisco",
+  "state": "CA",
+  "services": [],
+  "servicesNav": [],
+  "locationsNav": [],
+  "extraLinks": [
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ]
+}

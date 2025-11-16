@@ -1,36 +1,11 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 1031 Exchange San Francisco
 
-## Getting Started
+## Taxonomy Rationale
 
-First, run the development server:
+This site uses a structured taxonomy designed to support nationwide replacement property identification for 1031 exchange investors in San Francisco, CA. The taxonomy prioritizes property identification services over intermediary or compliance support, reflecting the site's focus on helping investors find suitable replacement properties across the United States.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Services are organized into seven categories: Timelines (45 day and 180 day deadline management), Structures (three property, 200 percent, reverse, and improvement exchange strategies), Execution (qualified intermediary coordination, escrow, lender support), Tax (like kind qualification, boot analysis, transfer tax coordination), Reporting (Form 8824 preparation), Property Paths (nationwide identification, NNN search, multifamily, industrial, retail, medical office), and Education (1031 exchange resources).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Locations include San Francisco and 22 nearby cities and neighborhoods within 30 to 45 miles, plus a nationwide option for remote property identification. Property types focus on NNN retail assets including convenience stores, drive thru QSR, pharmacies, dollar stores, and other single tenant net lease properties that qualify for like kind treatment.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The layout diversity system ensures each service and location page uses a different layout variant, preventing visual repetition and improving user engagement. Layouts are assigned using round robin distribution to ensure balanced variety across all pages.
