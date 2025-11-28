@@ -1,25 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
-import sgMail from "@sendgrid/mail";
-
-if (!process.env.SENDGRID_API_KEY) {
-  console.warn("SENDGRID_API_KEY is not set");
-}
-if (process.env.SENDGRID_API_KEY) {
-  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-}
-
-const TURNSTILE_SECRET_KEY = process.env.TURNSTILE_SECRET_KEY;
-const ZAPIER_WEBHOOK_URL = process.env.ZAPIER_WEBHOOK_URL;
+import { getBrand } from '@/lib/brand';
+import { sendCustomerConfirmation, sendInternalNotifications } from '@/lib/email/sendgrid';
 
 async function verifyTurnstile(token: string, ip?: string): Promise<boolean> {
-  if (!TURNSTILE_SECRET_KEY) {
+  if (!process.env.TURNSTILE_SECRET_KEY) {
     console.warn("TURNSTILE_SECRET_KEY is not set, skipping verification");
     return true;
   }
 
   try {
     const formData = new FormData();
-    formData.append("secret", TURNSTILE_SECRET_KEY);
+    formData.append("secret", process.env.TURNSTILE_SECRET_KEY);
     formData.append("response", token);
     if (ip) {
       formData.append("remoteip", ip);
@@ -42,13 +33,13 @@ async function verifyTurnstile(token: string, ip?: string): Promise<boolean> {
 }
 
 async function sendToZapier(data: Record<string, any>): Promise<void> {
-  if (!ZAPIER_WEBHOOK_URL) {
+  if (!process.env.ZAPIER_WEBHOOK_URL) {
     console.warn("ZAPIER_WEBHOOK_URL is not set, skipping Zapier");
     return;
   }
 
   try {
-    await fetch(ZAPIER_WEBHOOK_URL, {
+    await fetch(process.env.ZAPIER_WEBHOOK_URL, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -72,6 +63,10 @@ export async function POST(request: NextRequest) {
       timeline,
       details,
       turnstileToken,
+      property,
+      estimatedCloseDate,
+      city,
+      message,
     } = body;
 
     if (!turnstileToken) {
@@ -93,66 +88,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const emailContent = `
-New Contact Form Submission
-
-Name: ${name}
-Company: ${company || "N/A"}
-Email: ${email}
-Phone: ${phone}
-Project Type: ${projectType}
-Timeline: ${timeline}
-Details: ${details}
-    `.trim();
-
-    if (process.env.SENDGRID_API_KEY && process.env.SENDGRID_TO_EMAIL) {
-      try {
-        await sgMail.send({
-          to: process.env.SENDGRID_TO_EMAIL,
-          from: process.env.SENDGRID_FROM_EMAIL || "noreply@1031exchangesanfrancisco.com",
-          subject: `New Contact Form: ${projectType}`,
-          text: emailContent,
-          html: `
-            <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-              <h2 style="color: #0C1E2E;">New Contact Form Submission</h2>
-              <table style="width: 100%; border-collapse: collapse;">
-                <tr>
-                  <td style="padding: 8px; border-bottom: 1px solid #E5E7EB;"><strong>Name:</strong></td>
-                  <td style="padding: 8px; border-bottom: 1px solid #E5E7EB;">${name}</td>
-                </tr>
-                <tr>
-                  <td style="padding: 8px; border-bottom: 1px solid #E5E7EB;"><strong>Company:</strong></td>
-                  <td style="padding: 8px; border-bottom: 1px solid #E5E7EB;">${company || "N/A"}</td>
-                </tr>
-                <tr>
-                  <td style="padding: 8px; border-bottom: 1px solid #E5E7EB;"><strong>Email:</strong></td>
-                  <td style="padding: 8px; border-bottom: 1px solid #E5E7EB;"><a href="mailto:${email}">${email}</a></td>
-                </tr>
-                <tr>
-                  <td style="padding: 8px; border-bottom: 1px solid #E5E7EB;"><strong>Phone:</strong></td>
-                  <td style="padding: 8px; border-bottom: 1px solid #E5E7EB;"><a href="tel:${phone}">${phone}</a></td>
-                </tr>
-                <tr>
-                  <td style="padding: 8px; border-bottom: 1px solid #E5E7EB;"><strong>Project Type:</strong></td>
-                  <td style="padding: 8px; border-bottom: 1px solid #E5E7EB;">${projectType}</td>
-                </tr>
-                <tr>
-                  <td style="padding: 8px; border-bottom: 1px solid #E5E7EB;"><strong>Timeline:</strong></td>
-                  <td style="padding: 8px; border-bottom: 1px solid #E5E7EB;">${timeline}</td>
-                </tr>
-                <tr>
-                  <td style="padding: 8px; border-bottom: 1px solid #E5E7EB;"><strong>Details:</strong></td>
-                  <td style="padding: 8px; border-bottom: 1px solid #E5E7EB;">${details.replace(/\n/g, "<br>")}</td>
-                </tr>
-              </table>
-            </div>
-          `,
-        });
-      } catch (error) {
-        console.error("SendGrid error:", error);
-      }
-    }
-
+    // Send to Zapier
     await sendToZapier({
       name,
       company,
@@ -160,10 +96,48 @@ Details: ${details}
       phone,
       projectType,
       timeline,
-      details,
+      details: details || message || "",
+      property: property || "",
+      estimatedCloseDate: estimatedCloseDate || "",
+      city: city || "",
       source: "contact-form",
       timestamp: new Date().toISOString(),
     });
+
+    // Send emails via SendGrid template
+    const brand = getBrand();
+    const lead = {
+      name: String(name || ''),
+      email: String(email || ''),
+      phone: phone ? String(phone).replace(/\D/g, '') : undefined,
+      phone_plain: phone ? String(phone).replace(/\D/g, '') : undefined,
+      projectType: String(projectType || '1031 Exchange Project'),
+      property: property ? String(property) : undefined,
+      estimatedCloseDate: estimatedCloseDate ? String(estimatedCloseDate) : undefined,
+      city: city ? String(city) : undefined,
+      company: company ? String(company) : undefined,
+      timeline: timeline ? String(timeline) : undefined,
+      message: message ? String(message) : (details ? String(details) : undefined),
+    };
+
+    const brandWithDate = {
+      ...brand,
+      submitted_date: new Date().toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+      })
+    };
+
+    try {
+      await Promise.all([
+        sendCustomerConfirmation(brandWithDate, lead),
+        sendInternalNotifications(brandWithDate, lead),
+      ]);
+      console.log('SendGrid emails sent successfully to:', email);
+    } catch (error) {
+      console.error("SendGrid email failed", error);
+    }
 
     return NextResponse.json({ success: true });
   } catch (error) {
@@ -174,4 +148,3 @@ Details: ${details}
     );
   }
 }
-
