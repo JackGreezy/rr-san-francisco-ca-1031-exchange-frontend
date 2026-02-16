@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { SITE_URL, PRIMARY_CITY, PRIMARY_STATE_ABBR } from "@/lib/config";
-import { getPropertyTypeImagePath } from "@/lib/image-utils";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import { propertyTypesData } from "@/data";
 
 export const metadata: Metadata = {
   title: `1031 Exchange Property Types in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}`,
@@ -12,64 +13,13 @@ export const metadata: Metadata = {
   },
 };
 
-const PROPERTY_TYPES = [
-  {
-    title: "SINGLE-TENANT NNN",
-    slug: "nnn",
-    imageSlug: "nnn",
-    description: `Credit-backed, long lease assets that balance cash flow needs.`,
-  },
-  {
-    title: "MULTIFAMILY",
-    slug: "multifamily",
-    imageSlug: "multifamily",
-    description: `Stabilized or value-add multifamily communities with professional management.`,
-  },
-  {
-    title: "COMMERCIAL",
-    slug: "retail",
-    imageSlug: "retail",
-    description: `Retail properties with credit tenants and stable income streams.`,
-  },
-  {
-    title: "INDUSTRIAL",
-    slug: "industrial",
-    imageSlug: "industrial",
-    description: `Distribution, flex, and research facilities with mission critical tenant improvements.`,
-  },
-  {
-    title: "MEDICAL",
-    slug: "medical-office",
-    imageSlug: "medical-office",
-    description: `OSHPD compliant facilities, labs, and life science campuses.`,
-  },
-  {
-    title: "SELF STORAGE",
-    slug: "self-storage",
-    imageSlug: "self-storage",
-    description: `Self storage facilities with verified occupancy rates and revenue streams.`,
-  },
-  {
-    title: "RESIDENTIAL",
-    slug: "residential",
-    imageSlug: "multifamily",
-    description: `Single-family and multi-family residential investment properties.`,
-  },
-  {
-    title: "MIXED USE",
-    slug: "mixed-use",
-    imageSlug: "retail",
-    description: `Combined residential and commercial properties in prime locations.`,
-  },
-];
-
 export default function PropertyTypesPage() {
   return (
     <div className="bg-[#F7F5F2]">
       {/* Hero Section */}
       <section className="relative h-[50vh] min-h-[400px]">
         <Image
-          src="/property-types/1031-exchange-industrial-san-francisco-ca.jpg"
+          src="/property-types/last-mile-logistics-flex/last-mile-logisitics-sf.jpg"
           alt="Property Types for 1031 Exchange"
           fill
           className="object-cover"
@@ -87,42 +37,45 @@ export default function PropertyTypesPage() {
         </div>
       </section>
 
+      {/* Breadcrumbs */}
+      <div className="max-w-6xl mx-auto px-6 lg:px-12 py-4">
+        <Breadcrumbs
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Property Types", href: "/property-types" },
+          ]}
+        />
+      </div>
+
       {/* Property Types Grid - Matching locations aesthetic */}
       <section className="py-16 md:py-20">
         <div className="px-4 md:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
-            {PROPERTY_TYPES.map((type) => {
-              const imagePath = getPropertyTypeImagePath(type.imageSlug || type.slug, PRIMARY_CITY, PRIMARY_STATE_ABBR);
-              const imageExt = type.imageSlug === 'multifamily' ? '.png' : '.jpg';
-              const imageSrc = `${imagePath}${imageExt}`;
-              
-              return (
-                <Link
-                  key={type.slug}
-                  href={`/property-types/${type.slug}`}
-                  className="group relative block"
-                >
-                  <div className="relative aspect-[4/3] overflow-hidden">
+            {propertyTypesData.map((type) => (
+              <Link
+                key={type.slug}
+                href={type.route}
+                className="group relative block"
+              >
+                <div className="relative aspect-[4/3] overflow-hidden">
+                  {type.image && (
                     <Image
-                      src={imageSrc}
-                      alt={type.title}
+                      src={type.image}
+                      alt={type.name}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-105"
                       sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-                    <div className="absolute bottom-0 left-0 right-0 p-4">
-                      <h2 className="font-[family-name:var(--font-playfair)] text-[13px] md:text-[16px] font-normal tracking-[0.05em] text-white leading-tight mb-1">
-                        {type.title}
-                      </h2>
-                      <p className="text-[10px] md:text-[11px] text-white/70 line-clamp-2 hidden md:block">
-                        {type.description}
-                      </p>
-                    </div>
+                  )}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h2 className="font-[family-name:var(--font-playfair)] text-[13px] md:text-[16px] font-normal tracking-[0.05em] text-white leading-tight">
+                      {type.name.toUpperCase()}
+                    </h2>
                   </div>
-                </Link>
-              );
-            })}
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
@@ -130,7 +83,7 @@ export default function PropertyTypesPage() {
       {/* CTA Section */}
       <section className="relative py-20">
         <Image
-          src="/locations/1031-exchange-oakland-ca.jpg"
+          src="/service-areas/oakland-ca/oakland-ca.webp"
           alt="Bay Area"
           fill
           className="object-cover"

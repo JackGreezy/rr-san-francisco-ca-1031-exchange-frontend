@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { locationsData } from "@/data";
 import { SITE_URL, PRIMARY_CITY, PRIMARY_STATE_ABBR } from "@/lib/config";
-import { getLocationImagePath } from "@/lib/image-utils";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: `1031 Exchange Locations Near ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}`,
@@ -19,7 +19,7 @@ export default function LocationsPage() {
       {/* Hero Section */}
       <section className="relative h-[50vh] min-h-[400px]">
         <Image
-          src="/locations/1031-exchange-pacific-heights-ca.jpg"
+          src="/service-areas/pacific-heights-ca/pacific-heights-ca.jpg"
           alt="San Francisco Bay Area"
           fill
           className="object-cover"
@@ -37,36 +37,45 @@ export default function LocationsPage() {
         </div>
       </section>
 
+      {/* Breadcrumbs */}
+      <div className="max-w-6xl mx-auto px-6 lg:px-12 py-4">
+        <Breadcrumbs
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Service Areas", href: "/service-areas" },
+          ]}
+        />
+      </div>
+
       {/* Locations Grid - Edge to edge like homepage */}
       <section className="py-16 md:py-20">
         <div className="px-4 md:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
-            {locationsData.map((location) => {
-              const imagePath = getLocationImagePath(location.slug, location.name, PRIMARY_STATE_ABBR);
-              return (
-                <Link
-                  key={location.slug}
-                  href={`/service-areas/${location.slug}`}
-                  className="group relative block"
-                >
-                  <div className="relative aspect-[4/3] overflow-hidden">
+            {locationsData.map((location) => (
+              <Link
+                key={location.slug}
+                href={`/service-areas/${location.slug}`}
+                className="group relative block"
+              >
+                <div className="relative aspect-[4/3] overflow-hidden">
+                  {location.image && (
                     <Image
-                      src={`${imagePath}.jpg`}
+                      src={location.image}
                       alt={`${location.name}, ${PRIMARY_STATE_ABBR}`}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-105"
                       sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-                    <div className="absolute bottom-0 left-0 right-0 p-4">
-                      <h2 className="font-[family-name:var(--font-playfair)] text-[13px] md:text-[16px] font-normal tracking-[0.05em] text-white leading-tight">
-                        {location.name.toUpperCase()}
-                      </h2>
-                    </div>
+                  )}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h2 className="font-[family-name:var(--font-playfair)] text-[13px] md:text-[16px] font-normal tracking-[0.05em] text-white leading-tight">
+                      {location.name.toUpperCase()}
+                    </h2>
                   </div>
-                </Link>
-              );
-            })}
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
@@ -74,7 +83,7 @@ export default function LocationsPage() {
       {/* CTA Section */}
       <section className="relative py-20">
         <Image
-          src="/locations/1031-exchange-berkeley-ca.jpg"
+          src="/service-areas/berkeley-ca/berkeley-ca.jpg"
           alt="Bay Area"
           fill
           className="object-cover"

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SITE_NAME, SITE_URL } from "@/lib/config";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: `Privacy Policy | ${SITE_NAME}`,
@@ -12,6 +13,16 @@ export const metadata: Metadata = {
 export default function PrivacyPage() {
   return (
     <div className="mx-auto max-w-4xl px-6 py-20 md:px-10 md:py-28">
+      {/* Breadcrumbs */}
+      <div className="mb-8">
+        <Breadcrumbs
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Privacy Policy", href: "/privacy" },
+          ]}
+        />
+      </div>
+
       <h1 className="mb-8 font-bold text-4xl leading-[1.1] tracking-tight text-[#0C1E2E] md:text-5xl">
         Privacy Policy
       </h1>

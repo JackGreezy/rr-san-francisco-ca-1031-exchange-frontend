@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { servicesData } from "@/data";
 import { SITE_URL, PRIMARY_CITY, PRIMARY_STATE_ABBR } from "@/lib/config";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: `1031 Exchange Services in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}`,
@@ -12,31 +13,18 @@ export const metadata: Metadata = {
   },
 };
 
-// Service images mapping - using Unsplash free images
-const SERVICE_IMAGES: Record<string, string> = {
-  "forward-exchange": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop",
-  "reverse-exchange": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop",
-  "improvement-exchange": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?q=80&w=2196&auto=format&fit=crop",
-  "dst-investments": "https://images.unsplash.com/photo-1464938050520-ef2571f65114?q=80&w=2074&auto=format&fit=crop",
-  "qualified-intermediary": "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop",
-  "property-identification": "https://images.unsplash.com/photo-1554469384-e58fac16e23a?q=80&w=2187&auto=format&fit=crop",
-  "timeline-management": "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?q=80&w=2070&auto=format&fit=crop",
-  "tax-deferral": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?q=80&w=2072&auto=format&fit=crop",
-};
-
 export default function ServicesPage() {
   return (
     <div className="bg-[#F7F5F2]">
       {/* Hero Section */}
       <section className="relative h-[50vh] min-h-[400px]">
         <Image
-          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop"
-          alt="Modern commercial building"
+          src="/service-areas/nob-hill-ca/nob-hill-ca.jpg"
+          alt="1031 Exchange Services"
           fill
           className="object-cover"
           priority
           sizes="100vw"
-          unoptimized
         />
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-6">
@@ -49,60 +37,48 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Services Grid - Mirror Locations Aesthetic */}
+      {/* Breadcrumbs */}
+      <div className="max-w-6xl mx-auto px-6 lg:px-12 py-4">
+        <Breadcrumbs
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Services", href: "/services" },
+          ]}
+        />
+      </div>
+
+      {/* Services Grid - Text-based cards */}
       <section className="py-16 md:py-20">
-        <div className="px-4 md:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
-            {servicesData.map((service) => {
-              const imageSrc = SERVICE_IMAGES[service.slug] || "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop";
-              return (
-                <Link
-                  key={service.slug}
-                  href={`/services/${service.slug}`}
-                  className="group relative block"
-                >
-                  <div className="relative aspect-[4/3] overflow-hidden">
-                    <Image
-                      src={imageSrc}
-                      alt={service.name}
-                      fill
-                      className="object-cover transition-transform duration-700 group-hover:scale-105"
-                      sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                      unoptimized
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-                    <div className="absolute bottom-0 left-0 right-0 p-4">
-                      <h2 className="font-[family-name:var(--font-playfair)] text-[13px] md:text-[16px] font-normal tracking-[0.05em] text-white leading-tight mb-1">
-                        {service.name}
-                      </h2>
-                      <p className="text-[10px] md:text-[11px] text-white/70 line-clamp-2 hidden md:block">
-                        {service.short}
-                      </p>
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
+        <div className="max-w-5xl mx-auto px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {servicesData.map((service) => (
+              <Link
+                key={service.slug}
+                href={`/services/${service.slug}`}
+                className="group bg-white border border-[#E5E0D8] p-8 hover:border-[#5A2828]/30 transition-colors"
+              >
+                <h2 className="font-[family-name:var(--font-playfair)] text-[18px] md:text-[22px] font-normal text-[#2D2D2D] group-hover:text-[#5A2828] transition-colors mb-3">
+                  {service.name}
+                </h2>
+                <p className="text-[13px] leading-relaxed text-[#666]">
+                  {service.short}
+                </p>
+                <span className="inline-block mt-4 text-[10px] font-medium tracking-[0.2em] uppercase text-[#5A2828]">
+                  Learn More →
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-20">
-        <Image
-          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop"
-          alt="Bay Area property"
-          fill
-          className="object-cover"
-          sizes="100vw"
-          unoptimized
-        />
-        <div className="absolute inset-0 bg-black/60" />
-        <div className="relative z-10 max-w-2xl mx-auto px-6 text-center">
-          <h2 className="font-[family-name:var(--font-playfair)] text-[28px] md:text-[36px] font-normal tracking-[0.08em] uppercase text-white mb-6">
+      <section className="bg-[#D4C4B0] py-16 md:py-20">
+        <div className="max-w-2xl mx-auto px-6 text-center">
+          <h2 className="font-[family-name:var(--font-playfair)] text-[28px] md:text-[36px] font-normal tracking-[0.08em] uppercase text-[#5A2828] mb-6">
             Ready to Get Started?
           </h2>
-          <p className="text-[15px] text-white/80 mb-8">
+          <p className="text-[14px] text-[#5A2828]/80 mb-8">
             Contact us to discuss your 1031 exchange needs in {PRIMARY_CITY}, {PRIMARY_STATE_ABBR}.
           </p>
           <Link

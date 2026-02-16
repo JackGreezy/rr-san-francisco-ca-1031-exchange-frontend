@@ -8,6 +8,7 @@ import {
   PRIMARY_STATE_ABBR,
   PHONE_DIGITS,
 } from "@/lib/config";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: `IRS Section 1031 Exchange | ${SITE_NAME}`,
@@ -73,7 +74,7 @@ export default function IRSSection1031Page() {
       {/* Hero Section */}
       <section className="relative h-[50vh] min-h-[400px]">
         <Image
-          src="/locations/1031-exchange-san-francisco-ca.jpg"
+          src="/service-areas/san-francisco-ca/san-francisco-ca.webp"
           alt="San Francisco skyline"
           fill
           className="object-cover"
@@ -90,6 +91,16 @@ export default function IRSSection1031Page() {
           </p>
         </div>
       </section>
+
+      {/* Breadcrumbs */}
+      <div className="max-w-6xl mx-auto px-6 lg:px-12 py-4">
+        <Breadcrumbs
+          items={[
+            { label: "Home", href: "/" },
+            { label: "IRS Section 1031", href: "/irs-section-1031" },
+          ]}
+        />
+      </div>
 
       {/* Introduction */}
       <section className="py-16 md:py-20">

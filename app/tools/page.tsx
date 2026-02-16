@@ -7,6 +7,7 @@ import {
   PRIMARY_CITY,
   PRIMARY_STATE_ABBR,
 } from "@/lib/config";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: `1031 Exchange Tools & Calculators | ${SITE_NAME}`,
@@ -43,7 +44,7 @@ export default function ToolsPage() {
       {/* Hero Section */}
       <section className="relative h-[50vh] min-h-[400px]">
         <Image
-          src="/locations/1031-exchange-mission-bay-ca.jpg"
+          src="/service-areas/mission-bay-ca/mission-bay-ca.jpg"
           alt="1031 Exchange Tools"
           fill
           className="object-cover"
@@ -60,6 +61,16 @@ export default function ToolsPage() {
           </p>
         </div>
       </section>
+
+      {/* Breadcrumbs */}
+      <div className="max-w-6xl mx-auto px-6 lg:px-12 py-4">
+        <Breadcrumbs
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Tools", href: "/tools" },
+          ]}
+        />
+      </div>
 
       {/* Tools Grid */}
       <section className="py-20 md:py-28">
@@ -118,7 +129,7 @@ export default function ToolsPage() {
       {/* CTA Section */}
       <section className="relative py-20">
         <Image
-          src="/locations/1031-exchange-palo-alto-ca.jpg"
+          src="/service-areas/palo-alto-ca/palo-alto-ca.webp"
           alt="Bay Area"
           fill
           className="object-cover"

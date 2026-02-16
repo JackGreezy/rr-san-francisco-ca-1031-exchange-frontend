@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import {
   getServiceBySlug,
   getRelatedServices,
@@ -91,38 +90,17 @@ export default async function ServicePage({
     },
   ];
 
-  // Service images mapping for hero
-  const SERVICE_HERO_IMAGES: Record<string, string> = {
-    "forward-exchange": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop",
-    "reverse-exchange": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop",
-    "improvement-exchange": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?q=80&w=2196&auto=format&fit=crop",
-    "dst-investments": "https://images.unsplash.com/photo-1464938050520-ef2571f65114?q=80&w=2074&auto=format&fit=crop",
-    "qualified-intermediary": "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop",
-    "property-identification": "https://images.unsplash.com/photo-1554469384-e58fac16e23a?q=80&w=2187&auto=format&fit=crop",
-    "timeline-management": "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?q=80&w=2070&auto=format&fit=crop",
-    "tax-deferral": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?q=80&w=2072&auto=format&fit=crop",
-  };
-
-  const heroImage = SERVICE_HERO_IMAGES[resolvedParams.slug] || "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop";
-
   return (
     <div className="bg-[#F7F5F2]">
       {/* Hero Section */}
-      <section className="relative h-[50vh] min-h-[350px]">
-        <Image
-          src={heroImage}
-          alt={service.title}
-          fill
-          className="object-cover"
-          priority
-          sizes="100vw"
-          unoptimized
-        />
-        <div className="absolute inset-0 bg-black/50" />
-        <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-6">
+      <section className="bg-[#2D2D2D] py-20 md:py-28">
+        <div className="flex flex-col items-center justify-center text-center px-6">
           <h1 className="font-[family-name:var(--font-playfair)] text-[28px] md:text-[38px] lg:text-[48px] font-normal tracking-[0.08em] uppercase text-white">
             {service.title}
           </h1>
+          <p className="mt-4 max-w-2xl text-[14px] md:text-[16px] text-white/60">
+            1031 Exchange Services in {PRIMARY_CITY}, {PRIMARY_STATE_ABBR}
+          </p>
         </div>
       </section>
 

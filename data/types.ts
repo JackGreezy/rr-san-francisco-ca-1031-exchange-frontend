@@ -6,6 +6,7 @@ export type LocationItem = {
   type: "city" | "district" | "neighborhood" | "remote";
   description?: string;
   medianPrice?: string;
+  image?: string;
 };
 
 export type ServiceItem = {
@@ -20,6 +21,7 @@ export type PropertyTypeItem = {
   slug: string;
   name: string;
   route: string;
+  image?: string;
 };
 
 export type InventoryCategory = {

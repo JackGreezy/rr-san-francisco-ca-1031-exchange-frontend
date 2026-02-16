@@ -13,6 +13,7 @@ import {
   OFFICE_ADDRESS,
 } from "@/lib/config";
 import { SERVICES } from "@/lib/services";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 type ContactFormData = {
   name: string;
@@ -165,7 +166,7 @@ function ContactForm() {
     return (
       <div className="bg-[#F7F5F2]">
         <section className="relative h-[40vh] min-h-[300px]">
-          <Image src="/locations/1031-exchange-soma-ca.jpg" alt="Contact SF 1031 Exchange" fill className="object-cover" priority sizes="100vw" />
+          <Image src="/service-areas/soma-ca/soma-ca.avif" alt="Contact SF 1031 Exchange" fill className="object-cover" priority sizes="100vw" />
           <div className="absolute inset-0 bg-black/50" />
           <div className="relative z-10 flex h-full items-center justify-center text-center px-6">
             <h1 className="font-[family-name:var(--font-playfair)] text-[32px] md:text-[42px] lg:text-[52px] font-normal tracking-[0.1em] uppercase text-white">Thank You</h1>
@@ -190,12 +191,22 @@ function ContactForm() {
   return (
     <div className="bg-[#F7F5F2]">
       <section className="relative h-[40vh] min-h-[300px]">
-        <Image src="/locations/1031-exchange-soma-ca.jpg" alt="Contact SF 1031 Exchange" fill className="object-cover" priority sizes="100vw" />
+        <Image src="/service-areas/soma-ca/soma-ca.avif" alt="Contact SF 1031 Exchange" fill className="object-cover" priority sizes="100vw" />
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex h-full items-center justify-center text-center px-6">
           <h1 className="font-[family-name:var(--font-playfair)] text-[32px] md:text-[42px] lg:text-[52px] font-normal tracking-[0.1em] uppercase text-white">Contact Us</h1>
         </div>
       </section>
+
+      {/* Breadcrumbs */}
+      <div className="max-w-6xl mx-auto px-6 lg:px-12 py-4">
+        <Breadcrumbs
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Contact", href: "/contact" },
+          ]}
+        />
+      </div>
 
       <section className="py-20 md:py-28">
         <div className="max-w-6xl mx-auto px-6">

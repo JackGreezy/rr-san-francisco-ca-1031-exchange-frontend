@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { SITE_NAME, SITE_URL } from "@/lib/config";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: `Blog | ${SITE_NAME}`,
@@ -25,7 +26,7 @@ export default function BlogPage() {
       {/* Hero Section */}
       <section className="relative h-[40vh] min-h-[300px]">
         <Image
-          src="/locations/1031-exchange-nob-hill-ca.jpg"
+          src="/service-areas/nob-hill-ca/nob-hill-ca.jpg"
           alt="Blog"
           fill
           className="object-cover"
@@ -42,6 +43,16 @@ export default function BlogPage() {
           </p>
         </div>
       </section>
+
+      {/* Breadcrumbs */}
+      <div className="max-w-6xl mx-auto px-6 lg:px-12 py-4">
+        <Breadcrumbs
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Blog", href: "/blog" },
+          ]}
+        />
+      </div>
 
       {/* Content */}
       <section className="py-20 md:py-28">

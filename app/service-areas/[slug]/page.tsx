@@ -14,7 +14,7 @@ import {
 } from "@/lib/config";
 import Script from "next/script";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { getLocationImagePath } from "@/lib/image-utils";
+
 
 export async function generateStaticParams() {
   return locationsData.map((location) => ({
@@ -96,20 +96,20 @@ export default async function LocationPage({
     },
   ];
 
-  const imagePath = getLocationImagePath(resolvedParams.slug, location.name, PRIMARY_STATE_ABBR);
-
   return (
     <div className="bg-[#F7F5F2]">
       {/* Hero Section */}
       <section className="relative h-[50vh] min-h-[350px]">
-        <Image
-          src={`${imagePath}.jpg`}
-          alt={`${location.name}, ${PRIMARY_STATE_ABBR} - 1031 Exchange Properties`}
-          fill
-          className="object-cover"
-          priority
-          sizes="100vw"
-        />
+        {location.image && (
+          <Image
+            src={location.image}
+            alt={`${location.name}, ${PRIMARY_STATE_ABBR} - 1031 Exchange Properties`}
+            fill
+            className="object-cover"
+            priority
+            sizes="100vw"
+          />
+        )}
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-6">
           <h1 className="font-[family-name:var(--font-playfair)] text-[28px] md:text-[38px] lg:text-[48px] font-normal tracking-[0.1em] uppercase text-white">

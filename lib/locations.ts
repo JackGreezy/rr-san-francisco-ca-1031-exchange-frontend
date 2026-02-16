@@ -10,6 +10,7 @@ export type Location = {
   slug: string;
   description: string;
   type: "city" | "neighborhood" | "suburb" | "district" | "remote";
+  image?: string;
 };
 
 export const LOCATIONS: Location[] = locationsData.map(location => ({
@@ -21,6 +22,7 @@ export const LOCATIONS: Location[] = locationsData.map(location => ({
     ? "Nationwide property identification support across all 50 states for 1031 exchange investors."
     : `${location.name} in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} provides specialized property identification services for 1031 exchange investors.`,
   type: location.type,
+  image: location.image,
 }));
 
 export function getLocationBySlug(slug: string): Location | undefined {

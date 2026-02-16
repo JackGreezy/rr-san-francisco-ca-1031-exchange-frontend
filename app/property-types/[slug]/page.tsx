@@ -4,13 +4,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { SITE_NAME, SITE_URL, PRIMARY_CITY, PRIMARY_STATE_ABBR } from "@/lib/config";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { getPropertyTypeImagePath } from "@/lib/image-utils";
+import { propertyTypesData } from "@/data";
 
 const PROPERTY_TYPES = [
   {
     title: "Multifamily Communities",
     slug: "multifamily",
-    imageSlug: "multifamily",
     description: `Stabilized or value-add multifamily communities in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} with professional management and verified rent rolls.`,
     longDescription: `<p>Multifamily properties represent one of the most popular property types for 1031 exchange investors in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}. These properties include apartment buildings, condominiums, and townhouse complexes that generate rental income from multiple tenants.</p><p>When identifying multifamily replacement properties for your 1031 exchange, we focus on properties with verified rent rolls, professional management, and stable occupancy rates. Multifamily properties in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} offer investors the opportunity to defer capital gains tax while building a portfolio of income-producing assets.</p><p>Our team helps investors evaluate multifamily properties for their exchange requirements, including property value, debt structure, and timeline compatibility with your 45 day identification and 180 day closing deadlines.</p>`,
     benefits: [
@@ -98,9 +97,17 @@ function getPropertyTypeBySlug(slug: string) {
 }
 
 export async function generateStaticParams() {
-  return PROPERTY_TYPES.map((type) => ({
-    slug: type.slug,
-  }));
+  const oldSlugs = PROPERTY_TYPES.map((type) => ({ slug: type.slug }));
+  const newSlugs = propertyTypesData.map((type) => ({ slug: type.slug }));
+  const allSlugs = new Map<string, { slug: string }>();
+  for (const s of [...oldSlugs, ...newSlugs]) {
+    allSlugs.set(s.slug, s);
+  }
+  return Array.from(allSlugs.values());
+}
+
+function getPropertyTypeDataBySlug(slug: string) {
+  return propertyTypesData.find((pt) => pt.slug === slug);
 }
 
 export async function generateMetadata({
@@ -110,16 +117,20 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const resolvedParams = await params;
   const propertyType = getPropertyTypeBySlug(resolvedParams.slug);
-  
-  if (!propertyType) {
+  const propertyTypeData = getPropertyTypeDataBySlug(resolvedParams.slug);
+
+  if (!propertyType && !propertyTypeData) {
     return {
       title: "Property Type Not Found",
     };
   }
 
+  const title = propertyType?.title || propertyTypeData?.name || "Property Type";
+  const description = propertyType?.description || `${title} properties for 1031 exchange in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.`;
+
   return {
-    title: `${propertyType.title} | 1031 Exchange ${PRIMARY_CITY} | ${SITE_NAME}`,
-    description: propertyType.description,
+    title: `${title} | 1031 Exchange ${PRIMARY_CITY} | ${SITE_NAME}`,
+    description,
     alternates: {
       canonical: `${SITE_URL}/property-types/${resolvedParams.slug}`,
     },
@@ -133,18 +144,14 @@ export default async function PropertyTypePage({
 }) {
   const resolvedParams = await params;
   const propertyType = getPropertyTypeBySlug(resolvedParams.slug);
+  const propertyTypeData = getPropertyTypeDataBySlug(resolvedParams.slug);
 
-  if (!propertyType) {
+  if (!propertyType && !propertyTypeData) {
     notFound();
   }
 
-  const imagePath = getPropertyTypeImagePath(
-    propertyType.imageSlug || propertyType.slug,
-    PRIMARY_CITY,
-    PRIMARY_STATE_ABBR
-  );
-  const imageExt = propertyType.imageSlug === "multifamily" ? ".png" : ".jpg";
-  const imageSrc = `${imagePath}${imageExt}`;
+  const title = propertyType?.title || propertyTypeData?.name || "Property Type";
+  const imageSrc = propertyTypeData?.image || "/service-areas/san-francisco-ca/san-francisco-ca.webp";
 
   return (
     <div className="bg-[#F7F5F2]">
@@ -152,7 +159,7 @@ export default async function PropertyTypePage({
       <section className="relative h-[50vh] min-h-[350px]">
         <Image
           src={imageSrc}
-          alt={propertyType.title}
+          alt={title}
           fill
           className="object-cover"
           priority
@@ -161,7 +168,7 @@ export default async function PropertyTypePage({
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-6">
           <h1 className="font-[family-name:var(--font-playfair)] text-[28px] md:text-[38px] lg:text-[48px] font-normal tracking-[0.1em] uppercase text-white">
-            {propertyType.title}
+            {title}
           </h1>
           <p className="mt-4 max-w-2xl text-[14px] md:text-[16px] text-white/80">
             1031 Exchange Properties in {PRIMARY_CITY}, {PRIMARY_STATE_ABBR}
@@ -175,23 +182,25 @@ export default async function PropertyTypePage({
           items={[
             { label: "Home", href: "/" },
             { label: "Property Types", href: "/property-types" },
-            { label: propertyType.title, href: `/property-types/${propertyType.slug}` },
+            { label: title, href: `/property-types/${resolvedParams.slug}` },
           ]}
         />
       </div>
 
       {/* Main Content */}
       <div className="max-w-5xl mx-auto px-6 lg:px-8 py-8">
-        <div className="mb-12">
-          <div
-            className="text-[15px] leading-relaxed text-[#555]"
-            dangerouslySetInnerHTML={{
-              __html: propertyType.longDescription,
-            }}
-          />
-        </div>
+        {propertyType && (
+          <div className="mb-12">
+            <div
+              className="text-[15px] leading-relaxed text-[#555]"
+              dangerouslySetInnerHTML={{
+                __html: propertyType.longDescription,
+              }}
+            />
+          </div>
+        )}
 
-        {propertyType.benefits && propertyType.benefits.length > 0 && (
+        {propertyType?.benefits && propertyType.benefits.length > 0 && (
           <div className="bg-white border border-[#E5E0D8] p-8 mb-12">
             <h2 className="font-[family-name:var(--font-playfair)] text-[24px] md:text-[28px] font-normal text-[#5A2828] mb-6">
               Key Benefits
@@ -216,34 +225,34 @@ export default async function PropertyTypePage({
           <div className="space-y-6">
             <div>
               <h3 className="font-[family-name:var(--font-playfair)] text-[18px] md:text-[20px] font-normal text-[#2D2D2D] mb-2">
-                What types of {propertyType.title.toLowerCase()} qualify for 1031 exchange treatment in {PRIMARY_CITY}, {PRIMARY_STATE_ABBR}?
+                What types of {title.toLowerCase()} qualify for 1031 exchange treatment in {PRIMARY_CITY}, {PRIMARY_STATE_ABBR}?
               </h3>
               <p className="text-[14px] leading-relaxed text-[#555]">
-                {propertyType.title} that are held for investment or business use qualify for like-kind treatment in 1031 exchanges. Properties in {PRIMARY_CITY}, {PRIMARY_STATE_ABBR} must meet IRS requirements for similar use and hold the same or greater depreciation potential as your relinquished property.
+                {title} that are held for investment or business use qualify for like-kind treatment in 1031 exchanges. Properties in {PRIMARY_CITY}, {PRIMARY_STATE_ABBR} must meet IRS requirements for similar use and hold the same or greater depreciation potential as your relinquished property.
               </p>
             </div>
             <div>
               <h3 className="font-[family-name:var(--font-playfair)] text-[18px] md:text-[20px] font-normal text-[#2D2D2D] mb-2">
-                How do I identify {propertyType.title.toLowerCase()} replacement properties within 45 days?
+                How do I identify {title.toLowerCase()} replacement properties within 45 days?
               </h3>
               <p className="text-[14px] leading-relaxed text-[#555]">
-                We help investors in {PRIMARY_CITY}, {PRIMARY_STATE_ABBR} identify {propertyType.title.toLowerCase()} replacement properties during the 45 day identification period. Our team evaluates properties for investment suitability, location quality, and timeline compatibility with your exchange deadlines.
+                We help investors in {PRIMARY_CITY}, {PRIMARY_STATE_ABBR} identify {title.toLowerCase()} replacement properties during the 45 day identification period. Our team evaluates properties for investment suitability, location quality, and timeline compatibility with your exchange deadlines.
               </p>
             </div>
             <div>
               <h3 className="font-[family-name:var(--font-playfair)] text-[18px] md:text-[20px] font-normal text-[#2D2D2D] mb-2">
-                Can I identify {propertyType.title.toLowerCase()} properties outside {PRIMARY_CITY}, {PRIMARY_STATE_ABBR}?
+                Can I identify {title.toLowerCase()} properties outside {PRIMARY_CITY}, {PRIMARY_STATE_ABBR}?
               </h3>
               <p className="text-[14px] leading-relaxed text-[#555]">
-                Yes, you can identify {propertyType.title.toLowerCase()} replacement properties anywhere in the United States for your 1031 exchange from {PRIMARY_CITY}, {PRIMARY_STATE_ABBR}. Like-kind property can be located in any state as long as it meets IRS qualification requirements.
+                Yes, you can identify {title.toLowerCase()} replacement properties anywhere in the United States for your 1031 exchange from {PRIMARY_CITY}, {PRIMARY_STATE_ABBR}. Like-kind property can be located in any state as long as it meets IRS qualification requirements.
               </p>
             </div>
             <div>
               <h3 className="font-[family-name:var(--font-playfair)] text-[18px] md:text-[20px] font-normal text-[#2D2D2D] mb-2">
-                How do I coordinate with qualified intermediaries for {propertyType.title.toLowerCase()} exchanges?
+                How do I coordinate with qualified intermediaries for {title.toLowerCase()} exchanges?
               </h3>
               <p className="text-[14px] leading-relaxed text-[#555]">
-                We coordinate with qualified intermediaries throughout {PRIMARY_CITY}, {PRIMARY_STATE_ABBR} to ensure escrow, legal, and lending workstreams stay synchronized for {propertyType.title.toLowerCase()} exchanges. While we are not a Qualified Intermediary ourselves, we work closely with QIs to facilitate compliant exchanges.
+                We coordinate with qualified intermediaries throughout {PRIMARY_CITY}, {PRIMARY_STATE_ABBR} to ensure escrow, legal, and lending workstreams stay synchronized for {title.toLowerCase()} exchanges. While we are not a Qualified Intermediary ourselves, we work closely with QIs to facilitate compliant exchanges.
               </p>
             </div>
           </div>
@@ -254,14 +263,14 @@ export default async function PropertyTypePage({
       <section className="bg-[#D4C4B0] py-16 md:py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="font-[family-name:var(--font-playfair)] text-[28px] md:text-[36px] font-normal tracking-[0.1em] uppercase text-[#5A2828] mb-6">
-            Find {propertyType.title} Replacement Properties
+            Find {title} Replacement Properties
           </h2>
           <p className="text-[14px] text-[#5A2828]/80 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Contact us to discuss {propertyType.title.toLowerCase()} properties for your 1031 exchange in {PRIMARY_CITY}, {PRIMARY_STATE_ABBR}.
+            Contact us to discuss {title.toLowerCase()} properties for your 1031 exchange in {PRIMARY_CITY}, {PRIMARY_STATE_ABBR}.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href={`/contact?projectType=${encodeURIComponent(propertyType.title)}`}
+              href={`/contact?projectType=${encodeURIComponent(title)}`}
               className="px-10 py-3 bg-[#5A2828] text-[10px] font-medium tracking-[0.25em] uppercase text-white hover:bg-[#4A1F1F] transition-colors"
             >
               Contact Us

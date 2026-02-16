@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { SITE_NAME, SITE_URL, PRIMARY_CITY, PRIMARY_STATE_ABBR } from "@/lib/config";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: `About | ${SITE_NAME}`,
@@ -17,7 +18,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="relative h-[50vh] min-h-[400px]">
         <Image
-          src="/locations/1031-exchange-pacific-heights-ca.jpg"
+          src="/service-areas/pacific-heights-ca/pacific-heights-ca.jpg"
           alt="San Francisco Bay Area"
           fill
           className="object-cover"
@@ -31,6 +32,16 @@ export default function AboutPage() {
           </h1>
         </div>
       </section>
+
+      {/* Breadcrumbs */}
+      <div className="max-w-6xl mx-auto px-6 lg:px-12 py-4">
+        <Breadcrumbs
+          items={[
+            { label: "Home", href: "/" },
+            { label: "About", href: "/about" },
+          ]}
+        />
+      </div>
 
       {/* Main Content */}
       <section className="py-20 md:py-28">
@@ -92,7 +103,7 @@ export default function AboutPage() {
       {/* CTA Section */}
       <section className="relative py-20">
         <Image
-          src="/locations/1031-exchange-marina-district-ca.jpg"
+          src="/service-areas/marina-district-ca/marina-district-ca.jpg"
           alt="Bay Area"
           fill
           className="object-cover"

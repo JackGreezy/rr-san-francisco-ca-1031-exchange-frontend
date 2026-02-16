@@ -34,32 +34,32 @@ const SF_AREAS = [
   {
     slug: "pacific-heights-ca",
     name: "PACIFIC HEIGHTS",
-    image: "/locations/1031-exchange-pacific-heights-ca.jpg",
+    image: "/service-areas/pacific-heights-ca/pacific-heights-ca.jpg",
   },
   {
     slug: "marina-district-ca",
     name: "MARINA DISTRICT",
-    image: "/locations/1031-exchange-marina-district-ca.jpg",
+    image: "/service-areas/marina-district-ca/marina-district-ca.jpg",
   },
   {
     slug: "financial-district-ca",
     name: "FINANCIAL DISTRICT",
-    image: "/locations/1031-exchange-financial-district-ca.jpg",
+    image: "/service-areas/financial-district-ca/financial-district-ca.jpg",
   },
   {
     slug: "soma-ca",
     name: "SOMA",
-    image: "/locations/1031-exchange-soma-ca.jpg",
+    image: "/service-areas/soma-ca/soma-ca.avif",
   },
   {
     slug: "palo-alto-ca",
     name: "PALO ALTO",
-    image: "/locations/1031-exchange-palo-alto-ca.jpg",
+    image: "/service-areas/palo-alto-ca/palo-alto-ca.webp",
   },
   {
     slug: "oakland-ca",
     name: "OAKLAND",
-    image: "/locations/1031-exchange-oakland-ca.jpg",
+    image: "/service-areas/oakland-ca/oakland-ca.webp",
   },
 ];
 
@@ -68,25 +68,21 @@ const SERVICES = [
     title: "Forward Exchange",
     description: "Traditional 1031 exchange where you sell your property first, then acquire replacement property within 180 days.",
     slug: "forward-exchange",
-    image: "/locations/1031-exchange-pacific-heights-ca.jpg",
   },
   {
     title: "Reverse Exchange",
     description: "Acquire replacement property before selling your relinquished property when timing requires flexibility.",
     slug: "reverse-exchange",
-    image: "/locations/1031-exchange-marina-district-ca.jpg",
   },
   {
     title: "Improvement Exchange",
     description: "Use exchange funds to make improvements on replacement property before completing the exchange.",
     slug: "improvement-exchange",
-    image: "/locations/1031-exchange-soma-ca.jpg",
   },
   {
     title: "Delaware Statutory Trust",
     description: "Fractional ownership in institutional-grade properties for passive investors seeking diversification.",
     slug: "dst-investments",
-    image: "/locations/1031-exchange-financial-district-ca.jpg",
   },
 ];
 
@@ -162,25 +158,25 @@ export default function Home() {
               </div>
 
         {/* Stats Bar at Bottom - Individual boxes, not edge-to-edge */}
-        <div className="absolute bottom-12 left-1/2 -translate-x-1/2 z-10">
+        <div className="absolute bottom-16 md:bottom-12 left-1/2 -translate-x-1/2 z-10 w-full px-4 md:px-0 md:w-auto">
           <div className="flex gap-0">
             {HERO_STATS.map((stat, index) => (
-              <div 
-                key={stat.label} 
-                className={`bg-[#4A5568]/60 backdrop-blur-sm px-8 md:px-14 py-5 text-center text-white ${
+              <div
+                key={stat.label}
+                className={`bg-[#4A5568]/60 backdrop-blur-sm flex-1 md:flex-none px-4 md:px-14 py-4 md:py-5 text-center text-white ${
                   index !== HERO_STATS.length - 1 ? "border-r border-white/20" : ""
                 }`}
               >
-                <div className="font-[family-name:var(--font-playfair)] text-[22px] md:text-[30px] font-normal">
+                <div className="font-[family-name:var(--font-playfair)] text-[18px] md:text-[30px] font-normal">
                   {stat.value}
                 </div>
-                <div className="mt-1 text-[8px] md:text-[9px] font-medium tracking-[0.2em] uppercase opacity-80">
+                <div className="mt-1 text-[7px] md:text-[9px] font-medium tracking-[0.15em] md:tracking-[0.2em] uppercase opacity-80">
                   {stat.label}
+                </div>
               </div>
-              </div>
-                ))}
-              </div>
-              </div>
+            ))}
+          </div>
+        </div>
         
         {/* Scroll Down Arrow */}
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10">
@@ -196,34 +192,30 @@ export default function Home() {
               </div>
           </section>
 
-      {/* ==================== ABOUT SECTION - Matching Carolwood ==================== */}
-      <section 
-        id="about" 
-        className="relative h-[600px] md:h-[700px] bg-fixed bg-cover bg-center"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop')" }}
+      {/* ==================== ABOUT SECTION ==================== */}
+      <section
+        id="about"
+        className="bg-[#2D2D2D] py-20 md:py-28"
       >
-        <div className="absolute inset-0 bg-black/50" />
-        
-        <div className="relative z-10 flex h-full items-center justify-center px-6">
+        <div className="flex items-center justify-center px-6">
           <div className="max-w-3xl text-center text-white">
-            {/* Logo matching footer style */}
             <div className="flex flex-col items-center mb-8">
               <div className="flex items-baseline justify-center">
                 <span className="font-[family-name:var(--font-playfair)] text-[42px] md:text-[56px] font-normal leading-none text-white">
                   SF
-                      </span>
+                </span>
                 <span className="text-[42px] md:text-[56px] text-white font-normal">.</span>
               </div>
               <span className="text-[9px] md:text-[10px] font-medium tracking-[0.4em] uppercase text-white/60 -mt-1">
                 1031
               </span>
             </div>
-            <p className="text-[12px] md:text-[13px] font-light leading-[1.85] tracking-wide max-w-2xl mx-auto text-white/90">
+            <p className="text-[12px] md:text-[13px] font-light leading-[1.85] tracking-wide max-w-2xl mx-auto text-white/70">
               SF 1031 Exchange is a boutique property identification and exchange coordination firm based in San Francisco, founded by an organic collaboration of highly successful real estate and tax professionals. Leveraging its stellar leadership and supported by the most refined resources in the industry, SF 1031 Exchange is driven by an unrelenting focus on discretion, transactional excellence and exceeding client expectation.
             </p>
-                </div>
-              </div>
-          </section>
+          </div>
+        </div>
+      </section>
 
       {/* ==================== PROPERTY TYPES - ROTATING CONVEYOR ==================== */}
       <section id="property-types" className="bg-[#F7F5F2] py-10 border-b border-[#E5E0D8] overflow-hidden">
@@ -264,13 +256,13 @@ export default function Home() {
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
             {SF_AREAS.map((area) => (
-                    <Link
+              <Link
                 key={area.slug}
                 href={`/service-areas/${area.slug}`}
                 className="group relative block"
               >
                 <div className="relative aspect-[4/3] overflow-hidden">
-                            <Image
+                  <Image
                     src={area.image}
                     alt={area.name}
                     fill
@@ -283,10 +275,10 @@ export default function Home() {
                       {area.name}
                     </h3>
                   </div>
-                    </div>
-                  </Link>
+                </div>
+              </Link>
             ))}
-                    </div>
+          </div>
 
           <div className="mt-10 text-center">
                 <Link
@@ -302,7 +294,7 @@ export default function Home() {
       {/* ==================== 1031 EXCHANGE SECTION ==================== */}
       <section className="relative min-h-[450px]">
                           <Image
-          src="/locations/1031-exchange-palo-alto-ca.jpg"
+          src="/service-areas/palo-alto-ca/palo-alto-ca.webp"
           alt="Bay Area property"
                             fill
                             className="object-cover"
@@ -328,9 +320,9 @@ export default function Home() {
                 </div>
           </section>
 
-      {/* ==================== SERVICES SECTION - Mirror Locations Aesthetic ==================== */}
+      {/* ==================== SERVICES SECTION ==================== */}
       <section className="bg-[#F7F5F2] py-16 md:py-20">
-        <div className="px-4 md:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-6 lg:px-8">
           <h2 className="text-center font-[family-name:var(--font-playfair)] text-[28px] md:text-[36px] font-normal tracking-[0.1em] uppercase text-[#333] mb-4">
             Our Services
           </h2>
@@ -338,31 +330,25 @@ export default function Home() {
             Comprehensive 1031 exchange solutions tailored to your investment strategy
           </p>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {SERVICES.map((service) => (
               <Link
                 key={service.slug}
                 href={`/services/${service.slug}`}
-                className="group relative block"
+                className="group bg-white border border-[#E5E0D8] p-8 hover:border-[#5A2828]/30 transition-colors"
               >
-                <div className="relative aspect-[4/3] overflow-hidden">
-                  <Image
-                    src={service.image}
-                    alt={service.title}
-                    fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="(max-width: 768px) 50vw, 25vw"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <h3 className="font-[family-name:var(--font-playfair)] text-[13px] md:text-[16px] font-normal tracking-[0.05em] text-white leading-tight">
-                      {service.title}
+                <h3 className="font-[family-name:var(--font-playfair)] text-[18px] md:text-[22px] font-normal text-[#2D2D2D] group-hover:text-[#5A2828] transition-colors mb-3">
+                  {service.title}
                 </h3>
-              </div>
-                        </div>
+                <p className="text-[13px] leading-relaxed text-[#666]">
+                  {service.description}
+                </p>
+                <span className="inline-block mt-4 text-[10px] font-medium tracking-[0.2em] uppercase text-[#5A2828]">
+                  Learn More →
+                </span>
               </Link>
             ))}
-                    </div>
+          </div>
 
           <div className="mt-10 text-center">
             <Link
@@ -371,9 +357,9 @@ export default function Home() {
             >
               View All Services
             </Link>
-              </div>
-                </div>
-          </section>
+          </div>
+        </div>
+      </section>
 
       {/* ==================== CONTACT SECTION ==================== */}
       <section className="bg-[#D4C4B0] py-16 md:py-20">
