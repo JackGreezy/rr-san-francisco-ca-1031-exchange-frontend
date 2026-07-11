@@ -1,0 +1,58 @@
+{
+ "slug": "forward-exchange-coordination",
+ "taxonomy": "services",
+ "title": "Forward Exchange Coordination",
+ "name": "Forward Exchange Coordination",
+ "metaTitle": "Forward Exchange Coordination for San Francisco 1031 Exchanges",
+ "metaDescription": "Running a standard forward 1031 exchange in San Francisco, where FiDi office repricing and tech-tenant volatility shape how fast a replacement search actually moves.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A forward exchange is the sequence most people picture when they hear the term 1031: the relinquished property sells first, proceeds go to a qualified intermediary, and a replacement property is identified and closed within the standard 45-day and 180-day windows. Straightforward on paper, but in San Francisco right now, the office repricing underway across the Financial District and the general skittishness of tech tenants add real friction to a process that's supposed to move on a fixed schedule.</p><p>None of that friction changes the deadlines themselves, which is exactly why coordination matters more here than in a calmer market. A forward exchange handled with a loose, informal approach can still work in a stable market with plenty of margin, but San Francisco right now offers less of that margin than it used to.</p>"
+  },
+  {
+   "heading": "Sequencing the Sale Before the Search Gets Serious",
+   "html": "<p>The relinquished property has to close, and the qualified intermediary has to be holding the proceeds, before the 45-day identification clock even makes sense to think about seriously. Investors sometimes start shopping replacement properties casually before their own sale is far enough along, which can lead to identifying a building only to watch it go under contract with someone else while the original sale is still finishing escrow.</p><p>A tighter approach treats the sale's own closing timeline as the real starting gun, with serious replacement shopping ramping up in the final weeks before that closing rather than starting cold afterward.</p>"
+  },
+  {
+   "heading": "Why FiDi Repricing Changes the Replacement Math",
+   "html": "<p>Office values in the Financial District have moved enough that a relinquished property sold at a certain basis may not map cleanly onto what similar square footage costs to replace today, especially if the investor is trying to trade up in size or class. Forward exchange investors coming from a strong sale need to size the replacement search around current asking prices in the target submarket, not the numbers they remember from before repricing set in.</p><p>This is also where tenant volatility complicates the picture: a building that shows strong occupancy on the offering memorandum can lose a tenant mid-search, changing both its value and its appeal as a replacement candidate.</p>"
+  },
+  {
+   "heading": "Keeping the Building Transition Smooth for Whoever Runs It",
+   "html": "<p>Whether the investor self-manages or hands operations to a property manager, the forward exchange timeline should leave room for a real transition period rather than a same-day handoff. Reviewing the replacement property's existing vendor contracts, tenant lease terms, and any pending maintenance issues before closing, not after, means operations can continue with minimal disruption instead of a scramble in week one.</p>"
+  },
+  {
+   "heading": "Forward Exchange Coordination Checklist",
+   "html": "<ul><li>relinquished property sale timeline confirmed before replacement shopping intensifies</li><li>exchange agreement signed with the qualified intermediary before the sale closes</li><li>replacement search sized around current FiDi or target-submarket pricing, not prior-cycle numbers</li><li>tenant status on any replacement candidate refreshed close to the identification deadline</li><li>vendor contracts and maintenance history reviewed before the transition to new ownership</li></ul>"
+  },
+  {
+   "heading": "Where Timing Slips Happen Most Often",
+   "html": "<p>The most common breakdown in a forward exchange isn't the paperwork, it's the assumption that the replacement search can move at a leisurely pace because the sale hasn't closed yet. By the time proceeds actually land with the intermediary, the clock is already running, and a search that hasn't been narrowed in advance eats real days out of the 45-day window. Building momentum before closing, rather than after, is the single change that prevents the most stress later in the process.</p><p>Treat the weeks leading up to the sale's own closing the way you'd treat a lead time on ordering long-lead building equipment: the order has to go in well before the install date, not once the old unit has already failed. Applied here, that means real candidate research starts before the sale is finished, not after the intermediary confirms funds are in hand.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What makes a forward exchange different from a reverse exchange?",
+   "a": "In a forward exchange, the relinquished property sells first and proceeds go to a qualified intermediary before a replacement is identified and purchased. A reverse exchange flips that order, acquiring the replacement property before the original sale closes, which is a more complex structure with its own separate deadlines."
+  },
+  {
+   "q": "Why does FiDi office repricing affect a forward exchange's replacement search?",
+   "a": "Values have shifted enough that a relinquished property's basis may not map cleanly onto current replacement costs in the same submarket, so the search needs to be sized around present-day pricing rather than earlier expectations."
+  },
+  {
+   "q": "When should replacement property shopping start relative to the sale closing?",
+   "a": "Serious shopping should ramp up in the final weeks before the sale closes, rather than starting only after closing, since the 45-day identification clock begins immediately and a cold start eats into that window before the search has even found its footing or narrowed to serious candidates."
+  },
+  {
+   "q": "How does tenant volatility affect replacement candidates during a forward exchange?",
+   "a": "A building that looks fully leased early in the search can lose a tenant before identification, changing its value and appeal. Refreshing tenant status close to the identification deadline avoids filing on outdated information that no longer reflects the building's true condition."
+  },
+  {
+   "q": "What should happen before handing off building operations on the replacement property?",
+   "a": "Vendor contracts, lease terms, and pending maintenance issues should be reviewed before closing, giving whoever runs the property day to day a clear starting point instead of a same-day handoff. A short transition period where the outgoing and incoming teams overlap, even briefly, tends to prevent the small operational gaps that show up in the first month under new ownership, from missed vendor payments to unclear tenant contacts."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 902
+}

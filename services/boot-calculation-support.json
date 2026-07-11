@@ -1,0 +1,58 @@
+{
+ "slug": "boot-calculation-support",
+ "taxonomy": "services",
+ "title": "Boot Calculation Support",
+ "name": "Boot Calculation Support",
+ "metaTitle": "Boot Calculation Support for San Francisco 1031 Exchanges",
+ "metaDescription": "Working out taxable boot exposure for San Francisco ground-floor retail exchanges, where debt paydowns and cash-out plans quietly trigger a taxable slice.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>If you've ever pulled cash out of an operating budget for something that felt harmless and then found the shortfall showing up somewhere else three months later, you already understand boot at a gut level. It's the taxable leftover that shows up when an investor doesn't fully replace either the value or the debt of the property they sold, and in San Francisco's ground-floor retail corridor, where recovery has brought buyers back but pricing still varies block by block, it's an easy thing to trigger without meaning to.</p>"
+  },
+  {
+   "heading": "The Two Ways Boot Shows Up",
+   "html": "<p>Cash boot happens when sale proceeds aren't fully reinvested, whether that's money pocketed outright or funds used to cover closing costs that don't qualify as exchange expenses. Mortgage boot happens when the debt on the replacement property is lower than the debt paid off on the relinquished property, even if every dollar of cash was reinvested. Investors sometimes catch the cash side and miss the debt side entirely, assuming that reinvesting all proceeds automatically means a fully tax-deferred exchange.</p><p>Both kinds of boot are taxed as gain, not as a separate category, up to the amount of gain realized on the original sale. A third, less obvious source shows up when personal property gets swept into a real estate deal, such as fixtures or equipment priced separately in the purchase agreement, which can also generate boot depending on how the transaction is structured.</p>"
+  },
+  {
+   "heading": "Why Retail Recovery Pricing Makes This Trickier",
+   "html": "<p>As ground-floor retail along corridors that struggled during the downturn has started drawing buyers back, pricing on comparable spaces has moved unevenly, with some blocks recovering faster than others. An investor selling a retail building with a certain debt load can find that a replacement property in a still-recovering pocket carries a lower purchase price and therefore supports less debt, which quietly creates mortgage boot even when the investor intended a straight trade-up.</p><p>Running the debt comparison early, alongside the price comparison, catches this before it becomes a closing-week surprise.</p>"
+  },
+  {
+   "heading": "Building the Comparison Worksheet",
+   "html": "<p>A clean boot calculation lines up four numbers: the sale price and existing debt on the relinquished property against the purchase price and new debt on the replacement. If the replacement's price and debt both meet or exceed the relinquished property's numbers, boot is generally avoided. If either falls short, without a documented cash contribution to make up the difference, boot exposure follows.</p><p>Keeping this worksheet current every time a replacement candidate changes, rather than building it once early in the search, avoids running the math on outdated assumptions from the first property considered.</p>"
+  },
+  {
+   "heading": "Boot Calculation Checklist",
+   "html": "<ul><li>relinquished property sale price and payoff debt confirmed from the closing statement</li><li>replacement property purchase price and new loan amount confirmed before closing</li><li>cash boot check for any proceeds not reinvested, including non-qualifying closing costs</li><li>mortgage boot check comparing old debt payoff against new debt taken on</li><li>worksheet refreshed each time a replacement candidate changes</li></ul>"
+  },
+  {
+   "heading": "What Boot Actually Costs at Filing Time",
+   "html": "<p>Boot doesn't unwind the whole exchange, it simply becomes taxable gain up to the amount realized on the sale, reported alongside the rest of the exchange on the investor's return. Small amounts of boot are sometimes accepted deliberately, for instance to simplify a debt structure, but it should be a decision made with the number in hand, not discovered after the fact when the tax advisor is reconciling the final figures.</p><p>Running the calculation before closing, rather than after, is the difference between a decision and a discovery. An investor who knows the boot figure a week before closing can still adjust the replacement debt or contribute additional cash to close the gap, options that disappear once the closing statements are already signed.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is the difference between cash boot and mortgage boot?",
+   "a": "Cash boot is sale proceeds not fully reinvested, including money pocketed or spent on non-qualifying costs. Mortgage boot is a reduction in debt, when the loan on the replacement property is lower than the debt paid off on the relinquished one, even if all cash was reinvested. Both are added together for the total boot exposure on a given exchange."
+  },
+  {
+   "q": "Why does San Francisco retail recovery pricing create boot risk?",
+   "a": "Ground-floor retail values are recovering unevenly across corridors, so a replacement property in a still-recovering pocket can carry a lower price and support less debt than the relinquished property, creating mortgage boot even without any cash pocketed."
+  },
+  {
+   "q": "Does boot cancel the tax-deferred treatment of the whole exchange?",
+   "a": "No. Boot is taxed as gain only up to the amount that isn't reinvested or replaced with equivalent debt, while the rest of the exchange still defers tax as intended."
+  },
+  {
+   "q": "Can an investor accept some boot on purpose?",
+   "a": "Yes, sometimes to simplify a debt structure or free up a small amount of cash. It should be a deliberate decision made with the calculated amount in hand, not a surprise discovered during tax preparation months after the exchange has already closed."
+  },
+  {
+   "q": "How often should the boot worksheet be updated during a search?",
+   "a": "Every time a replacement candidate changes. Running the comparison against outdated numbers from an earlier candidate can mask boot exposure on the property that actually closes, and a quick refresh takes far less time than the surprise it prevents."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 850
+}

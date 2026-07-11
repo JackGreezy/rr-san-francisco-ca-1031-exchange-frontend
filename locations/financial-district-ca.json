@@ -1,0 +1,58 @@
+{
+ "slug": "financial-district-ca",
+ "taxonomy": "locations",
+ "title": "Financial District",
+ "name": "Financial District",
+ "metaTitle": "1031 Exchange Advisory in Financial District, CA",
+ "metaDescription": "1031 exchange advisory for Financial District office owners weighing sublease exposure and elevator or mechanical upgrade timing against exchange deadlines.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Financial District towers built between the 1960s and the late 1980s are carrying the bulk of San Francisco's office repricing story, and an owner exchanging out of one of these buildings is really trading on the strength of a specific floor plate, lease roll, and mechanical plant rather than on the neighborhood name alone. We talk to a lot of building engineers and facilities managers in this process, and we treat them as the people who actually know whether a tower's vacancy is a leasing problem or a systems problem.</p>"
+  },
+  {
+   "heading": "What Is Actually Driving Value on a FiDi Tower Right Now",
+   "html": "<p>Montgomery Street and the blocks around Embarcadero Center have absorbed the sharpest sublease growth in the city since 2020, and a lot of that space sits dark not because tenants have vacated outright but because a law firm or finance shop downsized a floor and is still paying rent on space nobody occupies. That distinction matters more than the headline vacancy rate, because a building carrying sublease shadow space usually has a stronger in-place lease roll than one with true direct vacancy, even when the two look identical on a rent comparison sheet.</p><p>Class A towers near the Transamerica Pyramid footprint still draw law and finance tenants willing to pay for lobby quality and floor plate efficiency, while older Class B stock further from Montgomery Street competes mostly on price. An exchange buyer should ask which category a candidate tower actually falls into before assuming its per-square-foot rent tells the whole story.</p>"
+  },
+  {
+   "heading": "The Building Systems Worth Checking Before You Identify a FiDi Floor",
+   "html": "<p>We ask every facilities contact the same set of questions before a Financial District candidate goes on an identification list:</p><ul><li>elevator bank modernization records and remaining service life on the traction or hydraulic equipment</li><li>chiller and boiler plant age against the manufacturer's expected service window</li><li>fire panel and life-safety recertification dates</li><li>floor-by-floor electrical capacity available for a new tenant build-out</li><li>freight elevator scheduling capacity for move-in and move-out logistics</li><li>generator and emergency power redundancy serving life-safety and any data-dependent tenants</li></ul><p>A tower that scores well on rent roll but poorly on this list usually needs a bigger capital reserve than the seller's asking price suggests.</p>"
+  },
+  {
+   "heading": "Tenant Coordination Does Not Pause for the 45-Day Clock",
+   "html": "<p>The building engineer on site usually knows more about which floors are truly winding down than the leasing package admits, and we treat that person as a peer rather than a formality during diligence. Move schedules, sublease occupant behavior, and which suites still have working access badges all affect how smoothly ownership transfers, and a facilities manager who is looped in early can flag a lease default or an unrecorded sublease before it becomes the new owner's problem.</p><p>An investor identifying a Financial District floor under exchange pressure should ask the current engineering staff directly about upcoming move-outs and any pending tenant improvement work in progress, since freight elevator bookings and construction access windows are usually scheduled weeks in advance and a new owner inherits whatever is already on that calendar.</p>"
+  },
+  {
+   "heading": "Reading Downtime Correctly on a Partly Empty Tower",
+   "html": "<p>A dark floor in the Financial District does not automatically mean the building is failing, and treating every vacant floor the same way is a mistake we see buyers make often. Sublease shadow space, a tenant mid-renovation, and a genuinely unleased floor all show up as downtime on a occupancy report, but they carry very different underwriting risk. A facilities manager can usually tell you within a few minutes which category applies, because they know whether the HVAC is still being balanced for that floor or has been shut down to save cost.</p><p>Mechanical systems designed for full-building occupancy also behave differently when several floors go dark for an extended period, since chillers and air handlers built for higher load can run inefficiently at partial capacity. That operating cost shift belongs in the underwriting, not as a surprise discovered after closing.</p>"
+  },
+  {
+   "heading": "Sizing the Real Carrying Cost of an Older FiDi Tower",
+   "html": "<p>Pre-1990s towers in the Financial District generally still owe some level of seismic retrofit work, and a buyer should confirm what has already been completed against city records rather than take a seller's word for it. Elevator modernization is the other capital item that gets underestimated most often, since a full bank replacement in a high-rise runs well beyond what a routine maintenance contract covers.</p><p>Insurance on older high-rise stock in this submarket has also priced up faster than in most other San Francisco neighborhoods, and that premium should be quoted directly from a carrier before an identification is finalized rather than estimated from the seller's expiring policy.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does a partly vacant Financial District tower make a poor exchange replacement?",
+   "a": "Not necessarily. Sublease shadow space often means the underlying lease roll is stronger than the headline vacancy suggests. We ask the building's facilities staff to separate true vacancy from sublease-driven downtime before drawing conclusions."
+  },
+  {
+   "q": "What facilities cost surprises buyers most on an older FiDi tower?",
+   "a": "Elevator modernization and outstanding seismic retrofit work are the two items most often underestimated against a seller's stated capital budget. Both should be confirmed with the building engineer and city records before an offer is finalized."
+  },
+  {
+   "q": "How should tenant move-out timing be coordinated during a 45-day identification window?",
+   "a": "We recommend talking directly with the current facilities manager about freight elevator bookings, pending build-outs, and known move-out dates, since those schedules are usually set weeks ahead and carry over to the new owner regardless of closing date."
+  },
+  {
+   "q": "Can 1031 Exchange San Francisco confirm my Financial District property qualifies for exchange treatment?",
+   "a": "No. We coordinate planning, property identification, and communication among an investor's advisors. Whether a specific property and transaction qualify is a determination made by the investor's CPA, tax attorney, and qualified intermediary."
+  },
+  {
+   "q": "What building records should I request before finalizing due diligence on a FiDi floor?",
+   "a": "Elevator and mechanical maintenance logs, life-safety recertification dates, floor-by-floor electrical load capacity, and any pending tenant improvement permits. A facilities manager on site can usually produce most of this faster than a leasing broker can."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 965
+}

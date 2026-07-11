@@ -1,0 +1,70 @@
+{
+ "slug": "tax-advisor-and-cpa-coordination",
+ "taxonomy": "services",
+ "title": "Tax Advisor and CPA Coordination",
+ "name": "Tax Advisor and CPA Coordination",
+ "metaTitle": "Tax Advisor and CPA Coordination for San Francisco 1031 Exchanges",
+ "metaDescription": "Tax advisor and CPA coordination for San Francisco 1031 exchanges, handing off clean property and boot documentation instead of guessing at questions for your advisor.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>We hand a CPA a clean punch list, not a stack of documents they have to sort through themselves, the same way you'd hand a contractor a scoped work order instead of a vague description of the problem. We don't give tax advice, and we're direct about that boundary, because an investor's tax advisor or CPA is the only party who should be answering how a given exchange fits their broader return. Our job is to make sure that advisor has everything they need the first time they ask.</p>"
+  },
+  {
+   "heading": "What We Actually Hand Off Versus What Stays With the CPA",
+   "html": "<p>Our side covers the exchange mechanics: property identification documentation, qualified intermediary agreements, and closing statements that a CPA needs to prepare Form 8824 accurately. The CPA's side covers basis carryover calculations, any boot recognized on the transaction, and how the exchange interacts with the investor's overall tax position for the year, none of which we weigh in on.</p><p>Keeping that line clear avoids the worst outcome in this kind of coordination, which is two parties each assuming the other one already checked something that neither actually did.</p>"
+  },
+  {
+   "heading": "Where Boot Shows Up in a San Francisco Exchange",
+   "html": "<p>Boot, meaning any non-like-kind value received in the exchange, tends to show up in California deals when an investor trades down in value, receives cash back at closing, or has debt on the replacement property that's lower than debt on the relinquished property. We flag those situations as soon as they appear in the deal structure so the CPA has advance notice rather than discovering boot exposure when the return is already being prepared. A CPA finding out about boot in April instead of during the exchange itself has far fewer options for managing it.</p>"
+  },
+  {
+   "heading": "Documents We Prepare for the CPA's Form 8824 Work",
+   "html": "<ul><li>closing statements for both the relinquished and replacement properties</li><li>the signed identification notice and any amendments filed before day 45</li><li>qualified intermediary fee statement and fund-transfer confirmation</li><li>debt schedule comparing relinquished and replacement property loan balances</li><li>any cash received or paid outside the exchange account</li></ul>"
+  },
+  {
+   "heading": "Prop 13 Considerations a CPA Will Want Flagged Early",
+   "html": "<p>California's Prop 13 resets assessed value at transfer, which changes an investor's ongoing property tax basis independent of anything the 1031 exchange itself does for federal capital gains deferral. Palo Alto and Menlo Park properties held for a long time under a low Prop 13 basis carry a meaningful tax exposure shift on transfer, and we make sure that's on the CPA's radar early, since it's a California-specific issue that federal exchange rules don't address at all.</p>"
+  },
+  {
+   "heading": "Setting Up the Handoff Before the Exchange Closes",
+   "html": "<p>We loop the CPA in while the exchange is still in motion rather than delivering a finished folder after closing, since a question about a specific lease term or debt structure is far easier to answer while the deal is still active. That coordination is what keeps the CPA's Form 8824 preparation from turning into a scramble the following spring, when the details are harder to reconstruct and everyone's memory of the deal has faded.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does this service replace the need for a tax advisor or CPA?",
+   "a": "No. We handle exchange mechanics and documentation, but questions about how an exchange fits an investor's overall tax position belong with their own tax advisor or CPA, and we're clear about that boundary throughout."
+  },
+  {
+   "q": "What documents does a CPA typically need for Form 8824?",
+   "a": "Closing statements for both properties, the signed identification notice and any amendments, the qualified intermediary's fee and fund-transfer statement, a debt comparison schedule, and a record of any cash received outside the exchange account."
+  },
+  {
+   "q": "When does boot commonly appear in a California 1031 exchange?",
+   "a": "Most often when an investor trades down in value, receives cash back at closing, or takes on less debt on the replacement property than they carried on the relinquished property."
+  },
+  {
+   "q": "How does Prop 13 affect a 1031 exchange in California?",
+   "a": "It resets assessed property tax value at transfer, which is separate from the federal capital gains deferral the exchange provides. A long-held property with a low Prop 13 basis can see a meaningful tax exposure shift that a CPA needs to know about early."
+  },
+  {
+   "q": "When should a CPA be brought into an exchange in progress?",
+   "a": "While the deal is still active rather than after closing. Questions about a specific lease term or debt structure are far easier to resolve while the transaction is still in motion than after the folder is already closed out."
+  },
+  {
+   "q": "Does the CPA need to review the identification list before it's finalized?",
+   "a": "Not typically, since identification is a mechanical exercise governed by the 45-day rule rather than a tax decision, but sharing the list once it's set gives the CPA visibility into what's coming without asking them to weigh in on the sourcing itself."
+  },
+  {
+   "q": "What happens if a CPA is only brought in after the exchange has already closed?",
+   "a": "They can still prepare Form 8824, but reconstructing details like debt comparisons or the exact cash flow around closing becomes harder months later, which is exactly the scramble we're trying to avoid by coordinating earlier."
+  },
+  {
+   "q": "Should a CPA be involved before an investor decides between a forward and reverse exchange structure?",
+   "a": "Yes, ideally alongside the qualified intermediary, since the structure choice can affect basis and boot calculations differently, and the CPA is the right party to weigh in on how that choice fits the investor's broader return."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 858
+}

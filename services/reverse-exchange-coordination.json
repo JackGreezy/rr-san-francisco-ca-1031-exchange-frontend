@@ -1,0 +1,62 @@
+{
+ "slug": "reverse-exchange-coordination",
+ "taxonomy": "services",
+ "title": "Reverse Exchange Coordination",
+ "name": "Reverse Exchange Coordination",
+ "metaTitle": "Reverse Exchange Coordination for San Francisco 1031 Exchanges",
+ "metaDescription": "Reverse exchange coordination for San Francisco 1031 investors buying first in a competitive Financial District or Mission Bay market.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A reverse exchange exists for exactly the situation a lot of San Francisco investors are running into right now: the right replacement building comes available before the relinquished property has sold, and waiting isn't realistic in a market where a good Financial District or Mission Bay opportunity doesn't sit unclaimed for long. Structured correctly, the replacement property gets acquired first, held by an accommodation titleholder, while the sale of the relinquished property catches up behind it. Structured poorly, an investor ends up owning two properties with none of the intended tax deferral.</p>"
+  },
+  {
+   "heading": "How the Accommodation Titleholder Actually Holds the Property",
+   "html": "<p>An exchange accommodation titleholder takes and holds legal title to either the replacement or the relinquished property under a qualified exchange accommodation arrangement, keeping it outside the investor's direct ownership until the rest of the exchange catches up. That structure is what allows the purchase to close on the seller's timeline instead of forcing the investor to walk away from a building that fits, and it needs to be set up before the replacement purchase closes, not adjusted afterward.</p><p>Getting the accommodation agreement in place a week too late is the same, practically, as not having one at all, since the closing has already happened by the time it's signed.</p>"
+  },
+  {
+   "heading": "Managing an Occupied Building During the Parking Period",
+   "html": "<p>If the replacement property is already leased when it's parked with the accommodation titleholder, tenant relationships and building operations don't pause just because title is sitting somewhere unusual on paper. Someone still has to handle maintenance requests, certificate of insurance renewals, and lease administration during that period, and we make sure that operational responsibility is assigned clearly in the accommodation agreement rather than left ambiguous. A tenant calling about a broken HVAC unit doesn't care whose name is on the deed that week, they need a responsive property manager.</p>"
+  },
+  {
+   "heading": "What Has to Be Locked Down Before the Parking Period Starts",
+   "html": "<ul><li>which property, replacement or relinquished, will actually be parked</li><li>who handles day-to-day management and maintenance during the parking period</li><li>financing arrangement for the parked property and how the accommodation titleholder is structured into the loan</li><li>the 45-day identification deadline for the relinquished property, running from the reverse structure's start date</li><li>the outer 180-day limit on how long a property can stay parked under the safe harbor</li></ul>"
+  },
+  {
+   "heading": "The 180-Day Safe Harbor Isn't Optional Flexibility",
+   "html": "<p>The IRS safe harbor for this structure caps the parking arrangement at 180 days, and that ceiling doesn't bend for a slower Financial District office sale any more than the standard exchange deadline bends for a slow lender. If the relinquished property hasn't sold by the time that window closes, the investor is left holding two properties without exchange treatment on the transaction, which is exactly the outcome a reverse structure was meant to avoid.</p><p>Given how much slower office closings have become across the Financial District and SoMa, we build in a realistic sale timeline for the relinquished property at the very start rather than assuming a quick sale will materialize.</p>"
+  },
+  {
+   "heading": "Coordinating Financing on a Parked Property",
+   "html": "<p>Lenders don't always have a standard product for financing a property held by an accommodation titleholder, and San Jose and Mission Bay office lenders in particular have been asking more questions about this structure than they did a few years ago. We bring the lender into the conversation early, alongside the qualified intermediary, so the loan structure and the exchange structure are built to fit each other rather than negotiated separately and reconciled at the closing table. Waiting until the loan committee meeting to explain the parking arrangement is a common way a closing gets pushed back at the last minute.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What does an exchange accommodation titleholder actually do?",
+   "a": "It holds legal title to either the replacement or the relinquished property under a qualified exchange accommodation arrangement, keeping the property outside the investor's direct ownership until the rest of the exchange is complete and both sides of the transaction have closed."
+  },
+  {
+   "q": "Who manages a replacement property while it's parked with an accommodation titleholder?",
+   "a": "That responsibility has to be assigned clearly in the accommodation agreement itself. If the property is occupied, maintenance, insurance, and lease administration still need a responsible party during the parking period."
+  },
+  {
+   "q": "How long can a property stay parked under a reverse exchange?",
+   "a": "Up to 180 days under the IRS safe harbor. That ceiling doesn't extend for a slow sale of the relinquished property, so the timeline has to be treated as fixed from the start of the reverse structure, not from whenever the sale process happens to begin."
+  },
+  {
+   "q": "Does the 45-day identification deadline still apply in a reverse exchange?",
+   "a": "Yes, it applies to identifying the relinquished property, running from the start of the reverse structure rather than from a sale closing, which is the opposite direction of a standard forward exchange."
+  },
+  {
+   "q": "Why is financing harder to arrange on a parked property?",
+   "a": "Not every lender has a standard product for a property held by an accommodation titleholder rather than the investor directly, so the lender needs to be brought into the structure early alongside the qualified intermediary."
+  },
+  {
+   "q": "Can either the replacement or the relinquished property be the one that gets parked?",
+   "a": "Yes. Which one makes more sense depends on financing, timing, and how far along the sale of the relinquished property already is, and that decision needs to be made before the accommodation agreement is drafted, not renegotiated partway through."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 861
+}

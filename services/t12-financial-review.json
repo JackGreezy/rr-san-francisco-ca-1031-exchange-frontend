@@ -1,0 +1,66 @@
+{
+ "slug": "t12-financial-review",
+ "taxonomy": "services",
+ "title": "T12 Financial Review",
+ "name": "T12 Financial Review",
+ "metaTitle": "T12 Financial Review for San Francisco 1031 Exchanges",
+ "metaDescription": "Trailing twelve-month financial review for San Francisco 1031 replacement candidates, separating one-time capital spend from recurring operating cost.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A trailing twelve-month statement reads a lot like a year of utility bills and maintenance invoices laid end to end, and anyone who has ever closed out a building's annual budget knows how easily a one-time repair gets buried inside a line item that looks recurring. We go through a T12 the same way, separating what actually happens every year from what happened once and won't happen again. That distinction is the difference between a rebuilt cap rate that holds up and one that quietly falls apart in year two.</p>"
+  },
+  {
+   "heading": "Separating a One-Time Capital Item From a Recurring Operating Cost",
+   "html": "<p>A SoMa office building's trailing twelve months might include a roof replacement or an elevator modernization that inflates the expense line for that period without reflecting what ownership will actually spend most years. We back those one-time items out and rebuild a normalized operating expense figure, since a buyer who prices off the raw trailing number either overpays for a distorted cap rate or undervalues a building that just happened to complete a capital project during the trailing period.</p><p>The same problem runs the other direction too: a building that's overdue for a capital project can show an artificially low trailing expense line that flatters the seller's asking cap rate.</p>"
+  },
+  {
+   "heading": "What Utility and Maintenance Line Items Actually Reveal",
+   "html": "<p>A jump in utility cost from one year to the next in a Financial District tower can point to a failing HVAC plant running inefficiently long before the seller discloses a mechanical issue outright, and a maintenance line that dropped sharply can mean deferred work rather than genuine efficiency. We ask for the underlying invoices behind unusual swings rather than accepting the summarized T12 category at face value. A category that reads as one clean number in the T12 summary is often five or six separate line items once the invoices are actually pulled.</p>"
+  },
+  {
+   "heading": "Line Items We Reconstruct Before Trusting a Cap Rate",
+   "html": "<ul><li>property tax basis, since a sale resets the assessed value and the seller's trailing figure won't carry forward</li><li>insurance premium trend and whether current coverage reflects recent claims history</li><li>utility cost per square foot against comparable buildings in the same submarket</li><li>management fee structure and whether it reflects market rate or a related-party discount</li><li>capital reserve contribution, actual or implied, missing from the reported expense line</li></ul>"
+  },
+  {
+   "heading": "Why Property Tax Reset Matters More in an Oakland Office Deal",
+   "html": "<p>A seller's trailing T12 reflects their property tax basis, not the buyer's, and that gap can be substantial on an older Oakland office building that hasn't changed hands in years. We rebuild the expense line using the projected post-sale tax assessment rather than the seller's historical figure, since underwriting off the wrong basis is one of the most common ways a cap rate ends up misleading.</p><p>This reset applies to any long-held property regardless of submarket, but it's most pronounced on buildings that haven't traded in a decade or more, where the assessed value gap tends to be largest.</p>"
+  },
+  {
+   "heading": "Delivering a Normalized T12 Before the Identification Deadline",
+   "html": "<p>The finished output is a rebuilt trailing twelve-month statement with one-time items pulled out, tax basis reset to reflect the sale, and any related-party pricing adjusted to market. We complete that rebuild before the property goes on the identification list, since a normalized T12 is what actually tells an investor whether the cap rate they're being quoted holds up. A property that only clears underwriting after the identification deadline has already passed doesn't help anyone.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why does a one-time capital expense distort a trailing twelve-month statement?",
+   "a": "It inflates the expense line for that period without reflecting what ownership will typically spend in a normal year. We back those items out to build a normalized figure before trusting any cap rate calculated from it."
+  },
+  {
+   "q": "What does a sudden utility cost increase in a T12 usually indicate?",
+   "a": "It can point to a mechanical system, most often HVAC, running inefficiently before the seller discloses an issue directly. We request underlying invoices rather than accepting the summarized category."
+  },
+  {
+   "q": "Why does property tax basis matter more than the seller's trailing figure?",
+   "a": "A sale resets the assessed value, so the seller's historical tax line won't carry forward to the buyer. Underwriting off the seller's basis instead of the projected post-sale assessment is a common source of a misleading cap rate."
+  },
+  {
+   "q": "How can a related-party management fee distort a T12?",
+   "a": "If the seller used an affiliated management company at a below-market fee, the trailing expense line understates what a new owner will actually pay. We adjust the fee line to reflect market rate before comparing properties."
+  },
+  {
+   "q": "Should a normalized T12 be ready before or after a property is identified?",
+   "a": "Before. A normalized trailing twelve-month statement is what tells an investor whether the cap rate quoted on a listing actually holds up, and that needs to be known before the property goes on the identification list."
+  },
+  {
+   "q": "What insurance items get flagged during a T12 review?",
+   "a": "Whether the current premium reflects recent claims history or is simply carried over from the prior year's policy without adjustment. A premium that looks stable can still be about to jump if a claim hasn't been factored into the renewal yet."
+  },
+  {
+   "q": "Should a capital reserve contribution always appear as its own line item?",
+   "a": "It should be accounted for even if the seller's T12 doesn't break it out separately. A trailing statement with no visible reserve contribution often means one hasn't actually been funded, which becomes the new owner's responsibility to start."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 867
+}

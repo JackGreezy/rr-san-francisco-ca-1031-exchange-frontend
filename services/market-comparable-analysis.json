@@ -1,0 +1,58 @@
+{
+ "slug": "market-comparable-analysis",
+ "taxonomy": "services",
+ "title": "Market Comparable Analysis",
+ "name": "Market Comparable Analysis",
+ "metaTitle": "Market Comparable Analysis for San Francisco 1031 Exchanges",
+ "metaDescription": "Pulling honest comparables for a San Francisco 1031 exchange when tech-tenant volatility and Prop 13 assessed values distort what a building looks worth on paper.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A comp is only useful if it's actually comparable, and that's harder to guarantee in San Francisco right now than it used to be. Tech-tenant volatility has scrambled the usual relationship between occupancy and value in office buildings, and Prop 13 assessed values, which stay artificially low on long-held properties, throw off anyone trying to sanity-check a purchase price against public assessment records instead of real recent sales.</p>"
+  },
+  {
+   "heading": "Why Assessed Value Isn't a Useful Comp Anchor Here",
+   "html": "<p>A San Francisco property held for fifteen or twenty years can carry a Prop 13 assessed value far below current market price, since annual increases are capped regardless of how much comparable sales have moved. Pulling comps by starting from assessed value, rather than from actual recorded sale prices of similar buildings, produces a distorted sense of what a fair replacement price looks like, sometimes low enough to make a legitimately priced building look overpriced by comparison.</p><p>Recorded transaction prices, adjusted for building age, condition, and tenant quality, give a far more honest starting point than anything pulled from the assessor's roll.</p>"
+  },
+  {
+   "heading": "Why Office Comps Need a Tenant-Quality Adjustment",
+   "html": "<p>Two FiDi or SoMa office buildings with similar square footage and similar in-place rents can be worth very different amounts if one is leased to stable, long-term tenants and the other carries tech tenants on shorter terms with recent history of early terminations. A comp analysis that treats occupancy percentage as the only relevant number misses this distinction entirely, and it's exactly the distinction that's moved the most in San Francisco's office market over the past few cycles.</p><p>Weighting comps by tenant credit quality and lease term stability, alongside rent per square foot rather than instead of it, gets closer to how buyers are actually pricing office assets today.</p>"
+  },
+  {
+   "heading": "Building the Comp Set Across Asset Classes",
+   "html": "<p>Since a lot of San Francisco 1031 exchanges are trading between asset classes, office proceeds moving into industrial or multifamily, for instance, a useful comp set sometimes needs to draw from more than one property type, cross-referenced by price per square foot and cap rate rather than assuming a direct like-for-like comparison exists within the same class.</p><p>This cross-class comparison also has to account for the different operating profile of each asset type, since a cap rate that looks attractive on an industrial building may reflect a genuinely lower management burden than the office property being sold, and that difference is easy to miss if the comp set only lists numbers without the operating context behind them.</p>"
+  },
+  {
+   "heading": "Comparable Analysis Checklist",
+   "html": "<ul><li>recorded sale prices pulled instead of Prop 13 assessed values as the baseline</li><li>office comps weighted by tenant credit quality and lease term, not occupancy alone</li><li>comps adjusted for building age and any pending retrofit exposure</li><li>cross-asset-class comps assembled where the exchange is moving between property types</li><li>comp set refreshed close to the identification date, not left from an early-search pull</li></ul>"
+  },
+  {
+   "heading": "Keeping the Analysis Current Through the Search",
+   "html": "<p>Comp sets built early in a search go stale quickly in a market moving this much, particularly on the office side where a single large tenant departure can shift how a whole building, and its neighbors, get valued. Refreshing the comp analysis close to the actual identification date, rather than relying on numbers pulled weeks earlier, keeps the fair market value used for identification and boot calculations grounded in what buyers are paying now, not what they were paying when the search started.</p><p>Treat the comp set the way you'd treat a set of building specs for an equipment replacement, useful only as long as they reflect current conditions, and worth a final check right before the decision that depends on them rather than trusted blindly because they were accurate a month earlier.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why isn't Prop 13 assessed value a good starting point for comps?",
+   "a": "Assessed value is capped by annual increases regardless of market movement, so a long-held San Francisco property can show an assessed value far below what recorded sales of similar buildings actually reflect, which can distort a comp analysis that starts from the assessor's roll instead of actual transactions."
+  },
+  {
+   "q": "How does tenant volatility affect office comp analysis?",
+   "a": "Two similarly sized buildings with similar rents can be worth different amounts depending on tenant credit quality and lease stability, which matters more than raw occupancy percentage in today's tech-tenant environment where short-term commitments are increasingly common."
+  },
+  {
+   "q": "Should comps come from a single asset class or across property types?",
+   "a": "It depends on the exchange. When proceeds are moving between asset classes, such as office into industrial, a useful comp set sometimes needs to reference both, cross-checked by price per square foot and cap rate rather than assumed to be directly comparable."
+  },
+  {
+   "q": "How often should a comp set be refreshed during an active search?",
+   "a": "Close to the actual identification date, not left from an early pull. A single large tenant departure can shift how a building and its neighbors are valued within a matter of weeks, faster than most investors expect a comp set to move."
+  },
+  {
+   "q": "Does retrofit exposure factor into comparable analysis?",
+   "a": "Yes, comps should be adjusted for building age and any pending seismic or soft-story retrofit obligation, since that cost affects what a comparable building is actually worth to a buyer, and skipping that adjustment can make a retrofit-pending building look like a better value than it actually is."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 858
+}

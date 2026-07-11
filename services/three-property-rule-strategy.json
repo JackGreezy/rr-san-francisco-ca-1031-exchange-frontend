@@ -1,0 +1,66 @@
+{
+ "slug": "three-property-rule-strategy",
+ "taxonomy": "services",
+ "title": "Three-Property Rule Strategy",
+ "name": "Three-Property Rule Strategy",
+ "metaTitle": "Three-Property Rule Strategy for San Francisco 1031 Exchanges",
+ "metaDescription": "Three-property rule strategy for San Francisco 1031 exchanges, building a tight backup list across Foster City, Redwood City, and San Mateo instead of over-identifying.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Most San Francisco-area exchanges we run don't need the 200 percent rule or the 95 percent rule at all, they need three well-chosen candidates and a clear-eyed view of which one is actually the backup. The three-property rule lets an investor identify up to three properties with no value ceiling between them, and used well, it's less about hedging and more about discipline. A tight, well-vetted list beats a padded one nearly every time.</p>"
+  },
+  {
+   "heading": "Picking Three Instead of Padding the List",
+   "html": "<p>Investors sometimes assume more candidates means more safety, but under the three-property rule there's no benefit to naming a fourth or fifth option unless value math pushes the strategy into the 200 percent rule instead. We'd rather see three properties an investor has actually underwritten than five where two are placeholders nobody expects to close, since a placeholder still counts against the list if the deal ever needs to lean on it. A rushed placeholder candidate can end up being the one an investor is stuck closing on.</p>"
+  },
+  {
+   "heading": "Why Foster City and Redwood City Pair Well on One List",
+   "html": "<p>A Peninsula investor exchanging out of a single downtown asset often ends up comparing a Foster City office or flex candidate against a Redwood City alternative, since both submarkets carry comparable tenant demand but different lease-up timelines. Naming both on a three-property list, alongside a third candidate in a different asset class, gives the investor real optionality without diluting the underwriting effort across too many properties.</p><p>That third candidate in a different asset class matters more than it might seem, since it's the one most likely to still be available if both Peninsula office candidates fall through at the same time.</p>"
+  },
+  {
+   "heading": "What Should Actually Anchor a Three-Property List",
+   "html": "<ul><li>a primary candidate that's already passed full underwriting rather than only a first look</li><li>a genuine second option in a different submarket, not a duplicate of the first</li><li>a third candidate with a faster closing timeline as a true fallback</li><li>confirmation that all three descriptions are unambiguous under identification rules</li><li>a live line of communication with each seller through day 45 rather than a stale offer</li></ul>"
+  },
+  {
+   "heading": "When San Mateo or Mountain View Candidates Change the Math",
+   "html": "<p>If a San Mateo or Mountain View property carries a materially different value from the relinquished asset, the three-property rule can still apply since it has no value ceiling, but we check that assumption early rather than assuming it holds. The moment a fourth candidate becomes genuinely necessary, usually because financing on one of the three falls through, the strategy needs to shift toward the 200 percent rule instead, and that shift is cleaner if it's planned for rather than improvised on day 40.</p>"
+  },
+  {
+   "heading": "Keeping the List Live Through Sunnyvale Financing Timelines",
+   "html": "<p>A Sunnyvale candidate with financing that's still moving through underwriting on day 40 needs a real contingency, rather than only a name on the list that hasn't been checked on in weeks. We stay in contact with each seller and each lender on the three-property list through the deadline, so if the top choice stalls, the fallback candidate is still genuinely available rather than already under contract with someone else. That ongoing check-in is what separates a real backup from a name kept on a spreadsheet.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does the three-property rule require the properties to be similar in value?",
+   "a": "No. Up to three properties can be identified regardless of their combined value, which is the main advantage over the 200 percent rule when only a small number of genuinely strong candidates exist in the market at the time."
+  },
+  {
+   "q": "Is it better to identify three properties or five under this rule?",
+   "a": "Three well-underwritten candidates are stronger than five where some are placeholders, since every named property still counts against the list and a placeholder rarely holds up if the deal actually needs to lean on it."
+  },
+  {
+   "q": "When should an investor move from the three-property rule to the 200 percent rule?",
+   "a": "When a fourth genuine candidate becomes necessary, most often because financing on one of the original three stalls. Planning for that shift in advance is cleaner than improvising it close to day 45."
+  },
+  {
+   "q": "How should candidates from different Peninsula submarkets be weighed against each other on one list?",
+   "a": "On their own underwriting merits and closing timeline, not simply picked for geographic variety. A Foster City and a Redwood City candidate can both belong on the same list if each has actually been vetted."
+  },
+  {
+   "q": "What happens if a seller pulls out of a deal that was the primary identified candidate?",
+   "a": "The fallback candidate on the list needs to still be genuinely available, which is why staying in contact with every seller through day 45 matters more than simply naming a backup once and moving on."
+  },
+  {
+   "q": "Can a three-property list mix asset classes, like an office candidate and a net-lease candidate?",
+   "a": "Yes, and it often should. Mixing asset classes on the list gives an investor a genuine fallback if one candidate's closing process stalls for reasons specific to that asset type, rather than three candidates exposed to the same underwriting risk."
+  },
+  {
+   "q": "Is it ever worth naming a fourth property just as extra insurance?",
+   "a": "Not under the three-property rule itself, since only three can be named this way. If a fourth candidate is genuinely needed, the strategy shifts to the 200 percent rule, and that shift should be planned for rather than treated as a last-minute workaround."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 855
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "soma-ca",
+ "taxonomy": "locations",
+ "title": "SoMa",
+ "name": "SoMa",
+ "metaTitle": "1031 Exchange Advisory in SoMa, CA",
+ "metaDescription": "1031 exchange advisory for SoMa owners of converted loft office, creative build-outs, and ground-floor retail, with diligence on aging brick-and-timber stock.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>SoMa's commercial stock runs on two very different building types sitting a few blocks apart: converted brick-and-timber lofts that were never designed for modern tenant improvement loads, and newer mid-rise construction built specifically for tech-era build-outs. An exchange buyer identifying property here needs to know which category a candidate falls into before assuming its systems can support whatever the next tenant wants to install.</p>"
+  },
+  {
+   "heading": "Two Building Eras, Two Different Sets of Problems",
+   "html": "<p>The blocks around Moscone Center and south toward the Caltrain corridor still hold a meaningful stock of early-twentieth-century warehouse and printing buildings converted to office use over the past few decades. These buildings carry character that tenants pay for, but their floor loading, electrical capacity, and window-line ratios were set by an earlier use and often need real investment before a modern tenant improvement package fits.</p><p>Newer SoMa construction, much of it built during the tech leasing boom, was designed from the start for higher electrical density and open floor plans, and those buildings tend to hold occupancy better through tenant turnover because the shell can absorb a wider range of build-outs without structural work.</p>"
+  },
+  {
+   "heading": "What A SoMa Facilities Walk-Through Should Cover",
+   "html": "<p>We ask the property's engineering contact to confirm the following before a SoMa candidate goes on an identification list:</p><ul><li>floor loading capacity in any converted warehouse or loft building</li><li>electrical service size relative to what a technology or creative tenant will likely request</li><li>loading dock access and scheduling given how often nearby Moscone Center events restrict street access</li><li>roof condition and any deferred seismic or structural work on pre-1950s buildings</li><li>ground-floor retail lease terms where they exist separately from the office space above</li></ul><p>A converted loft that has never had its electrical service upgraded is a common finding, and it changes the tenant improvement budget for whoever leases the space next.</p>"
+  },
+  {
+   "heading": "Loading Dock Scheduling Around Moscone Center",
+   "html": "<p>Buildings within a few blocks of Moscone Center deal with a scheduling reality that most other San Francisco submarkets do not: major convention weeks restrict truck access and street parking for days at a time, and a facilities manager coordinating a tenant move during one of those weeks needs to plan around it rather than discover it the week of. We treat that calendar as part of the diligence file, not an afterthought, because a new owner inheriting a lease-up or a tenant build-out will need the same lead time the prior owner did.</p><p>Freight elevator access in older loft buildings is also typically more limited than in newer mid-rise stock, which slows down tenant move-in and move-out and should factor into how much downtime a buyer budgets between leases.</p>"
+  },
+  {
+   "heading": "Tenant Improvement Churn and What It Does to Downtime",
+   "html": "<p>SoMa's tenant base turns over its space more often than a stabilized net-lease investor might expect, since technology and creative tenants frequently renegotiate footprint at renewal rather than simply extending in place. That means a SoMa building can show real downtime between an outgoing tenant's move and a new tenant's build-out completion, and a facilities manager who has managed several of these turnovers can usually tell you honestly how long that gap tends to run in a given building.</p><p>An investor identifying SoMa property under 45-day pressure should ask directly about the building's typical vacancy-to-occupancy turnaround rather than assume the current lease's expiration date is when income actually restarts.</p>"
+  },
+  {
+   "heading": "Underwriting the Capital Side of Older SoMa Stock",
+   "html": "<p>A converted loft building's remaining useful life on its roof, its original electrical service, and any unreinforced masonry component all belong in the purchase underwriting, not in a post-closing surprise list. Buyers should request the same maintenance and capital improvement records from a SoMa seller that a facilities manager would want before recommending a tenant move into the building, since the questions are the same regardless of which side of the transaction is asking.</p><p>A lender reviewing a SoMa loft acquisition will typically want a recent property condition report alongside the seller's capital expense history before finalizing terms, particularly where the building has never had its structural or electrical systems formally reassessed against current code. An exchange buyer should request that report early in the identification window rather than wait for the lender to raise it during underwriting, since a missing or outdated report can slow down closing at a point in the timeline where there is little room left to absorb delay.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why do some SoMa loft buildings need more tenant improvement work than others nearby?",
+   "a": "Many were converted from early-twentieth-century warehouse or printing use, and their original floor loading and electrical service were not designed for modern build-outs. Newer SoMa construction built during the tech leasing era generally absorbs tenant changes with less structural work."
+  },
+  {
+   "q": "How do Moscone Center events affect a SoMa building's operations?",
+   "a": "Major convention weeks restrict loading dock and street access for buildings nearby, which affects tenant move scheduling. A facilities manager coordinating a move during one of those weeks needs the same lead time a prior tenant would have needed."
+  },
+  {
+   "q": "How much downtime should I expect between tenants in a SoMa office building?",
+   "a": "It varies by building and tenant type, but SoMa's technology and creative tenant base tends to reconfigure footprint at renewal more often than a stabilized net-lease tenant would. Ask the current facilities manager directly what turnaround has looked like historically."
+  },
+  {
+   "q": "Can 1031 Exchange San Francisco confirm my SoMa property qualifies for exchange treatment?",
+   "a": "No. We coordinate planning, identification, and communication among an investor's advisors. Whether a specific property qualifies is determined by the investor's CPA, tax attorney, and qualified intermediary."
+  },
+  {
+   "q": "What should I ask about a converted SoMa loft before finalizing an identification?",
+   "a": "Confirm floor loading capacity, original versus upgraded electrical service, roof condition, and any outstanding seismic work. These are the same questions a facilities manager asks before signing off on a new tenant build-out."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 934
+}

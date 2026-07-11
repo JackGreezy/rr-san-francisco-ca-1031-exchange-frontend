@@ -1,0 +1,58 @@
+{
+ "slug": "sunnyvale-ca",
+ "taxonomy": "locations",
+ "title": "Sunnyvale",
+ "name": "Sunnyvale",
+ "metaTitle": "1031 Exchange Advisory in Sunnyvale, CA",
+ "metaDescription": "1031 exchange advisory for Sunnyvale owners of Moffett Park campus buildings and legacy hardware and semiconductor space converting to office or lab use.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Sunnyvale carries a commercial building stock split across two different eras: legacy hardware and semiconductor campuses built decades ago for manufacturing and light industrial use, and newer large-format office and lab space concentrated in the Moffett Park submarket. An exchange buyer identifying property here needs to know which era a candidate belongs to, since the facilities questions differ substantially between the two.</p>"
+  },
+  {
+   "heading": "From Semiconductor Manufacturing to Office and Lab Conversion",
+   "html": "<p>Much of Sunnyvale's older industrial stock was originally built for hardware manufacturers and semiconductor operations, with heavier power service, larger clear heights, and layouts suited to production lines rather than desks or lab benches. As those original tenants have downsized or relocated, a meaningful share of that space has been converted or repositioned for office and lab tenants, and the quality of that conversion varies a great deal from building to building.</p><p>Moffett Park, closer to the Mountain View border, has developed more recently around large-format office and lab campuses leased to major technology tenants, and that product generally carries more current mechanical systems than the older converted industrial stock elsewhere in the city.</p>"
+  },
+  {
+   "heading": "What A Facilities Review Should Confirm on Converted Industrial Space",
+   "html": "<p>Before recommending a converted Sunnyvale industrial candidate, we ask the building's engineering contact to walk through:</p><ul><li>whether the original power service has been upgraded to support office or lab electrical loads, or still reflects its manufacturing-era capacity</li><li>legacy clean-room infrastructure and whether it has been properly decommissioned or is still partially active</li><li>HVAC zoning appropriateness for the current use versus the building's original design intent</li><li>hazardous materials handling history tied to any prior semiconductor or chemical processing use</li><li>floor loading capacity relative to what the new tenant profile actually requires</li></ul><p>A building that looks move-in ready from the leasing brochure can still carry legacy infrastructure that needs real decommissioning work before a new tenant's build-out can proceed safely.</p>"
+  },
+  {
+   "heading": "Decommissioning Specialized Equipment Before Turnover",
+   "html": "<p>An outgoing hardware or semiconductor tenant in Sunnyvale often leaves behind specialized equipment, chemical storage, or clean-room infrastructure that requires formal decommissioning before the space can turn over to a general office or lab tenant, and that process can extend the effective downtime well beyond the stated lease end date. A facilities manager who has handled one of these transitions before can usually estimate the real timeline more accurately than a leasing broker, and an exchange buyer under 45-day pressure should ask that question directly rather than assume a standard office turnover applies.</p>"
+  },
+  {
+   "heading": "Moffett Park's Different Tenant Coordination Model",
+   "html": "<p>Large-format Moffett Park campuses generally lease to fewer, larger tenants, which means less frequent but higher-stakes tenant coordination compared to the smaller, more fragmented multi-tenant conversions found elsewhere in Sunnyvale. A facilities manager on a Moffett Park campus typically works closely with a single occupant's internal real estate team, similar to the single-tenant dynamic found in neighboring Mountain View, while older converted industrial buildings see more frequent, smaller-scale tenant turnover that keeps a facilities manager there busier on a week-to-week basis.</p>"
+  },
+  {
+   "heading": "Underwriting the Capital Load on Legacy Sunnyvale Stock",
+   "html": "<p>A buyer evaluating converted industrial space should budget for potential clean-room and hazardous materials remediation costs that a standard office property would never carry, and that estimate should come from an environmental consultant rather than a general contractor's rough guess. Moffett Park's newer campus product generally requires less near-term capital work, but a buyer should still confirm whether any building systems were customized for a specific tenant's use in a way that would need reconfiguration for a different occupant.</p><p>A facilities manager who has overseen an industrial-to-office conversion in Sunnyvale can usually flag which legacy systems still need attention long after a building has been marketed as fully converted, since a fresh coat of paint in a lobby says nothing about what is still sitting behind a mechanical room door. Bringing that person into the diligence process before an identification deadline, rather than after a surprise turns up during a tenant's own build-out, tends to save real money on both sides of the transaction.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why does converted industrial space in Sunnyvale sometimes need extra facilities work?",
+   "a": "Much of this stock was originally built for semiconductor or hardware manufacturing, and legacy power service, clean-room infrastructure, or chemical handling history may need formal remediation before a new office or lab tenant can move in safely."
+  },
+  {
+   "q": "How is Moffett Park different from older Sunnyvale industrial conversions?",
+   "a": "Moffett Park has developed more recently around large-format campuses leased to major technology tenants and generally carries newer mechanical systems, while older converted industrial buildings vary more in condition depending on how the conversion was handled."
+  },
+  {
+   "q": "Why does an outgoing hardware tenant's move-out sometimes take longer than expected?",
+   "a": "Decommissioning specialized equipment, chemical storage, or clean-room infrastructure is a formal process that can extend well past the stated lease end date. Ask the current facilities manager for a realistic timeline rather than assuming a standard office turnover."
+  },
+  {
+   "q": "Is Moffett Park single-tenant or multi-tenant property?",
+   "a": "Largely single-tenant or few-tenant, similar to the dynamic found in neighboring Mountain View, which means less frequent tenant coordination but more concentrated income risk than a fragmented multi-tenant building."
+  },
+  {
+   "q": "Can 1031 Exchange San Francisco confirm my Sunnyvale property qualifies for exchange treatment?",
+   "a": "No. We coordinate planning, property identification, and communication among an investor's advisors. Qualification is determined by the investor's CPA, tax attorney, and qualified intermediary."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 850
+}

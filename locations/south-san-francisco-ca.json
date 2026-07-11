@@ -1,0 +1,58 @@
+{
+ "slug": "south-san-francisco-ca",
+ "taxonomy": "locations",
+ "title": "South San Francisco",
+ "name": "South San Francisco",
+ "metaTitle": "1031 Exchange Advisory in South San Francisco, CA",
+ "metaDescription": "1031 exchange advisory for South San Francisco lab and R&D owners, covering vivarium systems, hazmat decommissioning, and SFO-adjacent flex industrial.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>South San Francisco built its identity on lab and research-and-development real estate decades before most of the rest of the Bay Area caught up, and the city's East of 101 corridor remains one of the most concentrated life-science building stocks anywhere in the country. An exchange investor looking here is buying into a market where the facilities manager, not the leasing broker, usually holds the most useful information about a building's real condition.</p>"
+  },
+  {
+   "heading": "A Market Defined by One Dominant Life-Science Anchor",
+   "html": "<p>Genentech's long-standing campus footprint east of Highway 101 shaped decades of surrounding lab and R&D development, and the corridor still leases primarily to biotechnology and pharmaceutical tenants rather than general office users. Newer construction has diversified the tenant base somewhat, but a buyer evaluating South San Francisco replacement property should still expect lab-specific mechanical requirements to dominate the underwriting conversation rather than standard office metrics.</p><p>Flex industrial product near San Francisco International Airport rounds out the other half of the local market, serving logistics and light manufacturing tenants who value the airport proximity more than lab tenants do.</p>"
+  },
+  {
+   "heading": "The Facilities Checklist for a South San Francisco Lab Building",
+   "html": "<p>We ask a building's engineering staff to walk through the following before recommending a lab or R&D candidate:</p><ul><li>vivarium and specialized exhaust system age, condition, and remaining capacity</li><li>fume hood count and whether current capacity supports the tenant profile the seller is marketing to</li><li>backup generator sizing relative to lab equipment that cannot lose power</li><li>hazardous materials handling and storage compliance history</li><li>floor-to-floor clearance and structural capacity for lab bench and equipment loads</li></ul><p>A building marketed as R&D-ready without current documentation on these systems usually needs a buyer-side engineering review before the asking price can be trusted.</p>"
+  },
+  {
+   "heading": "Hazmat Decommissioning Changes the Downtime Math",
+   "html": "<p>A lab tenant vacating South San Francisco space has to go through a formal decommissioning process covering chemical storage, waste lines, and any radioactive material use before the space can legally be turned over, and that process can add real weeks to a timeline that a standard office facilities manager would not expect. An exchange buyer working against a 45-day identification window should ask directly whether an outgoing tenant's decommissioning is complete or still pending, since that single item can shift the property's actual income start date by more than the lease documents suggest.</p><p>We treat this as one of the first questions to ask on any South San Francisco lab candidate, because skipping it is the fastest way to underwrite income that does not actually start when expected.</p>"
+  },
+  {
+   "heading": "SFO Proximity and Flex Industrial Coordination",
+   "html": "<p>Flex industrial buildings near the airport answer to a tenant base focused on logistics timing and last-mile distance to SFO rather than lab infrastructure, and a facilities manager here spends more time on loading dock scheduling and truck circulation than on mechanical redundancy. Airport noise contours also affect which parcels can support certain uses, and a buyer should confirm a candidate's zoning and noise compliance status before assuming a lab-to-flex conversion is straightforward, since that conversion is rarely as simple as swapping a tenant sign out front.</p>"
+  },
+  {
+   "heading": "Underwriting the Real Capital Load on Lab Infrastructure",
+   "html": "<p>Lab-grade mechanical systems in South San Francisco depreciate faster than standard office HVAC and typically cost more to replace, and a buyer should request the building's actual maintenance history on exhaust and vivarium systems rather than rely on the seller's general capital summary. Insurance for lab and hazardous-materials-adjacent property also underwrites differently than standard office coverage, and that quote should come directly from a carrier before finalizing an identification.</p><p>A facilities manager who has operated a South San Francisco lab building for several years can usually give a buyer a far more accurate replacement cost estimate on exhaust and vivarium systems than a general commercial appraiser, since those systems rarely show up in a standard appraisal template. Bringing that person into the diligence conversation early, rather than after the identification period has already narrowed the timeline, gives an exchange buyer a real chance to catch a costly surprise before it becomes the new owner's problem.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why does South San Francisco lead with lab and R&D real estate instead of office?",
+   "a": "Decades of development around Genentech's campus footprint east of Highway 101 built out a concentrated life-science corridor, and the tenant base has stayed weighted toward biotechnology and pharmaceutical users ever since."
+  },
+  {
+   "q": "What should be checked before identifying a South San Francisco lab building?",
+   "a": "Vivarium and exhaust system condition, fume hood capacity, backup generator sizing, and hazardous materials compliance history. These are the questions a facilities manager would ask before signing off on a new lab tenant."
+  },
+  {
+   "q": "Why does an outgoing lab tenant's move-out take longer than expected?",
+   "a": "Chemical and waste decommissioning is a formal process that can add real weeks before space legally turns over. Confirm whether an outgoing tenant's decommissioning is complete before assuming the lease end date is when income restarts."
+  },
+  {
+   "q": "How is flex industrial near SFO different from the lab corridor?",
+   "a": "It serves logistics and light manufacturing tenants focused on airport proximity and loading access rather than lab infrastructure, and it carries different zoning and noise compliance considerations."
+  },
+  {
+   "q": "Can 1031 Exchange San Francisco confirm my South San Francisco property qualifies for exchange treatment?",
+   "a": "No. We coordinate planning, property identification, and communication among an investor's advisors. Qualification is determined by the investor's CPA, tax attorney, and qualified intermediary."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 854
+}

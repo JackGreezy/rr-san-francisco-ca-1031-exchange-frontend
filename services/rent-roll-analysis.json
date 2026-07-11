@@ -1,0 +1,66 @@
+{
+ "slug": "rent-roll-analysis",
+ "taxonomy": "services",
+ "title": "Rent Roll Analysis",
+ "name": "Rent Roll Analysis",
+ "metaTitle": "Rent Roll Analysis for San Francisco 1031 Exchanges",
+ "metaDescription": "Rent roll analysis for San Francisco 1031 replacement property, reading Mission Bay office leases and Oakland multifamily rolls the way a building operator would.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A rent roll from a Mission Bay office building and one from an Oakland apartment building can both look tidy in a spreadsheet and still hide very different operating risk underneath. We read a rent roll the way you'd read a building's maintenance log, rather than only its income statement, because the line items that matter most rarely show up on the broker's one-page summary. A rent roll is a record of what's actually happening inside the building, not a marketing document, and it needs to be read that way.</p>"
+  },
+  {
+   "heading": "In-Place Rent Versus What the Space Would Actually Achieve Today",
+   "html": "<p>A Mission Bay tenant signed three years ago at pre-repricing rates can make an office rent roll look stronger than the building's real market position supports, since that gap between in-place and achievable rent has widened across the tech-tenant corridor as leases have come up for renewal. We separate the two figures explicitly rather than letting a blended average obscure how much of the current income is durable.</p><p>Emeryville rent rolls carry a similar gap on the multifamily side, where concession use during lease-up years has left some units at rents that will need real work to bring current. That work usually takes longer than a seller's projection suggests, since raising rent on an occupied unit moves slower than raising the asking rent on a vacant one.</p>"
+  },
+  {
+   "heading": "Reading Office Leases for Downtime Exposure Beyond the Income Line",
+   "html": "<p>An office rent roll needs to be checked for co-tenancy clauses, early termination rights, and tenant improvement obligations still owed, because any one of those can turn a stable-looking income stream into a gap in cash flow the moment a single anchor tenant exercises an option. We flag which tenants carry termination rights inside the exchange holding period specifically, since that's the risk most likely to matter to a buyer working against a fixed timeline. A termination right buried in year eight of a ten-year lease is easy to miss on a summary page but changes the whole risk profile of the hold.</p>"
+  },
+  {
+   "heading": "Fields We Check Line by Line",
+   "html": "<ul><li>lease start and expiration dates against the intended holding period</li><li>current rent versus last renewal or a fresh market comparable</li><li>expense reimbursement structure and any base-year stops or caps</li><li>security deposit or letter-of-credit amount actually held</li><li>early termination rights and remaining tenant improvement obligations</li><li>delinquency and concession history over the trailing twenty-four months</li></ul>"
+  },
+  {
+   "heading": "Multifamily Rent Rolls Read on a Different Set of Signals",
+   "html": "<p>Oakland and Emeryville multifamily rent rolls need to be judged on renewal rate, concession trend, and delinquency pattern rather than lease structure, since there's usually no structural variation across units the way there is in office or retail. A rising delinquency trend paired with ongoing concession use to hold occupancy is the combination we flag hardest, because either one alone can be explained away, but together they usually point to softening demand. We look at both trends across a full trailing year rather than a single recent quarter.</p>"
+  },
+  {
+   "heading": "Turning the Rent Roll Into a Decision Before the Deadline",
+   "html": "<p>The output is a plain comparison: what the property earns today, what it could reasonably earn after normal turnover or lease renewal, and where the single biggest risk sits on the roll. We put that comparison in writing before the identification deadline, well ahead of the deadline itself, so the record shows exactly what was known at the time the decision was made and there's no ambiguity later about what the investor was told and when.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why does the gap between in-place and achievable rent matter for a Mission Bay office rent roll?",
+   "a": "Leases signed before the current repricing cycle can make income look stronger than the building's real market position supports. Separating in-place from achievable rent shows how much of that income is actually durable."
+  },
+  {
+   "q": "What lease clauses create the most downtime risk on an office rent roll?",
+   "a": "Co-tenancy provisions and early termination rights, since either can turn stable-looking income into a real cash flow gap the moment a tenant exercises an option, especially inside a fixed exchange holding period."
+  },
+  {
+   "q": "How should an Oakland multifamily rent roll be judged differently from an office rent roll?",
+   "a": "On renewal rate, concession trend, and delinquency pattern rather than lease structure, since multifamily units typically don't carry the structural variation that office and retail leases do."
+  },
+  {
+   "q": "What's the biggest red flag in a multifamily rent roll?",
+   "a": "Rising delinquency paired with ongoing concession use to maintain occupancy. Either factor alone can usually be explained, but the combination tends to signal real softening demand."
+  },
+  {
+   "q": "How far back should trailing rent roll data go for a reliable read?",
+   "a": "At least twenty-four months rather than a single recent snapshot, since one month can be skewed by a large move-out or a seasonal promotion that doesn't reflect the property's typical performance."
+  },
+  {
+   "q": "Should security deposits and letters of credit be verified separately from the rent roll itself?",
+   "a": "Yes. A rent roll lists the amount a tenant is supposed to have on deposit, but confirming the actual held amount, and whether it's cash or a letter of credit that could expire, takes a separate check against the underlying documents."
+  },
+  {
+   "q": "Does a strong occupancy number mean a rent roll is low risk?",
+   "a": "Not on its own. A building can hold occupancy through discounting or concessions that keep tenants in place while quietly eroding revenue, which is why we look at revenue trend alongside occupancy rather than treating occupancy as the whole picture."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 862
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "multifamily-replacement-sourcing",
+ "taxonomy": "services",
+ "title": "Multifamily Replacement Sourcing",
+ "name": "Multifamily Replacement Sourcing",
+ "metaTitle": "Multifamily Replacement Sourcing for San Francisco 1031 Exchanges",
+ "metaDescription": "Multifamily replacement sourcing for San Francisco 1031 exchanges, weighing rent-controlled buildings in Oakland and Berkeley against Daly City's lighter regulatory load.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Anyone who has actually run turnover on a rent-controlled building in this region knows the spreadsheet only tells half the story. A unit that shows as vacant on a rent roll might sit empty for six weeks longer than a comparable unit across the bay, not because of demand, but because of notice periods and relocation obligations tied to the local ordinance. We build that operating reality into the sourcing before a San Francisco-area multifamily property ever reaches your identification list, since a pro forma that ignores it tends to fall apart within the first year of ownership.</p>"
+  },
+  {
+   "heading": "Rent Control Isn't One Rule Across the Region",
+   "html": "<p>Oakland's Just Cause ordinance and Berkeley's rent stabilization program don't mirror each other, and treating them as interchangeable is how buyers get surprised by relocation payment obligations they didn't budget for. A no-fault eviction in Oakland can trigger relocation assistance well above what a Berkeley owner would owe for the same unit type, and both differ again from Daly City, which currently carries a lighter regulatory load on turnover.</p><p>We map the specific ordinance against the actual rent roll rather than working off a generic regional summary, since the gap between in-place rent and achievable rent behaves very differently depending on which city the building sits in. A ten-unit Oakland building and a ten-unit Berkeley building with identical current rents can carry very different paths to market rent once their respective ordinances are applied unit by unit.</p>"
+  },
+  {
+   "heading": "What Turnover Actually Costs Once Notice Periods Are Counted",
+   "html": "<p>A vacancy assumption built on market-rate turnover time will run short in almost every rent-controlled building we look at, because the clock doesn't start at move-out, it starts at notice, and notice periods stretch further for long-tenured residents in Oakland and Berkeley than most out-of-market buyers expect. We model turnover against the actual ordinance timeline rather than a citywide average, so the pro forma an investor is identifying against reflects real carrying cost, not an optimistic guess. A building with several long-tenured units can look like it's due for a rent reset that simply won't arrive on the schedule a spreadsheet suggests.</p>"
+  },
+  {
+   "heading": "Building Condition Items That Change the Relocation Math",
+   "html": "<ul><li>current occupancy by unit against local just-cause and relocation triggers</li><li>capital improvement pass-through history and remaining amortization on prior upgrades</li><li>deferred maintenance that could force a temporary relocation rather than a standard turn</li><li>soft-story or seismic retrofit status and any open compliance deadline</li><li>rent roll gap between in-place and achievable rent, city by city</li></ul>"
+  },
+  {
+   "heading": "Daly City and the Case for Lighter Regulatory Exposure",
+   "html": "<p>Not every replacement candidate needs to sit inside the region's heaviest rent-control ordinances. Daly City buildings currently carry fewer relocation triggers and a more predictable turnover timeline, which can make them the steadier hold for an investor who wants multifamily exposure without underwriting a relocation-payment scenario into every unit turn. We put both types of building side by side rather than defaulting to whichever one happens to be listed first, since the right answer depends on how much operating complexity an investor actually wants to take on.</p>"
+  },
+  {
+   "heading": "Getting Rent-Controlled Buildings Onto the Identification List Cleanly",
+   "html": "<p>Because ordinance details shift the real cash flow of a rent-controlled building more than almost any other factor, we finish the ordinance-level review before a property goes on the identification list, not after. That keeps the 45-day window from being spent re-underwriting a building the investor already committed to on paper, and it gives the qualified intermediary a clean, unambiguous property description to work with once the notice is drafted.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why does Oakland's Just Cause ordinance matter more to underwriting than a standard vacancy assumption?",
+   "a": "It sets specific relocation payment triggers and notice periods that extend real turnover time well past what a market-rate vacancy model assumes, which changes the building's true carrying cost and, in turn, the price an investor should actually pay."
+  },
+  {
+   "q": "Is Berkeley's rent stabilization program the same as Oakland's ordinance?",
+   "a": "No. The two programs set different relocation obligations and notice requirements, so a building's regulatory exposure has to be checked against the specific city it sits in rather than a regional assumption that treats both ordinances as equivalent."
+  },
+  {
+   "q": "Why would Daly City multifamily be considered a steadier hold than an Oakland or Berkeley building?",
+   "a": "Daly City currently carries fewer relocation triggers on turnover, which gives a more predictable operating picture for an investor who wants multifamily exposure without underwriting relocation-payment scenarios into every vacancy."
+  },
+  {
+   "q": "How does a soft-story retrofit deadline affect a multifamily replacement candidate?",
+   "a": "An open retrofit deadline can mean a near-term capital outlay the seller hasn't disclosed clearly, so we confirm compliance status and remaining deadline directly with the local building department before a property goes on the identification list rather than discovering it during due diligence."
+  },
+  {
+   "q": "Should the gap between in-place rent and achievable rent be treated the same across every city?",
+   "a": "No. The size of that gap and how fast it can close depend on the local ordinance, so a Berkeley building and a Daly City building with similar in-place rent can have very different paths to market rent."
+  },
+  {
+   "q": "What deferred maintenance items matter most in a rent-controlled building?",
+   "a": "Anything that could force a temporary relocation rather than a routine turn, since a temporary relocation often triggers its own set of tenant payment obligations under the local ordinance, on top of the standard turnover cost."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 851
+}

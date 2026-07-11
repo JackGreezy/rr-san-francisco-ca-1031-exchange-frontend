@@ -1,0 +1,58 @@
+{
+ "slug": "lender-preflight-coordination",
+ "taxonomy": "services",
+ "title": "Lender Preflight Coordination",
+ "name": "Lender Preflight Coordination",
+ "metaTitle": "Lender Preflight Coordination for San Francisco 1031 Exchanges",
+ "metaDescription": "Getting a lender ready ahead of closing for a San Francisco 1031 exchange, where retrofit-pending buildings and recovering retail add extra underwriting steps.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The best time to find out a lender has a problem with a building is before it's identified as a replacement property, not during the last week of a 180-day countdown. Lender preflight means getting a loan officer looking at the actual candidate, its retrofit status, its tenant mix, its condition, well before an identification letter locks it in, so any underwriting objection surfaces while there's still time to pick a different property.</p>"
+  },
+  {
+   "heading": "Why Preflight Matters More in an Exchange Than a Normal Purchase",
+   "html": "<p>In a typical purchase, a financing contingency gives a buyer room to walk away if the loan doesn't come through as expected. A 1031 exchange doesn't offer that same cushion, since backing out of a failed replacement purchase close to day 180 can mean losing the exchange entirely if there's no live backup candidate. Getting the lender's read on a property early converts what would be a late-stage surprise into an early filter for the candidate list.</p><p>This early filter matters even more when the candidate list is short. An investor working from a tight three-property list who loses one candidate to a late underwriting objection has fewer options left to fall back on than one working from a longer 200% list, which is another reason preflight should happen well before day 45, not after the identification letter is already filed.</p>"
+  },
+  {
+   "heading": "Retrofit Status Is a Preflight Question, Not a Closing-Week One",
+   "html": "<p>Older San Francisco multifamily and retail buildings still owing seismic or soft-story retrofit work draw extra scrutiny from lenders, who may require a completed scope of work, a contractor bid, or even a reserve account before clearing a loan commitment. Raising this with the lender during preflight, rather than waiting for it to surface in the loan file, gives time to gather bids or adjust the offer instead of discovering the requirement days before a closing deadline that can't move.</p>"
+  },
+  {
+   "heading": "How Recovering Retail Complicates the Underwriting Conversation",
+   "html": "<p>Ground-floor retail in corridors still working through recovery can draw a more conservative debt-service coverage calculation from lenders who want to see a track record of stabilized rent before committing to full leverage. Preflighting a retail candidate means asking the lender directly how they'll treat a partially recovered rent roll, rather than assuming a listing broker's proforma numbers will carry the loan file without pushback.</p><p>It also pays to ask how the lender weighs a mix of ground-floor retail and upper-floor office or residential in the same building, since a mixed-use asset can be underwritten differently depending on which income stream the lender treats as the anchor. That answer shapes how a candidate should actually be compared against others on the identification list.</p>"
+  },
+  {
+   "heading": "Lender Preflight Checklist",
+   "html": "<ul><li>candidate property shared with the lender before it's added to the identification letter</li><li>retrofit or soft-story compliance status disclosed upfront, with bids gathered if work remains</li><li>retail candidates discussed specifically for how recovering rent rolls will be underwritten</li><li>loan committee turnaround time confirmed against the remaining exchange calendar</li><li>backup candidate preflighted in parallel in case the primary hits an underwriting snag</li></ul>"
+  },
+  {
+   "heading": "Turning Preflight Into a Faster Actual Closing",
+   "html": "<p>Preflight work does more than avoid a bad surprise, it also speeds up the real loan process once a candidate is identified, since the lender has already seen the property and flagged questions in advance rather than starting from a blank file. Given how fixed the 180-day deadline is, front-loading the lender relationship this way is one of the more reliable ways to protect the closing calendar from a late-stage underwriting delay.</p><p>Think of it the same way you'd think of a pre-inspection walkthrough before a scheduled shutdown: catching the problem in the walkthrough, while there's still time to plan around it, beats discovering it mid-shutdown when the crew is already standing there waiting on a decision.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What does lender preflight mean in a 1031 exchange context?",
+   "a": "It means sharing a candidate property with a lender for an informal read before it's formally identified, so any underwriting concerns surface early enough to still pick a different candidate if needed, rather than after the identification letter has already locked it in."
+  },
+  {
+   "q": "Why does an exchange need preflight more than a standard purchase?",
+   "a": "A standard purchase usually has a financing contingency that lets a buyer walk away. A 1031 exchange close to day 180 doesn't offer that same flexibility, since a failed purchase without a live backup candidate can mean losing the exchange."
+  },
+  {
+   "q": "How does seismic retrofit status affect lender preflight?",
+   "a": "Older buildings owing retrofit work often require a completed scope, a contractor bid, or a reserve account before a lender clears the loan. Raising this early leaves time to gather bids instead of discovering the requirement close to closing, when there's no time left to shop the work around."
+  },
+  {
+   "q": "Why is recovering retail treated differently by lenders?",
+   "a": "Lenders may apply a more conservative debt-service coverage calculation to a partially recovered rent roll, so preflighting the conversation clarifies how the loan file will actually treat the numbers rather than relying on a broker's proforma."
+  },
+  {
+   "q": "Should a backup candidate also go through lender preflight?",
+   "a": "Yes. Preflighting the backup in parallel with the primary candidate keeps a real option available if the lender raises an issue with the first choice close to the identification deadline, rather than leaving the backup as an untested name on paper."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 850
+}

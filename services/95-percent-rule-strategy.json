@@ -1,0 +1,58 @@
+{
+ "slug": "95-percent-rule-strategy",
+ "taxonomy": "services",
+ "title": "95% Rule Strategy",
+ "name": "95% Rule Strategy",
+ "metaTitle": "95% Rule Strategy for San Francisco 1031 Exchanges",
+ "metaDescription": "Applying the 95% identification rule when San Francisco's soft-story retrofit costs and thin rent-controlled inventory push a candidate list past the usual caps.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Anyone who has managed a soft-story retrofit knows that sometimes the safest plan is the one with the least margin for error, and the 95% rule works on a similar principle. It lets an investor identify an unlimited number of replacement candidates, with no value cap at all, provided they end up actually acquiring at least 95% of the total value identified. It's rarely the first choice, but in a San Francisco market where retrofit-compliant multifamily inventory runs thin, it sometimes becomes the only rule that fits the situation.</p>"
+  },
+  {
+   "heading": "Why This Rule Gets Used at All",
+   "html": "<p>Most exchanges run comfortably inside the three-property rule or the 200% rule without ever needing the 95% option, since those two caps cover the great majority of situations. The 95% rule tends to surface when an investor has already identified more value than the 200% cap allows, often because the search for a genuinely qualifying property, one that's cleared seismic and soft-story retrofit requirements, kept turning up buildings only after the list had already grown long.</p><p>Choosing this path deliberately, rather than backing into it after a mistake on the 200% count, gives an investor a clearer picture of what has to close and by when.</p>"
+  },
+  {
+   "heading": "Why Soft-Story Compliance Shrinks the Candidate Pool Here",
+   "html": "<p>San Francisco's mandatory seismic retrofit ordinance has pushed a real share of older wood-frame multifamily buildings out of contention entirely, since a building still owing retrofit work carries cost and timeline risk that many investors would rather not inherit mid-exchange. That leaves a smaller pool of already-compliant buildings competing for attention, which is part of why identified value can run past 200% before an investor realizes the list has grown that large.</p><p>Confirming retrofit compliance status early for every candidate, rather than discovering it during due diligence, keeps the eventual acquisition math from resting on a building that turns out to carry six figures of unfinished retrofit work.</p>"
+  },
+  {
+   "heading": "The Acquisition Math Behind 95%",
+   "html": "<p>If ten properties are identified with a combined value of $10 million, the investor needs to close on at least $9.5 million of that total to satisfy the rule, and it doesn't matter whether that comes from one large building or several smaller ones. What matters is hitting the 95% threshold of what was actually identified, calculated against the full list, not against whatever eventually closes.</p><p>Falling short, even by a small margin, doesn't partially satisfy the rule. It fails the exchange for the shortfall, which is why investors using this path track the running acquisition percentage as closely as the closing calendar itself.</p>"
+  },
+  {
+   "heading": "95% Rule Working Checklist",
+   "html": "<ul><li>full candidate list valued and totaled with no cap applied</li><li>seismic and soft-story retrofit status confirmed for every listed building</li><li>running acquisition percentage tracked against the full identified total</li><li>qualified intermediary notified in writing that the 95% rule, not the 200% cap, governs the exchange</li><li>backup candidates prioritized by retrofit compliance, not price alone</li></ul>"
+  },
+  {
+   "heading": "Where This Strategy Tends to Break Down",
+   "html": "<p>The rule fails most often when an investor assumes a near-miss will count, closing on ninety percent of identified value and hoping that's close enough. It isn't, and there's no partial credit built into the requirement. Anyone choosing the 95% path in San Francisco should treat the acquisition target as fixed the same way the 45-day and 180-day deadlines are fixed, with no room to negotiate after the fact.</p><p>The other common failure point is letting one large candidate quietly slip out of contention late in the process, whether from a financing hiccup or a retrofit inspection that turns up more work than expected, without recalculating what remains achievable under the 95% threshold. Recomputing the running percentage every time a candidate's status changes, rather than only at the end, keeps the target realistic instead of aspirational.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How does the 95% rule differ from the three-property and 200% rules?",
+   "a": "It has no cap on the number of properties or their combined value, but the investor must acquire at least 95% of everything identified. The other two rules cap the list itself instead of requiring near-total acquisition, which makes the 95% rule better suited to a genuinely open-ended search."
+  },
+  {
+   "q": "Why does San Francisco see more 95% rule situations than other markets?",
+   "a": "Mandatory seismic and soft-story retrofit requirements have shrunk the pool of already-compliant multifamily buildings, which can push identified candidate value past the 200% cap before an investor notices."
+  },
+  {
+   "q": "What happens if an investor closes on 90% of identified value under this rule?",
+   "a": "The exchange fails for the shortfall since there is no partial credit. The 95% threshold is calculated against the full identified total, not against whatever eventually closes."
+  },
+  {
+   "q": "Should retrofit compliance be checked before or after a building is identified?",
+   "a": "Before, whenever possible. Confirming seismic and soft-story status early avoids discovering during due diligence that a candidate carries significant unfinished retrofit cost."
+  },
+  {
+   "q": "Is the 95% rule ever chosen deliberately rather than by accident?",
+   "a": "Yes. Some investors choose it upfront when they expect the search for compliant inventory to produce a long candidate list, giving them a clearer acquisition target from day one instead of backing into the rule after crossing the 200% cap. Deciding early also means the qualified intermediary and any lender involved know from the outset which rule governs the exchange, rather than learning midway through that the strategy has changed."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 854
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "qualified-intermediary-coordination",
+ "taxonomy": "services",
+ "title": "Qualified Intermediary Coordination",
+ "name": "Qualified Intermediary Coordination",
+ "metaTitle": "Qualified Intermediary Coordination for San Francisco 1031 Exchanges",
+ "metaDescription": "Qualified intermediary coordination for San Francisco 1031 exchanges, keeping funds out of the seller's hands through slow Financial District closings.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>You wouldn't hand a contractor the keys and the check on the same day without a signed scope of work, and a 1031 exchange runs on the same logic. The qualified intermediary holds the exchange proceeds between the sale of the relinquished property and the purchase of the replacement, and the seller never touches that money directly. Coordinating that handoff cleanly, especially against a Financial District or SoMa closing calendar that rarely moves at a predictable pace, is most of what this service actually is. It sounds like a paperwork exercise until the timeline slips and someone has to explain why.</p>"
+  },
+  {
+   "heading": "Why the Seller Can Never Touch the Funds",
+   "html": "<p>Constructive receipt is the rule that trips up otherwise careful investors: if the seller has the right to access or direct the exchange funds at any point, even briefly, the IRS can treat the exchange as if the money was received outright, and the tax deferral collapses. The qualified intermediary exists specifically to remove that access, holding funds in a segregated account under an exchange agreement rather than routing them through the seller's own accounts.</p><p>We set that agreement up before the relinquished property closes, not after, since a QI brought in late can't undo a closing that already routed funds the wrong way. That timing sounds like a formality until it's the reason an otherwise clean exchange gets disqualified.</p>"
+  },
+  {
+   "heading": "Coordinating the QI Against a Financial District or SoMa Timeline",
+   "html": "<p>Office closings in the Financial District and SoMa have been running slower than they used to, as lenders ask for more documentation before clearing a commitment letter. That slower pace doesn't change what the qualified intermediary needs on its end, but it does mean the QI, the title company, and the lender all need to be working from the same closing date rather than three separate estimates, or the fund transfer ends up as the last piece scrambling to catch up. We treat that alignment as an ongoing check-in through the closing process, not a single phone call at the start.</p>"
+  },
+  {
+   "heading": "What We Confirm Before Signing the Exchange Agreement",
+   "html": "<ul><li>QI's bonding, insurance, and fidelity coverage on the account holding the funds</li><li>segregated-account structure rather than commingled fund holding</li><li>exact fund-release conditions tied to the replacement property closing</li><li>identification and exchange deadlines calculated from the correct relinquished-sale closing date</li><li>backup instructions if a replacement purchase falls through inside the 45-day window</li><li>fee schedule and whether any charges are contingent on a successful closing</li></ul>"
+  },
+  {
+   "heading": "Where Qualified Intermediary Work Ends and Tax Advice Begins",
+   "html": "<p>The qualified intermediary role is administrative and procedural: holding funds, preparing exchange documents, and releasing money on schedule. It is not a substitute for advice from a tax advisor or CPA about whether a given exchange structure fits an investor's broader tax picture, and we're clear about that line rather than blurring it to seem more useful than the role actually is. An investor should always confirm the deferral strategy itself with their own advisor.</p>"
+  },
+  {
+   "heading": "Handling a Reverse or Improvement Exchange Structure",
+   "html": "<p>Some San Francisco replacement candidates only work as a reverse exchange, where the replacement property closes before the relinquished property sells, or as an improvement exchange, where exchange funds cover construction on the replacement. Both structures change how the qualified intermediary holds title and funds, and we confirm which structure applies before any documents get drafted, not partway through, since retrofitting a standard exchange agreement into either structure after the fact rarely goes cleanly.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why can't the seller hold the exchange funds directly between closings?",
+   "a": "Any right to access or direct the funds, even briefly, can trigger constructive receipt and collapse the tax deferral. The qualified intermediary holds the funds in a segregated account specifically to prevent that access."
+  },
+  {
+   "q": "When should a qualified intermediary be brought in relative to the relinquished property closing?",
+   "a": "Before that closing, not after. A QI added after the sale already closed can't correct a fund transfer that already routed money the wrong way."
+  },
+  {
+   "q": "Does a slower Financial District or SoMa office closing change what the qualified intermediary needs?",
+   "a": "Not what the QI needs procedurally, but it does mean the QI, title company, and lender need to be aligned on one closing date rather than working from separate estimates, since a mismatch is what causes last-minute scrambling."
+  },
+  {
+   "q": "Can a qualified intermediary give tax advice on whether an exchange makes sense?",
+   "a": "No. The QI role is administrative, holding funds and preparing exchange documents. Questions about how an exchange fits an investor's broader tax situation belong with a tax advisor or CPA."
+  },
+  {
+   "q": "How does a reverse exchange change the qualified intermediary's role?",
+   "a": "In a reverse exchange, the replacement property closes before the relinquished property sells, which changes how the QI holds title and funds. That structure needs to be confirmed before any exchange documents are drafted."
+  },
+  {
+   "q": "What should be checked on a qualified intermediary before signing an agreement with them?",
+   "a": "Bonding, insurance, and fidelity coverage on the account holding the funds, along with confirmation that the funds sit in a segregated account rather than commingled with other clients' exchange proceeds, and a clear fee schedule in writing."
+  },
+  {
+   "q": "Who typically receives the identification notice, the QI or the title company?",
+   "a": "Usually the qualified intermediary, since the QI is already a party to the exchange and that channel creates a clean, dated delivery record that's harder to dispute later than an email sent to a title officer."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 857
+}

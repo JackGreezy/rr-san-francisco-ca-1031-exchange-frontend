@@ -1,0 +1,62 @@
+{
+ "slug": "nnn-and-stnl-property-sourcing",
+ "taxonomy": "services",
+ "title": "NNN and STNL Property Sourcing",
+ "name": "NNN and STNL Property Sourcing",
+ "metaTitle": "NNN and STNL Property Sourcing for San Francisco 1031 Exchanges",
+ "metaDescription": "Triple-net and single-tenant net-lease sourcing for San Francisco 1031 exchanges, checking roof and structure clauses across Fremont, Hayward, and San Rafael candidates.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A net-lease deal gets sold on the promise of a landlord who never has to think about the building again, and that promise is only as good as the lease clause that actually assigns roof and structure responsibility. We read that clause the way a facilities manager would, because a tenant who stops paying rent doesn't stop needing a working roof, and a lease that quietly leaves structural repairs with the owner turns a hands-off asset into a maintenance obligation nobody budgeted for. That single line of lease language matters more to a 1031 buyer than almost anything else in the offering package.</p>"
+  },
+  {
+   "heading": "The Difference Between NNN on the Label and NNN in the Lease",
+   "html": "<p>Plenty of properties get marketed as triple-net when the actual lease carries a landlord-responsible roof and structure carve-out, capped reimbursements, or a base-year expense stop that shifts real cost back to the owner over time. We pull the lease itself rather than trusting the offering memorandum's summary, since that single clause determines whether the asset behaves the way a 1031 buyer expects it to for the next ten or fifteen years.</p><p>Single-tenant net-lease deals carry an added wrinkle: with only one tenant, there's no blended risk to smooth out a bad clause, so the review has to be thorough rather than a quick scan for the word triple-net. A single missed carve-out on a one-tenant building is a direct hit to net income, not a diluted one.</p>"
+  },
+  {
+   "heading": "Fremont and Hayward Are Where the Volume Actually Sits",
+   "html": "<p>Most of the net-lease and single-tenant inventory that trades in real volume across this region sits in Fremont and Hayward rather than in the city itself, where land constraints keep standalone net-lease product scarce. Both submarkets carry a mix of national credit tenants and regional operators, and the credit quality gap between the two matters more to long-term cash flow than the cap rate spread most listings lead with. A regional operator paying a slightly higher rent isn't automatically the stronger buy once that credit gap is priced in properly.</p>"
+  },
+  {
+   "heading": "Lease Items We Check Before a Property Reaches the List",
+   "html": "<ul><li>which party carries roof, structure, and parking-lot repair responsibility</li><li>whether expense reimbursement is a true pass-through or a base-year stop</li><li>tenant credit rating and financial reporting obligations under the lease</li><li>remaining primary term against the exchange holding horizon</li><li>renewal option pricing relative to current market rent</li><li>any co-tenancy or exclusive-use clauses that could affect re-leasing</li></ul>"
+  },
+  {
+   "heading": "San Rafael and Walnut Creek Candidates Trade on Different Fundamentals",
+   "html": "<p>A single-tenant property in San Rafael tends to trade on tenant credit and remaining lease term above almost everything else, since the North Bay market for that product is thinner and re-tenanting takes longer if a tenant vacates. Walnut Creek candidates more often compete on location within an established retail corridor, where a vacancy backfills faster but the rent achieved on re-lease can land below what the departing tenant was paying. Neither approach is wrong, but the underwriting emphasis needs to shift with the submarket rather than staying fixed on cap rate alone.</p>"
+  },
+  {
+   "heading": "Matching Lease Term to the Exchange Holding Period",
+   "html": "<p>A net-lease property with eighteen months left on the primary term is a different asset than one with twelve years remaining, even at an identical cap rate, and we weight that against how long the investor actually intends to hold the replacement property. That match gets confirmed before identification, not discovered afterward when a renewal decision is suddenly close at hand.</p><p>We also check whether a near-term renewal option is priced below current market, since a tenant that renews cheaply can quietly erode the return an investor was expecting for the balance of the hold.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What's the risk in trusting an offering memorandum's triple-net label?",
+   "a": "Some listed as triple-net actually leave roof and structure responsibility, or capped reimbursements, with the landlord. We pull the actual lease language rather than relying on the summary sheet."
+  },
+  {
+   "q": "Why do Fremont and Hayward carry more net-lease inventory than the city itself?",
+   "a": "Land constraints keep standalone single-tenant product scarce within San Francisco proper, so most of the volume that actually trades sits in these adjacent submarkets, where larger parcels made ground-up net-lease construction feasible in the first place."
+  },
+  {
+   "q": "How does tenant credit rating factor into single-tenant net-lease sourcing?",
+   "a": "With only one tenant, there's no blended risk across a rent roll to soften a credit downgrade, so tenant financial strength carries more weight in single-tenant deals than in most other asset classes."
+  },
+  {
+   "q": "Is a San Rafael single-tenant property riskier than one in Walnut Creek?",
+   "a": "Not inherently riskier, but different. The North Bay market re-tenants more slowly if a San Rafael tenant vacates, while a Walnut Creek vacancy in an established corridor tends to backfill faster, often at lower rent."
+  },
+  {
+   "q": "How much remaining lease term should a net-lease replacement property carry?",
+   "a": "That depends on the investor's intended hold period. A property with a short remaining primary term carries renewal risk that needs to be priced in, not treated the same as a property with a long remaining term at an identical cap rate."
+  },
+  {
+   "q": "What role does a co-tenancy clause play in a single-tenant net-lease deal?",
+   "a": "It matters most on properties located near other retail, since a co-tenancy clause can let the anchor tenant reduce rent or terminate early if a neighboring business closes, a risk that's easy to miss if the lease is only skimmed for its rent schedule."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 850
+}

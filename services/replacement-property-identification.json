@@ -1,0 +1,66 @@
+{
+ "slug": "replacement-property-identification",
+ "taxonomy": "services",
+ "title": "Replacement Property Identification",
+ "name": "Replacement Property Identification",
+ "metaTitle": "Replacement Property Identification for San Francisco 1031 Exchanges",
+ "metaDescription": "Replacement property identification support for San Francisco 1031 exchanges, drafting a clean 45-day notice across Financial District, SoMa, and Peninsula candidates.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The identification notice is a short document, but it's the one piece of paper the entire exchange stands or falls on, and it has to be right the first time. It needs to be in writing, signed, delivered to someone actually involved in the exchange, and it needs to describe each candidate property unambiguously, which usually means a legal description or a street address, not a listing number or a general area. Getting that one page wrong is the single most avoidable way an otherwise well-run exchange fails.</p>"
+  },
+  {
+   "heading": "What Counts as an Unambiguous Property Description",
+   "html": "<p>A street address is generally enough for a single-tenant building, but a multi-unit or partial-interest property needs more precision, down to the unit or the percentage interest being acquired. We draft the description language before the 45th day arrives rather than treating it as a formality to fill in at the last minute, since a vague description can invalidate an otherwise good identification.</p><p>A condominium interest or a tenancy-in-common share needs the specific ownership percentage spelled out, since a description that only names the building without that detail leaves room for dispute later.</p>"
+  },
+  {
+   "heading": "Building the List Across Financial District, SoMa, and the Peninsula",
+   "html": "<p>Most identification lists we build for San Francisco investors mix at least one office candidate from the Financial District or SoMa with a Peninsula alternative in Palo Alto or a similar submarket, since office repricing has made single-candidate lists riskier than they were a few cycles ago. Having a live backup candidate, not simply a name kept on file, matters more in this market than it did when office closings moved faster and more predictably.</p><p>We check in with each seller on the list at least weekly through the identification window, since a candidate that goes quiet for two weeks is a candidate that may no longer actually be available when it's needed.</p>"
+  },
+  {
+   "heading": "How the Identification Rules Actually Work",
+   "html": "<ul><li>three-property rule: identify up to three properties regardless of combined value</li><li>200 percent rule: identify more than three properties if their combined value stays under 200 percent of the relinquished property's value</li><li>95 percent rule: identify any number of properties if 95 percent of their combined value is actually acquired</li><li>identification must be delivered by midnight on day 45, with no extension for a late signature</li><li>a revocation must be delivered the same way as the original notice, in writing, before the deadline</li></ul>"
+  },
+  {
+   "heading": "Amending or Revoking a Notice Before Day 45",
+   "html": "<p>An investor can revise the identification list any number of times up to the deadline itself, adding or dropping candidates as new information comes in, as long as each change is delivered in writing before midnight on day 45. Once that deadline passes, the list is locked, which is why we treat the final review of the notice as a real checkpoint rather than something to rush through on the last afternoon.</p><p>We build in one final review session in the days before the deadline specifically to catch a description error or a candidate that's fallen through, since that's a far better time to find a problem than after the window closes.</p>"
+  },
+  {
+   "heading": "Where the Qualified Intermediary Fits Into Delivery",
+   "html": "<p>The notice typically gets delivered to the qualified intermediary, since the QI is already a party to the exchange and the delivery requirement is satisfied cleanly through that channel. We coordinate the delivery timing directly with the QI so there's a clear, dated record of when the notice went out, rather than relying on an email that could get disputed later. That dated record matters if the identification ever gets questioned down the line.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What has to be included for a property description to count as unambiguous?",
+   "a": "A street address is usually enough for a single building, but a multi-unit or partial-interest property needs more precision, such as a legal description or the specific percentage interest being acquired."
+  },
+  {
+   "q": "Can the identification list be changed after it's first submitted?",
+   "a": "Yes, any number of times, as long as each revision is delivered in writing before midnight on day 45. Once that deadline passes, the list is locked and no further changes are allowed."
+  },
+  {
+   "q": "How many properties can be identified under the three-property rule?",
+   "a": "Up to three, regardless of their combined value. This is the most commonly used rule because it doesn't require any value calculation against the relinquished property."
+  },
+  {
+   "q": "When would an investor use the 200 percent rule instead of the three-property rule?",
+   "a": "When more than three candidates need to be listed, as long as their combined value stays under 200 percent of what the relinquished property sold for."
+  },
+  {
+   "q": "Who should the identification notice be delivered to?",
+   "a": "Typically the qualified intermediary, since the QI is already a party to the exchange and that channel creates a clear, dated delivery record rather than relying on an email that could be disputed later."
+  },
+  {
+   "q": "Does a property still need to be identified if it's under contract before day 45?",
+   "a": "Yes. Being under contract doesn't substitute for the formal identification notice, which still needs to be in writing, signed, and delivered by the deadline regardless of where the purchase negotiation stands."
+  },
+  {
+   "q": "What happens if the identification notice is delivered a day late?",
+   "a": "The identification fails outright. There is no grace period for a late notice, which is why we treat the delivery date as fixed and build in time to confirm receipt well before midnight on day 45."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 861
+}

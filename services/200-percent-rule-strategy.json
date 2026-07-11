@@ -1,0 +1,58 @@
+{
+ "slug": "200-percent-rule-strategy",
+ "taxonomy": "services",
+ "title": "200% Rule Strategy",
+ "name": "200% Rule Strategy",
+ "metaTitle": "200% Rule Strategy for San Francisco 1031 Exchanges",
+ "metaDescription": "Using the 200% identification rule to list multiple San Francisco multifamily candidates when rent-controlled asset pricing makes a three-property list too narrow.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>You know how a single-vendor bid can leave you exposed if that vendor falls through, which is basically the logic behind the 200% rule. Instead of naming three properties regardless of price, an investor can identify any number of candidates as long as their combined fair market value doesn't exceed 200% of what the relinquished property sold for. In a market like San Francisco, where rent-controlled multifamily pricing varies widely block to block, that flexibility often matters more than the three-property list ever would.</p>"
+  },
+  {
+   "heading": "Why the Three-Property List Falls Short Here",
+   "html": "<p>Three names sounds like plenty until you're actually shopping rent-controlled buildings across the city, where unit mix, existing lease terms, and deferred maintenance can swing value by a wide margin building to building. Narrowing to three candidates early sometimes forces an investor to drop a genuinely good building simply because it was the fourth one found, not because it was weaker on the numbers.</p><p>The 200% rule lets you keep a longer list live through the 45-day window, provided the combined value stays under the cap, which gives more room to keep evaluating as new information comes in on each candidate.</p>"
+  },
+  {
+   "heading": "Reading Rent-Controlled Buildings Like a Tenant File, Beyond the Rent Roll",
+   "html": "<p>Anyone who has managed a rent-controlled property knows the rent roll alone doesn't tell the story. Below-market long-term tenants, pending buyout negotiations, and units under active petition all change what a building is actually worth to operate, separate from what the listing price suggests. Pulling tenant files early, rather than after the identification letter is filed, helps rank candidates by real operating condition instead of asking price alone.</p><p>This matters for staying under the 200% cap too, since fair market value for identification purposes should reflect the building as it actually sits, tenants and all, not a hypothetical vacant version of it.</p>"
+  },
+  {
+   "heading": "Sizing the Combined List Against the Relinquished Sale",
+   "html": "<p>The math itself is simple, add up the fair market value of every identified property and keep the total at or under twice the relinquished property's sale price, but the discipline is in not overreaching. Listing too many aspirational properties just to keep options open can push the combined total over the cap without anyone noticing until it's flagged, which invalidates the whole list rather than just the excess entries.</p><p>A running total, updated every time a candidate is added or dropped, keeps the list honest through the full 45 days instead of becoming a surprise on day 44. This is worth treating the same way you'd treat a running budget on a multi-building capital plan, checked on a fixed schedule rather than reconstructed from memory whenever a broker calls with a new listing.</p><p>Assigning one person to own the running total, rather than leaving it to whoever last pulled comps, avoids the situation where two people each believe the other is tracking the number and neither actually is.</p>"
+  },
+  {
+   "heading": "Coordinating Building Walkthroughs Across Multiple Candidates",
+   "html": "<ul><li>rent roll and active petitions pulled for every candidate before ranking</li><li>combined fair market value tracked in real time against the 200% cap</li><li>walkthroughs scheduled to prioritize buildings with the least deferred maintenance first</li><li>vendor and management-transition notes taken during each walkthrough, not after</li><li>backup candidates kept genuinely live rather than listed only for cap headroom</li></ul>"
+  },
+  {
+   "heading": "Where the 95% Rule Comes Back Into Play",
+   "html": "<p>If the combined value of everything identified ends up exceeding 200% at any point during the window, the investor falls back to the 95% rule, requiring the acquisition of at least 95% of the total value identified. That's a much harder standard to hit than staying under the cap in the first place, so most San Francisco investors treat the 200% ceiling as the one number worth watching daily through the identification period.</p><p>Some investors deliberately keep a small buffer under the 200% line, rather than running the list right up to the edge, since a comp adjustment on one candidate late in the window can push the total over before there's time to drop a name from the list.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How is the 200% rule different from the three-property rule?",
+   "a": "The three-property rule caps the list at three names regardless of value. The 200% rule allows any number of candidates as long as their combined fair market value doesn't exceed twice the sale price of the relinquished property."
+  },
+  {
+   "q": "Why does the 200% rule suit San Francisco multifamily better than a three-property list?",
+   "a": "Rent-controlled building values vary widely based on tenant mix, lease terms, and pending petitions, so a longer candidate list captures options a strict three-property cap would force an investor to drop early."
+  },
+  {
+   "q": "What happens if the combined identified value goes over 200%?",
+   "a": "The investor falls back to the 95% rule, which requires acquiring at least 95% of everything identified. That standard is harder to meet, so most investors track the running total daily rather than risk crossing the cap."
+  },
+  {
+   "q": "Should fair market value reflect a building's current tenant situation?",
+   "a": "Yes. Rent-controlled buildings should be valued as they actually sit, with existing leases and any pending petitions factored in, rather than as a hypothetical vacant property."
+  },
+  {
+   "q": "How many candidates should realistically go on a 200% list?",
+   "a": "Enough to stay flexible without padding the list past what the cap allows. Listing aspirational properties just to keep options open can push the combined total over 200% without anyone catching it until it's too late."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 855
+}

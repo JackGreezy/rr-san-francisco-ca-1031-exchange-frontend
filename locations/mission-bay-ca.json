@@ -1,0 +1,58 @@
+{
+ "slug": "mission-bay-ca",
+ "taxonomy": "locations",
+ "title": "Mission Bay",
+ "name": "Mission Bay",
+ "metaTitle": "1031 Exchange Advisory in Mission Bay, CA",
+ "metaDescription": "1031 exchange advisory for Mission Bay life-science and lab office owners, covering redundant power, commissioning timelines, and UCSF-driven tenant demand.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Mission Bay is one of the few San Francisco submarkets built almost entirely after 2000, and that changes the diligence conversation from what most facilities managers are used to elsewhere in the city. Instead of asking how much longer an aging boiler plant will last, the question here is usually whether a lab building's mechanical systems were commissioned to the specification a life-science tenant actually needs.</p>"
+  },
+  {
+   "heading": "A Lab-and-Office Hybrid Market Built on UCSF Proximity",
+   "html": "<p>The UCSF Mission Bay campus anchors demand for the neighborhood's lab and research office stock, and tenants ranging from early-stage biotech firms to larger pharmaceutical satellite offices lease space here specifically because of proximity to that research base. Chase Center adds a separate layer of event-driven retail and hospitality demand along the waterfront, but the core commercial identity of Mission Bay is lab and life-science office, not conventional Class A space.</p><p>A buyer coming from a standard office background should expect underwriting questions here that a leasing broker alone may not be equipped to answer, which is why we push clients to loop in the building's facilities engineer early rather than relying only on the marketing package.</p>"
+  },
+  {
+   "heading": "The Mechanical Questions That Actually Matter in a Lab Building",
+   "html": "<p>Before recommending a Mission Bay lab or research-office candidate, we ask for direct answers on:</p><ul><li>redundant emergency power capacity serving freezers, incubators, and other equipment that cannot tolerate downtime</li><li>fume hood and lab exhaust system age and remaining service life</li><li>floor-to-floor height and structural capacity for heavier lab equipment</li><li>vibration control specifications where sensitive instrumentation is in use</li><li>backup generator fuel contracts and testing schedules</li></ul><p>A building that looks identical to a standard office tower from the street can carry a completely different mechanical cost structure once these systems are priced out.</p>"
+  },
+  {
+   "heading": "Why Tenant Coordination Runs Longer Here Than Almost Anywhere Else in the City",
+   "html": "<p>A biotech tenant moving into or out of Mission Bay space does not operate on the same timeline as an office tenant. Lab decommissioning, equipment removal, and new tenant commissioning can each take months, and a facilities manager who has run one of these transitions before knows that the real downtime clock starts well before the lease technically ends. An exchange buyer working against a 45-day identification window should ask directly how long the building's last lab turnover actually took, not how long the lease documents say it should take.</p><p>We treat that conversation as essential rather than optional, because underwriting a Mission Bay lab building on a standard office turnaround assumption is one of the more common mistakes we see investors bring to us after the fact.</p>"
+  },
+  {
+   "heading": "Chase Center's Effect on Ground-Floor and Waterfront Retail",
+   "html": "<p>Retail and hospitality space near Chase Center trades on event-day demand more than daily walk-in traffic, and an investor evaluating that category should ask for a full year of performance data that captures both event nights and the quieter stretches between them. A facilities manager overseeing a mixed-use building near the arena also needs to plan routine maintenance and any construction access around the event calendar, since street closures on game or concert nights can shut down loading access for hours at a time.</p>"
+  },
+  {
+   "heading": "Sizing the Real Capital Commitment on Newer Mission Bay Stock",
+   "html": "<p>Even though most Mission Bay buildings are relatively young by San Francisco standards, lab-grade mechanical systems depreciate faster and cost more to replace than standard office HVAC, and a buyer should budget accordingly rather than assume newer construction means lower near-term capital needs. Insurance underwriting for lab and life-science space also asks different questions than standard office coverage, particularly around hazardous materials handling, and that quote should be obtained directly before an identification is finalized.</p><p>A facilities manager who has priced out a redundant power upgrade or a fume hood replacement in this submarket can usually give a more realistic capital number than a standard commercial appraisal, since general appraisers rarely have direct experience with lab-specific systems. We recommend a buyer bring that person into the diligence conversation well before the 45-day identification deadline, rather than treating the facilities review as a closing-week formality.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Is Mission Bay commercial real estate mostly office or lab space?",
+   "a": "It is a hybrid, with a meaningful share of buildings built or converted specifically for life-science and lab use alongside conventional office. UCSF's Mission Bay campus is the primary demand driver for the lab component."
+  },
+  {
+   "q": "Why does lab tenant turnover take longer than office turnover in Mission Bay?",
+   "a": "Decommissioning specialized lab equipment and commissioning new systems for an incoming tenant both take real time, often months rather than weeks. Ask the current facilities manager how long the building's last turnover actually took."
+  },
+  {
+   "q": "What mechanical systems should be checked before identifying a Mission Bay lab building?",
+   "a": "Redundant emergency power for equipment that cannot lose power, fume hood and exhaust system age, floor loading capacity, and generator fuel and testing arrangements. These differ meaningfully from a standard office mechanical checklist."
+  },
+  {
+   "q": "How does Chase Center affect nearby retail and hospitality property?",
+   "a": "Performance is driven heavily by event nights rather than steady daily traffic, so a full year of data covering both event and non-event periods gives a more honest underwriting picture than a short snapshot."
+  },
+  {
+   "q": "Can 1031 Exchange San Francisco confirm my Mission Bay property qualifies for exchange treatment?",
+   "a": "No. We coordinate planning, property identification, and communication among an investor's advisors. Qualification is determined by the investor's CPA, tax attorney, and qualified intermediary."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 852
+}

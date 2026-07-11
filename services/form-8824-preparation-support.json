@@ -1,0 +1,58 @@
+{
+ "slug": "form-8824-preparation-support",
+ "taxonomy": "services",
+ "title": "Form 8824 Preparation Support",
+ "name": "Form 8824 Preparation Support",
+ "metaTitle": "Form 8824 Preparation Support for San Francisco 1031 Exchanges",
+ "metaDescription": "Organizing the records a San Francisco 1031 exchange needs for Form 8824, including Prop 13 basis history and transfer tax paid, before filing season pressure hits.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Filling out a punch list after a capital project only works if the records from the project itself were kept in order along the way, and Form 8824 is no different. It's the IRS form that reports a like-kind exchange, reconciling the relinquished property's basis against the replacement property's cost and any boot involved, and it depends entirely on numbers that should have been tracked from the day the exchange started, not reconstructed the week before filing.</p>"
+  },
+  {
+   "heading": "What Form 8824 Actually Requires",
+   "html": "<p>The form asks for a description of both properties, the dates each was transferred and received, the fair market values involved, and a calculation of realized and recognized gain, along with the new basis in the replacement property. None of that is guesswork. It comes directly from the closing statements, the exchange agreement, and whatever the qualified intermediary's final accounting shows once the exchange is complete.</p><p>The investor's tax advisor is the one who ultimately prepares and files the form, but they can only work as fast as the records arrive, and complete records handed over early make for a cleaner filing than a partial set assembled under deadline pressure.</p>"
+  },
+  {
+   "heading": "Why Prop 13 Basis History Complicates the Numbers Here",
+   "html": "<p>Many San Francisco properties held for years carry a Prop 13 assessed value that has little to do with the actual adjusted tax basis used on Form 8824, which is built instead from original purchase price, capital improvements, and depreciation taken over the holding period. Pulling together that full basis history, especially for a property with multiple past capital projects, takes real lead time if records were filed inconsistently across different ownership years.</p><p>Assembling this basis file as soon as the relinquished property goes under contract, rather than waiting until the exchange closes, gives the tax advisor a complete picture well before the form is due.</p>"
+  },
+  {
+   "heading": "Transfer Tax and Closing Costs on the Reconciliation",
+   "html": "<p>San Francisco's transfer tax, along with other closing costs from both the sale and purchase sides, factors into the final basis and gain calculation, and some of these costs qualify as exchange expenses while others don't. Sorting qualifying from non-qualifying costs at the time of closing, with the closing statements in hand, prevents a scramble later to reconstruct which fees affected the exchange and which were simply transaction costs outside it.</p>"
+  },
+  {
+   "heading": "Form 8824 Preparation Checklist",
+   "html": "<ul><li>adjusted basis history assembled from original purchase, improvements, and depreciation records</li><li>closing statements from both the sale and purchase gathered and reconciled</li><li>San Francisco transfer tax and other closing costs sorted by exchange-qualifying status</li><li>qualified intermediary's final accounting statement obtained after the exchange closes</li><li>complete file delivered to the tax advisor well ahead of the filing deadline</li></ul>"
+  },
+  {
+   "heading": "Why Early Delivery Beats a Perfect Last-Minute File",
+   "html": "<p>A tax advisor working from a complete but early file can ask clarifying questions and catch discrepancies with time to resolve them. The same advisor working from a technically complete file delivered two days before a deadline has no room to do either, and errors on Form 8824 can draw exactly the kind of scrutiny an investor filed the exchange correctly to avoid in the first place.</p><p>Building the habit of assembling this file continuously through the exchange, rather than treating it as a single task after closing, spreads the work out over months instead of compressing it into a stressful week before a filing deadline. It also means smaller discrepancies, like a mismatched closing cost figure between two statements, get caught while the transaction is still fresh rather than months later when nobody remembers the reasoning behind a number.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What information does Form 8824 require from the exchange?",
+   "a": "A description of both properties, transfer and receipt dates, fair market values, and calculations of realized and recognized gain along with the new basis in the replacement property, all sourced from closing statements and the intermediary's final accounting statement rather than estimated after the fact."
+  },
+  {
+   "q": "Why is Prop 13 assessed value not the same as the basis used on Form 8824?",
+   "a": "Prop 13 assessed value is used for property tax purposes and often understates the property's actual worth. The adjusted tax basis for Form 8824 is built from original purchase price, capital improvements, and depreciation, which is a separate calculation entirely."
+  },
+  {
+   "q": "Who actually prepares and files Form 8824?",
+   "a": "The investor's tax advisor prepares and files it, but the advisor depends on complete records from the exchange being delivered in time to review them properly rather than rushed at the deadline with no room to ask follow-up questions or verify a figure against the original closing statement."
+  },
+  {
+   "q": "Does San Francisco transfer tax affect the Form 8824 calculation?",
+   "a": "It can, along with other closing costs, depending on whether a given cost qualifies as an exchange expense. Sorting these at closing, rather than reconstructing them later, keeps the reconciliation accurate and saves the tax advisor from guessing which fees belong where months after the transaction has closed."
+  },
+  {
+   "q": "When should basis history records be gathered?",
+   "a": "As soon as the relinquished property goes under contract, rather than after the exchange closes. This gives the tax advisor time to work through multiple years of capital improvement and depreciation records if the property changed hands or was renovated over time, and to ask for anything missing while the original contractors or property managers can still be reached."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 850
+}

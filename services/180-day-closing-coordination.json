@@ -1,0 +1,58 @@
+{
+ "slug": "180-day-closing-coordination",
+ "taxonomy": "services",
+ "title": "180-Day Closing Coordination",
+ "name": "180-Day Closing Coordination",
+ "metaTitle": "180-Day Closing Coordination for San Francisco 1031 Exchanges",
+ "metaDescription": "Closing-calendar coordination for San Francisco investors trading office assets through a fixed 180-day exchange window, built around FiDi and SoMa lender timelines.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>You already run a building calendar for a living, so the 180-day exchange period will feel familiar in shape even if the stakes are different: one fixed date, no extensions, and a dozen moving parts that all have to land before it. In San Francisco right now, the part that trips people up is the office side of the ledger. Lenders underwriting FiDi and SoMa office purchases are pricing in vacancy risk more carefully than they were a few years back, and that caution shows up as extra weeks in the loan file, not as a phone call telling you the deadline moved.</p>"
+  },
+  {
+   "heading": "Building the Calendar Like You'd Build a Shutdown Schedule",
+   "html": "<p>Treat day 180 the way you'd treat a hard cutover date for a building system replacement: work backward from it, not forward from the closing of the relinquished property. Once you know the fixed date, you can lay in appraisal, inspection, loan committee, and title milestones with buffer built into each one, the same way you'd stage a chiller swap around a weekend to protect tenants from downtime.</p><p>The investors who get surprised are the ones who track progress instead of the date itself, checking off tasks without asking how many calendar days are actually left. A calendar anchored to day 180, reviewed weekly, catches slippage while there's still time to do something about it.</p>"
+  },
+  {
+   "heading": "Why FiDi and SoMa Office Deals Run Slower Right Now",
+   "html": "<p>Office repricing across the Financial District and SoMa has made lenders more deliberate. Loan committees are asking for updated rent rolls, tenant financial checks, and sometimes a second appraisal before they'll clear a commitment letter, and each of those steps adds days that weren't part of the process a few cycles ago. If your replacement property sits in either submarket, build in the extra lead time rather than assuming the closing will move at the pace of a cleaner asset class.</p><p>The qualified intermediary holds the exchange funds throughout, and you never touch them directly, but that doesn't slow down a slow lender. Coordinate early so the loan file and the exchange documents move on parallel tracks instead of one waiting on the other.</p>"
+  },
+  {
+   "heading": "Keeping Tenants Steady Through the Transition",
+   "html": "<p>Whoever is running the building day to day, whether that's you or a manager you'll hand things to, needs a heads-up on the closing timeline well before the date itself. A change of ownership that catches tenants off guard, especially tech tenants already skittish about lease commitments in this market, tends to generate calls to the front office that could have been headed off with a two-line notice. Coordinate the tenant letter with the closing date so it goes out once things are actually certain, not before.</p><p>Vendor contracts, service agreements, and building access credentials all need a clean handoff point too. Building that transition plan alongside the closing calendar, rather than after closing wraps, keeps operations from stalling out in the first week of new ownership.</p>"
+  },
+  {
+   "heading": "180-Day Closing Coordination Checklist",
+   "html": "<ul><li>calendar built backward from the fixed day-180 date, not forward from the sale</li><li>lender timeline confirmed against FiDi or SoMa underwriting norms, not a generic estimate</li><li>qualified intermediary and title company aligned on fund routing before documents are drafted</li><li>tenant notice drafted and timed to the confirmed closing date</li><li>vendor and access-credential handoff plan in place before the walkthrough</li></ul>"
+  },
+  {
+   "heading": "What a Missed Deadline Actually Costs",
+   "html": "<p>If the replacement purchase doesn't close by day 180, there's no grace period, no committee that grants an extension, and no argument based on a slow appraiser. The exchange fails for whatever didn't close, and the held funds become taxable in that tax year. San Francisco's slower office closings make this a real risk, not a theoretical one, so the backup candidate from the identification list needs to be a live option, not a name kept on file for appearances.</p><p>The same logic applies to the operational side of the handoff. A closing that slips past day 180 doesn't just cost tax deferral, it also leaves whoever runs the building in limbo, uncertain which vendor contracts are still active and which tenant notices should have already gone out. Keeping the closing calendar and the transition plan tied together, rather than treating them as separate workstreams, means a deadline slip shows up on both at once instead of catching the operational side by surprise later.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why are San Francisco office closings taking longer to reach day 180?",
+   "a": "Lenders are underwriting FiDi and SoMa office purchases with more caution given current vacancy trends, which adds appraisal, loan committee, and documentation steps that weren't standard a few years ago. Building extra lead time into the closing calendar accounts for that."
+  },
+  {
+   "q": "Does the 180-day clock reset once the identification letter is filed?",
+   "a": "No. Both the 45-day and 180-day periods run from the same starting point, the closing of the relinquished property, so filing the letter on day 45 leaves the remaining balance of the original 180 days, not a fresh count."
+  },
+  {
+   "q": "How should tenant notice be handled during a closing transition?",
+   "a": "Time the tenant letter to the confirmed closing date rather than sending it early on uncertain information. Tech tenants in particular tend to react to ownership-change rumors, so a clear, accurate notice at the right moment heads off unnecessary calls."
+  },
+  {
+   "q": "What happens if the replacement purchase misses the 180-day deadline?",
+   "a": "The exchange fails for the portion that didn't close, and the funds still held by the qualified intermediary become taxable. There is no extension for a slow lender or a delayed appraisal."
+  },
+  {
+   "q": "Should vendor contracts be addressed before or after closing?",
+   "a": "Before, if possible. Building a handoff plan for service agreements and access credentials alongside the closing calendar avoids a gap in building operations during the first week under new ownership."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 926
+}

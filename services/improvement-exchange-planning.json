@@ -1,0 +1,58 @@
+{
+ "slug": "improvement-exchange-planning",
+ "taxonomy": "services",
+ "title": "Improvement Exchange Planning",
+ "name": "Improvement Exchange Planning",
+ "metaTitle": "Improvement Exchange Planning for San Francisco 1031 Exchanges",
+ "metaDescription": "Structuring a San Francisco improvement exchange so seismic retrofit work and unit upgrades on a rent-controlled building count toward exchange value in time.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>An improvement exchange lets an investor use exchange funds to buy a replacement property and fund construction or capital improvements on it, with the increased value from that work counting toward satisfying the exchange, as long as the improvements are complete and titled correctly before day 180. For a San Francisco owner replacing into an older rent-controlled building that still owes seismic retrofit work, this structure can turn a mandatory compliance project into part of the exchange itself rather than a separate cost absorbed afterward.</p><p>It takes more coordination than a straightforward purchase, since construction timelines are inherently less predictable than a closing calendar, but the payoff is meaningful for anyone facing a large retrofit bill on the way in anyway.</p>"
+  },
+  {
+   "heading": "How the Timeline Actually Works",
+   "html": "<p>The replacement property is typically acquired first by an exchange accommodation titleholder, who holds title while the qualified intermediary directs exchange funds toward the improvement work. The investor takes title to the improved property once construction wraps, but that has to happen before day 180, meaning the full scope, permitting, and construction schedule has to be planned with the exchange deadline in mind from the very start, not treated as a normal renovation timeline that happens to overlap the exchange.</p><p>Only improvements actually completed and reflected in the property before day 180 count toward exchange value. Work still in progress at the deadline doesn't count, even if it's fully funded and contracted.</p>"
+  },
+  {
+   "heading": "Why Soft-Story Retrofit Work Fits This Structure Well",
+   "html": "<p>San Francisco's mandatory retrofit ordinance means a share of older multifamily buildings coming to market still owe seismic upgrades, and buyers often factor that looming cost into their offer price. Structuring the purchase as an improvement exchange lets the retrofit scope get funded and completed using exchange dollars during the 180-day window, rather than as an out-of-pocket cost the new owner absorbs after closing on an already-compliant, presumably pricier building.</p><p>This only works if the retrofit contractor's schedule realistically fits inside the remaining exchange window, which is a tighter constraint than a typical capital project timeline where a few weeks of slip barely registers.</p>"
+  },
+  {
+   "heading": "Coordinating Tenant Impact During the Work",
+   "html": "<p>Retrofit and unit upgrade work on an occupied rent-controlled building means real tenant disruption, from noise and access restrictions to, in some cases, temporary relocation for individual units. Building a tenant communication plan alongside the construction schedule, not as an afterthought once permits are pulled, keeps the project moving without triggering complaints that slow down inspections or final sign-off, both of which matter for hitting the 180-day deadline.</p>"
+  },
+  {
+   "heading": "Improvement Exchange Planning Checklist",
+   "html": "<ul><li>construction and permitting timeline confirmed to finish well before day 180, with buffer built in</li><li>exchange accommodation titleholder arrangement documented before acquisition</li><li>retrofit or improvement scope priced and contracted before funds are committed</li><li>tenant communication plan built alongside the construction schedule</li><li>final inspection and title transfer scheduled with margin before the deadline</li></ul>"
+  },
+  {
+   "heading": "What Happens If Construction Runs Long",
+   "html": "<p>If the improvements aren't complete and title hasn't transferred by day 180, only the value that exists at that point counts toward the exchange, and any remaining planned work becomes a post-exchange cost paid outside the tax-deferred structure. Given how much can shift in a construction schedule, especially retrofit work on an occupied building with tenants to work around, building real buffer into the improvement exchange timeline matters more here than in a straightforward purchase-only exchange.</p><p>A useful discipline is picking a target completion date well before day 180, treating that earlier date as the real deadline for planning purposes, and reserving the final stretch of the window as contingency rather than as part of the working schedule. Contractors and inspectors both tend to find a way to fill whatever time they're given, so building the plan around an artificially earlier finish line tends to produce a more realistic outcome than planning to the actual deadline itself.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is an improvement exchange, in plain terms?",
+   "a": "It lets exchange funds be used to construct or improve the replacement property, with the added value counting toward the exchange requirement, as long as the improvements are complete and title has transferred by day 180, not merely scheduled, contracted, or in progress."
+  },
+  {
+   "q": "Why is an improvement exchange useful for San Francisco retrofit-pending buildings?",
+   "a": "It allows seismic retrofit work to be funded and completed with exchange dollars during the 180-day window, rather than becoming an out-of-pocket cost the new owner pays after closing on an already-upgraded, likely more expensive building priced by a competing buyer pool."
+  },
+  {
+   "q": "What happens if the improvement work isn't finished by day 180?",
+   "a": "Only the value that exists at that point counts toward the exchange. Any incomplete work becomes a separate post-exchange cost, paid outside the tax-deferred structure."
+  },
+  {
+   "q": "Who holds title to the property while improvements are being made?",
+   "a": "An exchange accommodation titleholder typically holds title during construction, with the investor taking title once the improvements are complete and reflected in the property, before the 180-day deadline arrives and closes out the exchange."
+  },
+  {
+   "q": "How should tenant disruption be handled during retrofit work under this structure?",
+   "a": "A tenant communication plan should be built alongside the construction schedule from the start, since unresolved tenant complaints can slow inspections and sign-off, both of which are time-sensitive under the 180-day deadline. Clear notice of access restrictions and expected noise windows, sent before work begins rather than the day it starts, tends to head off the complaints that otherwise slow a project down and delay the final inspection needed to close out the exchange."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 885
+}

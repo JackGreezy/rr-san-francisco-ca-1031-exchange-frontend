@@ -1,0 +1,66 @@
+{
+ "slug": "self-storage-replacement-sourcing",
+ "taxonomy": "services",
+ "title": "Self-Storage Replacement Sourcing",
+ "name": "Self-Storage Replacement Sourcing",
+ "metaTitle": "Self-Storage Replacement Sourcing for San Francisco 1031 Exchanges",
+ "metaDescription": "Self-storage replacement sourcing for San Francisco 1031 exchanges, checking gate systems and climate-control units across Hayward and Fremont facilities.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Self-storage looks like the low-maintenance asset class on paper, month-to-month tenants and no build-out to negotiate, but the facilities that actually run clean depend on a gate system and a climate-control plant that nobody notices until they fail. We check those systems directly rather than taking a strong occupancy number as proof the building is in good shape. A facility that looks hands-off in a listing packet can still hand a new owner a deferred repair bill in the first quarter.</p>"
+  },
+  {
+   "heading": "Why Occupancy Alone Doesn't Tell the Real Story",
+   "html": "<p>A facility can post a high occupancy rate while quietly discounting existing tenants to keep them from leaving, which shows up as flat or declining revenue per square foot even as the occupancy line looks strong. We ask for revenue per square foot alongside the raw occupancy number, since the two can diverge in exactly the direction a seller would rather not highlight. A facility that looks fully leased on paper can still be earning meaningfully less than it did two years ago once discounting is factored in.</p>"
+  },
+  {
+   "heading": "Hayward and Fremont Carry Most of the Region's Storage Inventory",
+   "html": "<p>Standalone self-storage development inside the city itself is limited by land cost and zoning, so most of the facilities that actually trade sit in Hayward and Fremont, where larger parcels made ground-up construction feasible over the past two decades. Both submarkets carry a mix of older, single-story facilities and newer climate-controlled multi-story product, and the two age profiles carry very different capital expenditure pictures going forward.</p><p>An older single-story facility can still be the better buy if its roof and unit doors have been kept up, but that has to be confirmed directly rather than assumed from the building's age alone.</p>"
+  },
+  {
+   "heading": "Building Systems We Check Before a Facility Reaches the List",
+   "html": "<ul><li>gate and access-control system age, uptime history, and any recorded security incidents</li><li>climate-control unit condition and run-time load, especially in converted industrial buildings</li><li>fire suppression and life-safety system inspection records</li><li>drive-aisle and roll-up door condition across the unit mix</li><li>revenue per square foot trend against the raw occupancy figure</li></ul>"
+  },
+  {
+   "heading": "South San Francisco and San Rafael Fill a Different Niche",
+   "html": "<p>Facilities in South San Francisco tend to draw on overflow demand from denser residential buildings nearby with limited in-unit storage, while San Rafael's smaller facilities serve a more local, less transient customer base with longer average tenancy. Neither is inherently the stronger asset, but the demand driver behind each one changes how we underwrite rent growth and turnover assumptions.</p><p>A South San Francisco facility near dense multifamily housing tends to see faster unit turnover with steadier demand, while a San Rafael facility's longer average tenancy means slower turnover but also less marketing spend to keep units filled.</p>"
+  },
+  {
+   "heading": "Matching a Storage Facility to the Exchange Timeline",
+   "html": "<p>Self-storage due diligence tends to move faster than office or multifamily since there's no rent roll of long-term commercial leases to abstract, but the gate, climate-control, and life-safety review still needs to be complete before a facility goes on the identification list. We finish that review inside the 45-day window rather than treating storage as simple enough to skip the same level of scrutiny.</p><p>That faster diligence timeline is one reason self-storage often ends up as the reliable third candidate on an identification list alongside a slower-moving office or multifamily option.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why isn't a high occupancy rate enough to judge a self-storage facility?",
+   "a": "Occupancy can stay high through discounting existing tenants to prevent them from leaving, which shows up as flat or declining revenue per square foot. Checking both figures together reveals what the occupancy number alone can hide."
+  },
+  {
+   "q": "Why does most self-storage inventory sit in Hayward and Fremont rather than the city itself?",
+   "a": "Land cost and zoning inside San Francisco limit standalone storage development, so larger parcels in Hayward and Fremont made ground-up construction feasible over the past two decades, and that's where most of the trading volume still sits."
+  },
+  {
+   "q": "What should be checked on a self-storage facility's gate system before identification?",
+   "a": "Age, uptime history, and whether there have been any recorded security incidents. A facility marketed as fully secured still needs that claim verified against actual system records rather than a general statement in the listing."
+  },
+  {
+   "q": "How does a converted industrial self-storage building differ in due diligence from a purpose-built one?",
+   "a": "Climate-control units in converted buildings need closer review of run-time load, since the original structure wasn't designed around the same cooling demand as a purpose-built facility and the equipment can end up working harder than its rated capacity suggests."
+  },
+  {
+   "q": "Does self-storage due diligence still need to finish inside the 45-day identification window?",
+   "a": "Yes. It typically moves faster than office or multifamily review since there's no complex commercial rent roll, but the gate, climate-control, and life-safety checks still need to be complete before a facility is identified."
+  },
+  {
+   "q": "Does a self-storage facility's tenant mix matter the way an office rent roll's tenant mix does?",
+   "a": "Less directly, since most tenants are individual month-to-month renters rather than commercial lessees, but a facility that leans heavily on a handful of business tenants storing inventory carries different concentration risk than a fully residential customer base."
+  },
+  {
+   "q": "What should be checked on drive aisles and roll-up doors before identifying a facility?",
+   "a": "Condition across the full unit mix, rather than only a sample of ground-floor units, since deferred door and aisle maintenance tends to be uneven and can be masked in areas a quick walkthrough doesn't cover."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 857
+}

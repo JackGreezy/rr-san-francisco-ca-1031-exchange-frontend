@@ -1,0 +1,58 @@
+{
+ "slug": "industrial-property-identification",
+ "taxonomy": "services",
+ "title": "Industrial Property Identification",
+ "name": "Industrial Property Identification",
+ "metaTitle": "Industrial Property Identification for San Francisco 1031 Exchanges",
+ "metaDescription": "Identifying industrial and flex replacement property as San Francisco office vacancy pushes 1031 investors toward South San Francisco and Peninsula corridors.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>As office vacancy across the Financial District and SoMa has made that asset class a harder sell to lenders and a harder hold operationally, a real share of San Francisco 1031 investors have shifted their replacement search toward industrial and flex space instead, particularly along the South San Francisco and broader Peninsula corridor. It's a different kind of building to run day to day, fewer tenant-facing common areas, more dock doors and clear-height specs, but the operational logic is one a lot of former office landlords pick up quickly.</p><p>The identification process itself works the same as any other exchange, but the underlying diligence questions change enough that a candidate list built with office criteria in mind won't transfer cleanly to industrial property.</p>"
+  },
+  {
+   "heading": "Why Industrial Is Absorbing Office-Exit Capital",
+   "html": "<p>Industrial and flex product in South San Francisco, and further down the Peninsula toward Redwood City and Mountain View, has held demand from life-sciences and logistics tenants even as office leasing cooled, which makes it an appealing landing spot for exchange proceeds coming out of a downtown office sale. The tenant base tends to sign longer terms and require less frequent turnover buildout than an office floor, which appeals to investors who are tired of managing constant tenant improvement cycles.</p><p>That said, industrial buildings bring their own quirks, from truck court access to specialized power and ventilation needs for lab or light-manufacturing tenants, and identifying a candidate without walking those systems is a real gap in due diligence.</p>"
+  },
+  {
+   "heading": "Older San Francisco Industrial Stock and Retrofit Exposure",
+   "html": "<p>Investors staying within the city itself, rather than moving out to the Peninsula, will find a fair amount of older industrial and flex stock built well before current seismic standards, which means retrofit exposure is a real factor in identifying candidates here too, and it shows up across industrial stock the same way it does in multifamily. Confirming a building's seismic compliance status alongside its physical layout keeps a candidate from looking cheap on paper only because a retrofit obligation hasn't been priced into the numbers yet.</p>"
+  },
+  {
+   "heading": "What to Actually Walk Before Identifying",
+   "html": "<p>Loading dock condition, clear height, floor load capacity, and power service are the specs that determine whether a given tenant base can actually use the space, and none of them show up clearly on a standard listing sheet. Walking the building with these questions in hand, rather than relying on square footage and asking price alone, gives a much clearer read on which candidates are genuinely comparable to what was sold.</p><p>Talking with the current property manager, if one exists, about tenant turnover patterns and typical vacancy duration for the building type also fills in gaps a rent roll alone won't answer.</p>"
+  },
+  {
+   "heading": "Industrial Identification Checklist",
+   "html": "<ul><li>tenant base and lease terms confirmed for life-sciences, logistics, or light-industrial use</li><li>loading dock, clear height, floor load, and power service walked in person</li><li>seismic and retrofit compliance status confirmed for older San Francisco industrial stock</li><li>current property manager interviewed on turnover patterns and vacancy history</li><li>candidate compared against relinquished office property on operating complexity as well as price</li></ul>"
+  },
+  {
+   "heading": "Adjusting Expectations for a Different Kind of Landlord Job",
+   "html": "<p>Running an industrial building day to day is a different job than running an office floor, with fewer daily tenant interactions but more responsibility for structural and mechanical systems that support a tenant's actual operations. Investors coming from office ownership should walk into an industrial replacement expecting that shift rather than assuming the two asset types require the same management approach.</p><p>A tenant running lab equipment or a cold-storage line has a much lower tolerance for building system downtime than a typical office tenant does, since a mechanical failure can mean spoiled inventory or a halted process rather than just an uncomfortable afternoon. Understanding that tolerance before closing, not after the first service call, shapes how much reserve budget and vendor readiness a new owner should plan for from day one.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why are San Francisco office investors identifying industrial replacement property?",
+   "a": "Office vacancy in the Financial District and SoMa has made that asset class harder to lease and finance, while industrial and flex space in South San Francisco and the Peninsula has held steadier demand from life-sciences and logistics tenants, making it a more predictable landing spot for exchange proceeds."
+  },
+  {
+   "q": "What building specs matter most when identifying an industrial candidate?",
+   "a": "Loading dock condition, clear height, floor load capacity, and power service determine whether a target tenant base can actually use the space, and none of these show up clearly on a standard listing sheet or a broker's flyer."
+  },
+  {
+   "q": "Does seismic retrofit exposure apply to industrial buildings too?",
+   "a": "Yes, older industrial and flex stock within San Francisco itself can carry the same retrofit compliance questions as multifamily buildings, so confirming status early avoids underpricing that risk into a candidate before the identification letter locks it in."
+  },
+  {
+   "q": "Is managing an industrial property similar to managing an office building?",
+   "a": "Not quite. Industrial ownership involves fewer daily tenant interactions but more responsibility for structural and mechanical systems supporting tenant operations, which is a different day-to-day job than running an office floor and rewards a different set of instincts."
+  },
+  {
+   "q": "Should a property manager be consulted before identifying an industrial candidate?",
+   "a": "If one is available for the building, yes. They can speak to tenant turnover patterns and typical vacancy duration in ways a rent roll alone won't reveal, and they often know which building systems have been quietly propped up rather than properly repaired over the years."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 880
+}

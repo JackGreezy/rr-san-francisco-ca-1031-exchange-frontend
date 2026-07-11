@@ -1,0 +1,58 @@
+{
+ "slug": "dst-placement-coordination",
+ "taxonomy": "services",
+ "title": "DST Placement Coordination",
+ "name": "DST Placement Coordination",
+ "metaTitle": "DST Placement Coordination for San Francisco 1031 Exchanges",
+ "metaDescription": "Coordinating a Delaware Statutory Trust placement for San Francisco owners ready to trade active building management for passive fractional ownership.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>There's a point in a lot of owner-operators' careers where the idea of another 2 a.m. call about a burst pipe or a tripped alarm stops being worth the equity growth, and a Delaware Statutory Trust exists for exactly that moment. A DST lets an investor place exchange proceeds into a fractional, passive ownership interest in institutional-grade real estate, without the tenant calls, vendor management, or building operations that come with owning a San Francisco property directly.</p>"
+  },
+  {
+   "heading": "What Prop 13 and San Francisco Transfer Tax Have to Do With This",
+   "html": "<p>Long-held San Francisco properties often carry a Prop 13 assessed value well below current market value, which means a sale can trigger a larger gain than the owner expects when comparing sale price to that old assessed basis. San Francisco's transfer tax, which scales with sale price and runs meaningfully higher than most California cities at the upper brackets, adds another cost layer on the way out. A DST placement doesn't change either of those numbers, but it gives an owner facing a large gain a way to keep the full amount working in real estate without taking on another building to manage.</p><p>Coordinating the exchange so it accounts for both the Prop 13 basis gap and the transfer tax due at sale keeps the eventual reinvestment number accurate instead of optimistic.</p>"
+  },
+  {
+   "heading": "Trading Building Downtime for a Sponsor's Downtime",
+   "html": "<p>The tradeoff with a DST is real: an investor gives up control over day-to-day decisions, including how the sponsor handles tenant coordination, maintenance timing, and capital improvement scheduling on the underlying property. For someone who has spent years managing those calls personally, this can feel like a loss of visibility rather than a relief, at least at first.</p><p>Reviewing the sponsor's track record on tenant retention and how they've historically handled downtime during capital projects gives a clearer picture of what passive ownership will actually feel like day to day, rather than relying on the offering memorandum alone.</p>"
+  },
+  {
+   "heading": "Where DSTs Fit Alongside Direct Replacement Property",
+   "html": "<p>A DST doesn't have to be an all-or-nothing choice. Some San Francisco investors identify a DST interest alongside a direct replacement property on the same identification list, using the DST as a backup that can absorb remaining exchange value if the direct purchase falls through or closes for less than expected. This works within the same 45-day and 180-day rules as any other identified property, since a qualifying DST interest is treated as like-kind real estate for exchange purposes.</p>"
+  },
+  {
+   "heading": "DST Placement Checklist",
+   "html": "<ul><li>gain estimate run against actual Prop 13 assessed basis, not current market value alone</li><li>San Francisco transfer tax due at sale confirmed against the applicable bracket</li><li>sponsor track record reviewed for tenant retention and capital-project downtime handling</li><li>DST interest sized to fit within the 45-day identification list if used as a backup</li><li>minimum investment and holding-period terms confirmed before funds are committed</li></ul>"
+  },
+  {
+   "heading": "What Stays the Investor's Responsibility",
+   "html": "<p>Even after handing off day-to-day operations to a sponsor, the investor still owns the exchange outcome, including confirming the DST interest is structured to qualify as like-kind property and that identification and closing deadlines are met the same as with any direct purchase. Coordinating the DST paperwork through the qualified intermediary on the same timeline as a conventional acquisition keeps the exchange itself on solid footing while the operational relief takes effect afterward.</p><p>It's worth thinking of this as a management transition rather than an exit from responsibility entirely. The investor is trading a hands-on role for an oversight role, still expected to review sponsor reporting and understand how the underlying property is performing, just without fielding the tenant calls personally.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How does a DST placement differ from buying a replacement property directly?",
+   "a": "A DST gives an investor a fractional, passive ownership interest in real estate managed by a sponsor, removing the tenant coordination and maintenance decisions that come with direct ownership, in exchange for giving up day-to-day control over how the underlying property is run."
+  },
+  {
+   "q": "Why does Prop 13 matter when deciding on a DST placement?",
+   "a": "Long-held San Francisco properties often carry an assessed value well below current market price, so the actual gain on sale can be larger than expected. That gain, combined with the transfer tax due, shapes how much needs to be reinvested and how large a DST allocation makes sense."
+  },
+  {
+   "q": "Can a DST interest be used alongside a direct replacement property?",
+   "a": "Yes. Some investors list a DST interest on the same identification as a direct purchase, using it as a backup that can absorb remaining exchange value if the direct deal falls through or closes below expectations, which keeps the exchange protected without abandoning the preferred direct purchase entirely."
+  },
+  {
+   "q": "Does a DST placement still have to meet the 45-day and 180-day deadlines?",
+   "a": "Yes, a qualifying DST interest is treated as like-kind real estate, so it follows the same identification and closing timelines as any other replacement property in the exchange, with the same written identification and funding requirements applying throughout."
+  },
+  {
+   "q": "What should be reviewed before committing to a specific DST sponsor?",
+   "a": "Their track record on tenant retention and how they've handled downtime during past capital improvement projects gives a more realistic picture of the investment than the offering memorandum alone. Speaking with investors already placed in a prior offering from the same sponsor can add another layer of confidence beyond the marketing materials."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 856
+}
