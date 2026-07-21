@@ -2,43 +2,46 @@ export const servicesBatch03 = {
   "t12-operating-statement-review": {
     layoutKey: "comparison",
     mainDescription:
-      "<p>T12 Operating Statement Review helps investors in San Francisco, CA analyze and compare T12 operating statements from multiple replacement properties during their 45 day identification period. This service is designed for investors who need systematic evaluation of property financial performance to make informed identification decisions.</p><p>We review operating statements for accuracy, consistency, and comparability across different property types. Our team coordinates with property managers, brokers, and qualified intermediaries to ensure you have complete financial information for your identification process.</p><p>The service includes statement normalization, cash flow analysis, and identification strategy support. We work with your qualified intermediary to ensure operating statement reviews support your identification timeline.</p>",
+      "<p>T12 Operating Statement Review helps investors in San Francisco, California analyze and compare trailing twelve month operating statements from candidate replacement properties during the forty-five day identification period. A property's asking price often reflects the seller's projected or pro forma income, while the T12 shows what the property actually generated over the past year, and the gap between those two figures is frequently where real underwriting risk hides.</p><h3>Normalizing Statements for an Accurate Comparison</h3><p>Operating statements from different sellers, brokers, and property management platforms rarely use consistent expense categories, which makes side by side comparison difficult without normalization. We reclassify each statement into a consistent format covering gross potential rent, vacancy and collection loss, other income, and operating expenses broken out by category such as property taxes, insurance, utilities, repairs and maintenance, and management fees, so an investor comparing three identified properties in San Francisco or elsewhere is comparing figures calculated the same way rather than figures shaped by each seller's own reporting conventions. We also flag any expense that appears understated relative to typical ranges for the property type and market, since sellers sometimes present a T12 that reflects a year with deferred maintenance or an owner managed structure that will not continue once the property sells, which understates the expenses a new institutional or hands off owner should expect.</p><h3>Using T12 Findings to Support the Identification Decision</h3><p>Because the T12 review happens during the forty-five day identification window, findings need to reach the investor quickly enough to actually influence which properties make the final identification list. If a T12 review reveals expenses running meaningfully higher than what the pro forma assumed, that changes the effective net operating income and, by extension, the property's true value at the investor's target return, which can shift a property from a top choice to a backup option or eliminate it entirely. We prepare a comparison summary that shows the pro forma figures, the trailing twelve month actuals, and our normalized adjusted figures side by side for each property under consideration, giving the investor a clear basis for the identification decision rather than relying on marketing materials alone. This analysis also feeds directly into the lender underwriting package, since debt service coverage calculations depend on accurate net operating income, and an inflated T12 that later gets corrected during lender underwriting can shrink the approved loan amount, which increases boot exposure taxed as ordinary income under California law if the investor cannot replace the debt shortfall with additional cash.</p><p>We also compare each property's T12 against its most recent annual property tax bill and any pending reassessment, since a change in ownership can trigger a reassessment in many states that increases property tax expense above what the seller's trailing statement reflects, a dynamic California investors are generally familiar with from Proposition 13 but that works differently in other jurisdictions. Failing to account for a post sale reassessment can meaningfully overstate a candidate property's true forward looking net operating income, which affects both the investor's return expectations and the loan amount a lender is willing to approve.</p><p>Where a seller's T12 includes one time items, such as an insurance claim settlement, a lease termination fee, or an unusually large capital repair, we separate those items out of the ongoing operating picture so they do not distort the comparison between candidate properties. This normalized view, delivered to the investor alongside the raw statements, gives a more honest basis for deciding which properties to prioritize on the identification list before the forty-five day window closes.</p><p>We also review how the seller's T12 treats capital expenditures versus operating expenses, since some sellers classify routine maintenance as capital improvement to inflate reported net operating income, which overstates the property's true operating performance. We reclassify these items according to standard accounting treatment for the property type, giving the investor a T12 comparison that reflects sustainable ongoing performance rather than a figure shaped by favorable categorization choices. We deliver these findings in a short written summary for each candidate property, so the investor and the lender's underwriter are working from the same normalized figures rather than the seller's original presentation, which reduces the chance of a late surprise during final loan underwriting.</p>",
     faqs: [
       {
-        question: "What is a T12 operating statement in San Francisco, CA?",
+        question: "What is a T12 operating statement in San Francisco, California?",
         answer:
-          "A T12 operating statement in San Francisco, CA is a twelve month financial summary showing property income, expenses, and net operating income. It provides the financial foundation for evaluating replacement properties during your 45 day identification period.",
+          "A T12 operating statement in San Francisco, California is a twelve month financial summary showing property income, expenses, and net operating income. It provides the financial foundation for evaluating replacement properties during the forty-five day identification period.",
       },
       {
-        question: "How does boot affect my operating statement analysis in San Francisco, CA?",
+        question: "How does boot affect my operating statement analysis in San Francisco, California?",
         answer:
-          "Boot received during your exchange in San Francisco, CA is taxable as capital gain. We analyze operating statements to help you identify properties that minimize boot exposure while maintaining strong cash flow performance.",
+          "Boot received during the exchange in San Francisco, California is taxable as capital gain. We analyze operating statements to help identify properties that support strong lender underwriting and minimize boot exposure from a reduced loan amount.",
       },
       {
-        question: "What happens if operating statements are inconsistent in San Francisco, CA?",
+        question: "What happens if operating statements are inconsistent in San Francisco, California?",
         answer:
-          "Inconsistent operating statements in San Francisco, CA can make property comparison difficult. We normalize statements for comparability and flag inconsistencies that may require further due diligence before your Day 45 identification deadline.",
+          "Inconsistent operating statements in San Francisco, California can make property comparison difficult. We normalize statements into a consistent expense format and flag inconsistencies that may require further due diligence before the day forty-five identification deadline.",
       },
       {
-        question: "How do operating statements help with identification rules in San Francisco, CA?",
+        question: "How do operating statements help with identification decisions in San Francisco, California?",
         answer:
-          "Operating statements in San Francisco, CA help you evaluate whether identified properties meet your investment criteria. We review statements to ensure identified properties have the financial performance you require for your exchange strategy.",
+          "Operating statements in San Francisco, California help an investor evaluate whether identified properties meet actual, rather than pro forma, financial performance targets. We review statements to ensure identified properties have the true income profile the investor requires.",
       },
       {
-        question: "Can I identify properties without operating statements in San Francisco, CA?",
+        question: "Can I identify properties without complete operating statements in San Francisco, California?",
         answer:
-          "You can identify properties without complete operating statements in San Francisco, CA, but we recommend obtaining them before Day 45. We coordinate with property managers to obtain statements that support your identification and due diligence timeline.",
+          "An investor can identify properties without complete operating statements in San Francisco, California, but we recommend obtaining them before day forty-five. We coordinate with property managers to obtain statements that support the identification and due diligence timeline.",
+      },
+      {
+        question: "Why does a pro forma income figure sometimes differ from the T12 for San Francisco, California exchange candidates?",
+        answer:
+          "A pro forma often reflects projected market rent and stabilized expenses, while the T12 reflects what the property actually generated, which may include vacancy, deferred maintenance, or an owner managed expense structure that will not continue under new ownership. We compare both figures side by side so the investor sees the difference clearly.",
       },
     ],
     inclusions: [
-      "T12 operating statement collection",
-      "Statement accuracy verification",
-      "Cash flow normalization",
-      "Property performance comparison",
-      "Broker coordination",
-      "Qualified intermediary communication",
+      "T12 operating statement collection and normalization",
+      "Expense category reclassification for comparison",
+      "Pro forma versus actual income variance analysis",
+      "Property performance comparison across candidates",
+      "Lender underwriting package support",
       "Identification deadline tracking",
-      "Financial analysis summary",
     ],
     commonSituations: [
       "Investor needs to compare operating statements from three identified properties",
@@ -66,43 +69,46 @@ export const servicesBatch03 = {
   "form-8824-preparation": {
     layoutKey: "minimal",
     mainDescription:
-      "<p>Form 8824 Preparation Support helps investors in San Francisco, CA prepare and coordinate Form 8824 filing with their tax advisors. This service provides templates and coordination for the form required to report 1031 exchange details to the IRS.</p><p>We prepare Form 8824 templates based on your exchange documentation and coordinate with your tax advisor for final filing. Our team ensures all exchange details are properly documented for IRS compliance.</p><p>The service includes form template preparation, documentation coordination, and tax advisor communication. We work with your qualified intermediary to ensure form preparation supports your exchange completion.</p>",
+      "<p>Form 8824 Preparation Support helps investors in San Francisco, California organize the documentation their tax advisor needs to complete Form 8824, the form required to report a like-kind exchange to the Internal Revenue Service. Form 8824 is filed with the federal tax return for the year the exchange is completed, and California requires its own conforming disclosure, Schedule 1031, to be filed with the state return in the year of the exchange and in each subsequent year the replacement property is held, until it is sold in a fully taxable transaction or the deferred gain is otherwise recognized.</p><h3>What Form 8824 Actually Requires</h3><p>The form asks for a description of both the relinquished and replacement property, the dates each property was transferred and identified, the fair market values involved, any liabilities assumed or relieved, and a calculation of realized gain, recognized gain, and the resulting basis in the replacement property. Getting these figures right depends on having clean records from the qualified intermediary showing exactly how exchange funds moved, along with closing statements from both the relinquished and replacement property transactions. We assemble that documentation into an organized packet, cross-check the figures for consistency, and prepare a working template showing the gain and basis calculations so the investor's CPA or tax preparer can review and finalize the actual filing rather than starting from scratch during tax season.</p><h3>California's Ongoing Schedule 1031 Filing Requirement</h3><p>California's clawback rule, established to prevent investors from deferring gain on a California property indefinitely by exchanging into out of state replacement property and then selling outside the state's tax reach, requires California taxpayers to file Schedule 1031 annually as long as the deferred gain has not been recognized, even in years with no other California filing obligation related to the property. This requirement applies whether the replacement property is located in California or elsewhere, and it is easy to overlook once the year of the exchange has passed and attention moves on to other things. We help investors set up a simple annual reminder and record retention process so Schedule 1031 gets filed each year it is required, since failing to file can create complications if the state later reviews the original exchange or the eventual disposition of the replacement property. Because Form 8824 and Schedule 1031 are ultimately tax filings, we do not prepare or file them ourselves; we organize the underlying documentation and calculations so the investor's tax advisor can complete an accurate filing efficiently.</p><p>We also help investors organize documentation for exchanges involving more than one relinquished or replacement property, since Form 8824 requires separate reporting detail when multiple properties are involved in the same exchange, and keeping closing statements and qualified intermediary records organized by property from the start makes that reporting significantly easier for the tax advisor to complete accurately. For investors who used the two hundred percent identification rule or closed on several smaller replacement properties, we build a single reconciliation summary showing how funds moved across every transaction, which the tax advisor can use as the backbone for the eventual filing.</p><p>We also flag situations where a partial exchange occurred, meaning the investor received some boot intentionally or unintentionally, since Form 8824 requires that recognized gain to be calculated and reported correctly alongside the deferred portion. Having clean documentation of exactly how much cash or debt relief the investor received, and when, helps the tax advisor prepare an accurate filing the first time rather than needing to reconstruct the transaction details months later during tax season.</p><p>We also help investors retain the full documentation trail beyond what Form 8824 itself requires, including the original exchange agreement, identification letters, and all closing statements, since the Internal Revenue Service and the California Franchise Tax Board can each request supporting records well after the filing year if the exchange is selected for review. We organize this record set into a single file the investor can retain indefinitely, since the statute of limitations on a challenged exchange can extend well beyond the standard filing period. We deliver the completed documentation packet to the investor's tax advisor with enough lead time before the filing deadline for questions to be resolved calmly, rather than compressed into the final weeks of tax season when supporting records can be harder to track down.</p>",
     faqs: [
       {
-        question: "When must Form 8824 be filed in San Francisco, CA?",
+        question: "When must Form 8824 be filed in San Francisco, California?",
         answer:
-          "Form 8824 in San Francisco, CA must be filed with your tax return for the year in which your exchange is completed. The form reports the details of your like kind exchange to the IRS.",
+          "Form 8824 in San Francisco, California must be filed with the federal tax return for the year in which the exchange is completed. The form reports the details of the like-kind exchange to the Internal Revenue Service.",
       },
       {
-        question: "How does boot affect my Form 8824 in San Francisco, CA?",
+        question: "How does boot affect my Form 8824 in San Francisco, California?",
         answer:
-          "Boot received during your exchange in San Francisco, CA must be reported on Form 8824 as taxable gain. We coordinate with your tax advisor to ensure boot is properly calculated and reported.",
+          "Boot received during the exchange in San Francisco, California must be reported on Form 8824 as recognized gain. We coordinate with the investor's tax advisor to ensure boot is properly calculated and reported.",
       },
       {
-        question: "What information is required for Form 8824 in San Francisco, CA?",
+        question: "What information is required for Form 8824 in San Francisco, California?",
         answer:
-          "Form 8824 in San Francisco, CA requires property descriptions, dates, and values for both relinquished and replacement properties. We coordinate documentation to ensure all required information is available.",
+          "Form 8824 in San Francisco, California requires property descriptions, transfer and identification dates, and fair market values for both the relinquished and replacement properties. We coordinate documentation to ensure all required information is available for the tax advisor.",
       },
       {
-        question: "Can I prepare Form 8824 myself in San Francisco, CA?",
+        question: "Does California require a separate filing beyond Form 8824 for San Francisco, California investors?",
         answer:
-          "You can prepare Form 8824 yourself in San Francisco, CA, but we recommend working with a tax advisor. We provide templates and coordination to ensure the form is completed accurately.",
+          "Yes. California requires Schedule 1031 to be filed with the state return in the year of the exchange and in each subsequent year the deferred gain remains unrecognized, even if the replacement property is located outside California. We help investors track this ongoing requirement.",
       },
       {
-        question: "What happens if Form 8824 is filed incorrectly in San Francisco, CA?",
+        question: "What happens if Form 8824 or Schedule 1031 is filed incorrectly in San Francisco, California?",
         answer:
-          "Incorrect Form 8824 filing in San Francisco, CA may trigger IRS review of your exchange. We coordinate with tax advisors to ensure the form accurately reports your exchange details.",
+          "Incorrect filing may trigger review of the exchange by the Internal Revenue Service or the California Franchise Tax Board. We organize documentation and calculations to support an accurate filing, though the tax advisor is responsible for the actual preparation and filing.",
+      },
+      {
+        question: "Can I prepare Form 8824 myself in San Francisco, California?",
+        answer:
+          "An investor can prepare Form 8824 with their tax advisor in San Francisco, California; we do not file the form ourselves. We provide organized documentation and calculation templates to make that preparation more efficient and accurate.",
       },
     ],
     inclusions: [
-      "Form 8824 template preparation",
-      "Exchange documentation review",
-      "Property value coordination",
-      "Tax advisor communication",
-      "Form completion assistance",
-      "Filing deadline tracking",
-      "Documentation organization",
-      "Compliance verification",
+      "Form 8824 documentation packet preparation",
+      "Exchange gain and basis calculation templates",
+      "Property value and liability data coordination",
+      "California Schedule 1031 ongoing filing tracking",
+      "Tax advisor communication and handoff",
+      "Record retention organization",
     ],
     commonSituations: [
       "Investor completed exchange and needs Form 8824 prepared for tax filing",
@@ -130,48 +136,46 @@ export const servicesBatch03 = {
   "like-kind-qualification-review": {
     layoutKey: "detailed",
     mainDescription:
-      "<p>Like Kind Property Qualification Review helps investors in San Francisco, CA evaluate whether replacement properties qualify as like kind for their 1031 exchange. This service provides systematic analysis of property characteristics that determine IRS qualification.</p><p>We review property types, use, and location to ensure replacement properties meet like kind requirements. Our team coordinates with appraisers, attorneys, and qualified intermediaries to verify qualification before your identification deadline.</p><p>The service includes property characteristic analysis, qualification documentation, and identification support. We work with your qualified intermediary to ensure properties are properly qualified for your exchange.</p><p>The review covers real property requirements, investment use standards, and productive use criteria. We provide detailed analysis of each property type you are considering to ensure compliance with IRS like kind rules.</p><p>Our qualification review includes assessment of property improvements, depreciation, and holding periods. We coordinate with local experts in San Francisco, CA to verify property characteristics that affect qualification.</p><p>The service supports both 45 day identification and 180 day closing timelines. We provide qualification summaries that help you make informed identification decisions within your deadlines.</p>",
+      "<p>Like Kind Property Qualification Review helps investors in San Francisco, California confirm that a candidate replacement property actually qualifies for like-kind treatment before it becomes part of the identification list. Since the Tax Cuts and Jobs Act of 2017, Section 1031 applies only to real property, which eliminated the exchange of equipment, vehicles, and other personal property that some investors used to defer gain on before that law change. For real property, the qualification standard is broader than many investors expect, but it still has specific edges worth checking carefully before relying on it.</p><h3>What Counts as Like Kind Real Property</h3><p>Virtually any real property held for investment or for productive use in a trade or business is considered like kind to any other such real property, regardless of grade, quality, or improvement level. This means a San Francisco investor selling a multifamily building can exchange into a net lease retail property, raw land, or a medical office building, since the broad like-kind standard applies across property types as long as both the relinquished and replacement property meet the qualified use requirement. What does not qualify is property held primarily for personal use, such as a personal residence, or property held primarily for sale, such as inventory held by a developer or a fix and flip property held for resale rather than investment. We review the investor's actual use and holding intent for both properties, since qualified use is determined by the facts, not simply by how a property is labeled or marketed.</p><h3>Mixed Use and Edge Case Properties</h3><p>Some properties present harder qualification questions, particularly mixed use property that combines personal and investment use, property recently converted from personal to investment use, or property acquired shortly before the exchange with an unclear investment intent. For a former personal residence to qualify as relinquished property in an exchange, it generally needs to have been converted to genuine rental or investment use for a meaningful period before the sale, and the same logic applies in reverse to newly acquired replacement property that the investor intends to occupy personally at some point. We review the timeline and documentation supporting investment intent, including lease agreements, rental history, and any personal use records, and we flag properties where the qualification case is weak before they are added to the identification list, since an identification that later fails to qualify as like kind can unravel the entire exchange. International property never qualifies as like kind to United States property under Section 1031, which occasionally surprises San Francisco investors considering opportunities abroad. Once qualification is confirmed, we coordinate with appraisers and, where appropriate, the investor's attorney to document the basis for treating the property as like kind, supporting the investor's Form 8824 filing and providing a clear record if the exchange is ever reviewed.</p><p>Vacant land presents a qualification question worth addressing directly, since raw land held for investment or future development generally qualifies as like kind to improved property such as a retail building or apartment complex, which surprises some San Francisco investors who assume the properties need to be more similar in type or use. What matters is that both properties are held for investment or productive use in a trade or business, not that they resemble each other physically. We review the investor's intent for any land held for exchange, including whether it is genuinely held for investment or development rather than for immediate resale, since land held primarily for sale to customers, as in a subdivision business, does not qualify.</p><p>Entity structure also affects qualification indirectly. If the relinquished property is held inside a partnership or an LLC taxed as a partnership, the exchange generally must be completed at the entity level, and individual partners cannot each exchange their share of the proceeds separately without additional planning well before the sale. We review how title is held on both the relinquished and prospective replacement property early in the process, since restructuring ownership after a sale is already under contract is far more difficult than addressing it before the relinquished property goes to market.</p><p>We also review timing around any recent improvement or renovation to the relinquished property, since substantial work completed shortly before a sale can occasionally raise questions about whether the property was truly held for investment throughout the relevant period versus being improved specifically for a quick resale. Documenting the investor's holding history and rental activity across that period helps support a clean qualification position if the transaction is ever reviewed.</p>",
     faqs: [
       {
-        question: "What makes property like kind in San Francisco, CA?",
+        question: "What makes property like kind in San Francisco, California?",
         answer:
-          "Property is like kind in San Francisco, CA if it is real property held for investment or productive use in trade or business. We review property characteristics to ensure they meet IRS like kind requirements.",
+          "Property is like kind in San Francisco, California if it is real property held for investment or for productive use in a trade or business. We review property characteristics and use to ensure they meet Internal Revenue Service like-kind requirements.",
       },
       {
-        question: "How does boot affect like kind qualification in San Francisco, CA?",
+        question: "How does boot affect like kind qualification in San Francisco, California?",
         answer:
-          "Boot received during your exchange in San Francisco, CA is taxable as capital gain and does not affect like kind qualification. We review properties to ensure they qualify as like kind while minimizing boot exposure.",
+          "Boot received during the exchange in San Francisco, California is taxable as capital gain and does not affect whether a property qualifies as like kind. We review properties to confirm like-kind qualification while separately working to minimize boot exposure.",
       },
       {
-        question: "Can personal residence qualify as like kind in San Francisco, CA?",
+        question: "Can a personal residence qualify as like kind property in San Francisco, California?",
         answer:
-          "Personal residence in San Francisco, CA can qualify as like kind if converted to investment use. We review conversion requirements and holding periods to ensure proper qualification.",
+          "A personal residence in San Francisco, California can potentially qualify if it is genuinely converted to investment or rental use for a meaningful period before the exchange. We review conversion timelines and documentation to assess whether the qualification case is strong.",
       },
       {
-        question: "What property types qualify in San Francisco, CA?",
+        question: "What property types qualify for a 1031 exchange from San Francisco, California?",
         answer:
-          "Property types that qualify in San Francisco, CA include commercial real estate, residential rental property, and vacant land held for investment. We evaluate each property type for like kind qualification.",
+          "Qualifying property types for San Francisco, California investors include commercial real estate, residential rental property, and vacant land held for investment. We evaluate each candidate property type against the qualified use requirement.",
       },
       {
-        question: "How do I prove like kind qualification in San Francisco, CA?",
+        question: "How do I document like kind qualification for a San Francisco, California exchange?",
         answer:
-          "Like kind qualification in San Francisco, CA is proven through property documentation and use. We coordinate with qualified intermediaries to ensure proper documentation for IRS compliance.",
+          "Like kind qualification in San Francisco, California is supported through property use documentation, including lease agreements and rental history. We coordinate with appraisers and legal counsel to build a documented basis supporting the qualification.",
       },
       {
-        question: "Can international property qualify as like kind in San Francisco, CA?",
+        question: "Can international property qualify as like kind for a San Francisco, California exchange?",
         answer:
-          "International property cannot qualify as like kind for exchanges from San Francisco, CA. Replacement property must be located in the United States to meet IRS like kind requirements.",
+          "No. International property never qualifies as like kind for an exchange originating in San Francisco, California. Replacement property must be located within the United States to meet Internal Revenue Service like-kind requirements.",
       },
     ],
     inclusions: [
-      "Property type analysis",
-      "Use requirement evaluation",
-      "Investment qualification review",
-      "Property characteristic assessment",
-      "Appraiser coordination",
-      "Legal review coordination",
-      "Qualification documentation",
-      "Identification support",
+      "Qualified use and investment intent review",
+      "Mixed use and personal to investment conversion analysis",
+      "Property type qualification assessment",
+      "Appraiser and legal coordination for documentation",
+      "Qualification documentation supporting Form 8824",
+      "Identification list risk flagging",
     ],
     commonSituations: [
       "Investor wants to verify replacement properties qualify as like kind",
@@ -199,48 +203,46 @@ export const servicesBatch03 = {
   "boot-analysis-and-planning": {
     layoutKey: "classic",
     mainDescription:
-      "<p>Boot Analysis and Planning helps investors in San Francisco, CA minimize taxable boot during their 1031 exchange through loan balance coordination and contract structuring. This service is designed for investors who want to maximize tax deferral by avoiding unnecessary taxable gain.</p><p>We analyze exchange structures to identify potential boot sources and develop strategies to minimize exposure. Our team coordinates with lenders, escrow companies, and qualified intermediaries to structure transactions that protect your tax deferral.</p><p>The service includes loan balance analysis, contract review, and tax coordination planning. We work with your qualified intermediary to ensure boot minimization supports your exchange goals.</p><p>The analysis covers mortgage balance differences, contract credits, and closing adjustments. We provide detailed boot calculations and planning recommendations throughout your 45 day identification and 180 day closing periods.</p><p>Our planning includes contingency strategies for multiple property scenarios. We coordinate with all parties to ensure boot exposure is minimized across your identification and closing timeline.</p>",
+      "<p>Boot Analysis and Planning helps investors in San Francisco, California minimize the taxable boot that can arise during a 1031 exchange, through loan balance coordination, contract structuring, and careful sequencing of exchange funds. Boot is easy to create by accident and expensive when it happens, since California taxes recognized gain, including boot, as ordinary income with no preferential capital gains rate, on top of federal capital gains and, for many investors, the federal net investment income tax.</p><h3>The Two Main Sources of Boot</h3><p>Boot generally arises from two sources. Cash boot occurs when an investor receives cash or its equivalent out of the exchange, whether intentionally, to pocket some proceeds, or unintentionally, because the replacement property cost less than the net sale proceeds from the relinquished property and the difference was never fully reinvested. Mortgage boot occurs when the debt paid off on the relinquished property exceeds the debt placed on the replacement property, since debt relief is treated as if the investor received cash even though no cash actually changed hands. For a San Francisco investor selling a highly appreciated property with a small remaining loan balance relative to the sale price, mortgage boot is often the larger and more surprising risk, since replacing that much debt on the replacement property, or bringing enough additional cash to offset it, is not always straightforward depending on the target property's financing profile.</p><h3>Structuring the Exchange to Minimize Boot</h3><p>To fully defer gain, an investor generally needs to acquire replacement property with a purchase price equal to or greater than the relinquished property's net sale price, reinvest all net proceeds, and replace debt equal to or greater than what was paid off, unless offsetting that debt shortfall with additional cash. We model this equity and debt replacement math for every property under consideration during identification, not just for the property the investor ultimately closes on, so the investor can compare the tax consequence of different candidates before committing to one. Common boot triggers we watch for include seller credits or prorations at closing that reduce the effective purchase price below what was assumed, loan proceeds that come in lower than expected after final underwriting, and cash the qualified intermediary is holding at the end of the exchange period that was never applied to a replacement property. When some boot is unavoidable, whether due to a legitimate cash out objective or a financing constraint, we help the investor and their tax advisor understand the resulting tax cost in advance, using California's combined ordinary income treatment, so the decision to accept boot is made deliberately rather than discovered after the fact on Form 8824.</p><p>We also review how closing cost allocation affects boot calculations, since costs the investor pays that are considered exchange expenses, such as qualified intermediary fees, broker commissions, and certain closing costs, can generally be paid from exchange proceeds without creating boot, while costs unrelated to the exchange itself, such as prepaid property insurance for a period after closing, may not receive the same treatment. We review the closing statement against this distinction on both sides of the exchange, flagging any cost that could be recharacterized as boot if not paid or documented correctly, before the closing statement is finalized.</p><p>For San Francisco investors using a Delaware Statutory Trust to deploy a small remaining equity balance at the end of an exchange, we also confirm the DST placement amount precisely matches the remaining reinvestment need, since overfunding or underfunding that final placement relative to the calculated shortfall is a common source of avoidable boot in multi-property exchange strategies. A DST interest is generally a security, and we do not sell securities; we provide introductions to licensed providers only. Running this reconciliation before the final closing, rather than after, gives the investor and their tax advisor a chance to adjust the placement amount while it is still possible to do so.</p><p>We also review how personal property included in a sale, such as furniture, fixtures, or equipment conveyed along with a multifamily or hospitality property, is treated in the exchange, since only real property qualifies for like-kind treatment under current law and any value allocated to personal property in the purchase agreement is treated as boot. We confirm the purchase agreement's allocation between real and personal property is reasonable and documented, since an inflated personal property allocation can create unnecessary taxable boot.</p>",
     faqs: [
       {
-        question: "What is boot in a 1031 exchange in San Francisco, CA?",
+        question: "What is boot in a 1031 exchange in San Francisco, California?",
         answer:
-          "Boot in a 1031 exchange in San Francisco, CA is any cash, debt relief, or non like kind value received. Boot is taxable as capital gain and reduces your tax deferral benefit.",
+          "Boot in a 1031 exchange in San Francisco, California is any cash, debt relief, or non-like-kind value received by the investor. Boot is taxable as capital gain and reduces the investor's overall tax deferral benefit.",
       },
       {
-        question: "How does boot affect my exchange in San Francisco, CA?",
+        question: "How does boot affect my exchange in San Francisco, California?",
         answer:
-          "Boot received during your exchange in San Francisco, CA is taxable as capital gain in the year of the exchange. We analyze transactions to minimize boot and maximize your tax deferral.",
+          "Boot received during the exchange in San Francisco, California is taxable as ordinary income under California law in the year of the exchange. We analyze transactions to minimize boot and maximize tax deferral.",
       },
       {
-        question: "What causes boot in San Francisco, CA exchanges?",
+        question: "What causes boot in San Francisco, California exchanges?",
         answer:
-          "Boot in San Francisco, CA exchanges is caused by mortgage balance differences, contract credits, and non like kind property. We identify and minimize these sources throughout your exchange.",
+          "Boot in San Francisco, California exchanges is most commonly caused by a mortgage balance on the replacement property that is lower than the debt paid off on the relinquished property, or by net sale proceeds that are not fully reinvested. We identify and work to minimize these sources throughout the exchange.",
       },
       {
-        question: "Can I eliminate all boot in San Francisco, CA?",
+        question: "Can I eliminate all boot in San Francisco, California?",
         answer:
-          "Eliminating all boot in San Francisco, CA may not be possible due to mortgage differences and market conditions. We develop strategies to minimize boot while achieving your exchange objectives.",
+          "Eliminating all boot in San Francisco, California may not be possible due to financing constraints or market conditions on the replacement property. We develop strategies to minimize boot while still achieving the investor's exchange objectives.",
       },
       {
-        question: "How do I calculate boot in San Francisco, CA?",
+        question: "How do I calculate boot in San Francisco, California?",
         answer:
-          "Boot in San Francisco, CA is calculated as cash received plus debt relief minus non like kind property received. We provide detailed boot calculations for your exchange structure.",
+          "Boot in San Francisco, California is generally calculated as cash received plus any net decrease in debt, minus any additional cash the investor contributes to the exchange. We provide detailed boot calculations based on the investor's specific exchange structure.",
       },
       {
-        question: "What happens if I receive boot in San Francisco, CA?",
+        question: "What happens if I receive boot in San Francisco, California?",
         answer:
-          "Boot received in San Francisco, CA is taxed as capital gain in the exchange year. We coordinate tax planning to minimize the impact on your overall tax situation.",
+          "Boot received in San Francisco, California is taxed as ordinary income under California law in the exchange year, in addition to federal capital gains tax. We coordinate with the investor's tax advisor to model this impact before the exchange closes.",
       },
     ],
     inclusions: [
-      "Boot source identification",
-      "Loan balance analysis",
-      "Contract credit review",
-      "Tax calculation coordination",
+      "Cash boot and mortgage boot source identification",
+      "Equity and debt replacement modeling",
+      "Contract credit and proration review",
+      "Loan underwriting shortfall monitoring",
       "Exchange structure optimization",
-      "Lender coordination",
-      "Escrow coordination",
-      "Planning recommendations",
+      "Tax impact planning coordination with advisors",
     ],
     commonSituations: [
       "Investor wants to minimize boot across multiple identified properties",
@@ -268,42 +270,45 @@ export const servicesBatch03 = {
   "transfer-tax-coordination": {
     layoutKey: "sidebar",
     mainDescription:
-      "<p>Transfer Tax Coordination helps investors in San Francisco, CA coordinate transfer tax payments and exemptions during their 1031 exchange closing. This service ensures transfer taxes are properly handled without jeopardizing exchange qualification.</p><p>We coordinate with escrow companies, title companies, and local authorities to manage transfer tax requirements. Our team ensures transfer tax payments are structured to avoid creating boot in your exchange.</p><p>The service includes tax rate verification, exemption coordination, and payment scheduling. We work with your qualified intermediary to ensure transfer tax coordination supports your exchange timeline.</p>",
+      "<p>Transfer Tax Coordination helps investors in San Francisco, California navigate the city's real property transfer tax at closing without letting it disrupt the 1031 exchange or create unexpected boot. Transfer tax is owed regardless of whether a sale is part of an exchange, since it is a local excise tax on the transfer of real property rather than a tax on gain, but the way it gets paid and prorated at closing still needs to be coordinated carefully with the exchange structure.</p><h3>How San Francisco's Tiered Transfer Tax Works</h3><p>San Francisco imposes its real property transfer tax on a tiered schedule based on the consideration or value of the transaction, with the applicable rate increasing at several thresholds rather than applying a single flat rate to every sale. This means the effective rate on a large commercial or multifamily transaction can be materially higher than the rate that would apply to a smaller residential sale, and the exact rate depends on which value bracket the transaction falls into at the time of transfer. We confirm the applicable rate for both the relinquished property sale and, if the replacement property is also located in San Francisco or another California jurisdiction with its own transfer tax or documentary tax, the replacement property purchase, so the investor understands the total transfer tax exposure across the full exchange rather than just one side of it.</p><h3>Coordinating Payment So It Does Not Create Boot</h3><p>Transfer tax itself is a closing cost, not boot, and paying it out of sale proceeds at closing does not by itself create taxable boot. Where investors run into trouble is when transfer tax and other closing costs are miscalculated or negotiated in a way that changes the net amount actually available to reinvest in the replacement property, since a shortfall in reinvested equity, for whatever reason, can create boot taxed as ordinary income under California law. We work with escrow and the qualified intermediary to confirm exactly how transfer tax will be handled on the closing statement, whether it is paid by the seller, the buyer, or split by negotiated agreement, and we make sure the qualified intermediary's calculation of net exchange proceeds reflects the actual transfer tax obligation rather than an estimate that could be off by the time of final closing. For investors selling relinquished property in San Francisco and acquiring replacement property elsewhere, we also flag how the destination jurisdiction's transfer tax, documentary tax, or recording fee structure compares, since rates and payment customs vary significantly by state and even by county.</p><p>We also monitor whether any transfer tax exemption might apply to a given transaction, since certain transfers, including some transfers between related entities or transfers as part of a qualifying reorganization, can be exempt or partially exempt from San Francisco's transfer tax under specific circumstances defined by local ordinance. These exemptions are narrowly drawn and do not apply simply because a transaction is part of a 1031 exchange, so we verify eligibility carefully with the title company rather than assuming an exemption applies without documentation supporting it.</p><p>For investors selling multiple San Francisco properties as part of a single larger exchange strategy, we also confirm whether the transactions could be aggregated or need to be treated separately for transfer tax purposes, since the tiered rate structure is generally applied per transaction rather than across a portfolio, and understanding this in advance helps the investor and their advisors model total transaction costs accurately across the full strategy rather than reviewing each sale in isolation.</p><p>We also review how transfer tax interacts with the documentary transfer tax that may separately apply at the county level in California, since some transactions are subject to both a city level tax, such as San Francisco's, and a county level documentary transfer tax, and the two are calculated and remitted separately even though they apply to the same transaction. We confirm both obligations are captured accurately in the closing statement so neither is overlooked. We provide a short written summary of every applicable transfer and documentary tax obligation across the transaction, along with the confirmed payment allocation, so the investor's closing statement review takes minutes rather than requiring the investor to independently verify local tax rules under deadline pressure.</p>",
     faqs: [
       {
-        question: "Are transfer taxes due in San Francisco, CA exchanges?",
+        question: "Are transfer taxes due in San Francisco, California exchanges?",
         answer:
-          "Transfer taxes are due in San Francisco, CA regardless of 1031 exchange status. Transfer taxes are not boot but must be paid at closing to complete the transaction.",
+          "Transfer taxes are due in San Francisco, California regardless of 1031 exchange status. Transfer tax is not boot, but it must be paid at closing to complete the transaction.",
       },
       {
-        question: "How does boot affect transfer taxes in San Francisco, CA?",
+        question: "How does boot relate to transfer taxes in San Francisco, California?",
         answer:
-          "Boot in San Francisco, CA is separate from transfer taxes. Transfer taxes are paid to local authorities and do not create boot in your exchange.",
+          "Boot in San Francisco, California is separate from transfer taxes. Transfer taxes are paid to local authorities as a closing cost and do not by themselves create boot, though a broader shortfall in reinvested proceeds can.",
       },
       {
-        question: "What is the transfer tax rate in San Francisco, CA?",
+        question: "What is the transfer tax rate in San Francisco, California?",
         answer:
-          "The transfer tax rate in San Francisco, CA varies by property value and transaction type. We coordinate with local authorities to verify current rates and requirements.",
+          "San Francisco applies a tiered real property transfer tax where the rate increases at several value thresholds rather than using a single flat rate. We confirm the applicable rate for the specific transaction value at the time of transfer.",
       },
       {
-        question: "Can transfer taxes be deferred in San Francisco, CA?",
+        question: "Can transfer taxes be deferred in San Francisco, California?",
         answer:
-          "Transfer taxes in San Francisco, CA cannot be deferred through 1031 exchange. They must be paid at closing but do not affect your tax deferral benefit.",
+          "Transfer taxes in San Francisco, California cannot be deferred through a 1031 exchange. They must be paid at closing as a closing cost, but they do not affect the investor's tax deferral on capital gain.",
       },
       {
-        question: "Who pays transfer taxes in San Francisco, CA?",
+        question: "Who pays transfer taxes in San Francisco, California?",
         answer:
-          "Transfer tax payment in San Francisco, CA is typically negotiated between buyer and seller. We coordinate payment scheduling to ensure smooth closing.",
+          "Transfer tax payment in San Francisco, California is typically negotiated between buyer and seller, though local custom often assigns it to the seller. We coordinate payment scheduling with escrow to ensure a smooth closing.",
+      },
+      {
+        question: "How does the replacement property's location affect transfer tax planning for a San Francisco, California exchange?",
+        answer:
+          "If the replacement property is located in a different city, county, or state, transfer tax, documentary tax, and recording fee rules can differ significantly from San Francisco's. We review the destination jurisdiction's requirements alongside the San Francisco sale.",
       },
     ],
     inclusions: [
-      "Transfer tax rate verification",
+      "Transfer tax rate and tier verification",
       "Exemption eligibility review",
-      "Payment coordination",
-      "Escrow instruction management",
-      "Title company coordination",
-      "Local authority communication",
-      "Payment scheduling",
+      "Payment allocation coordination with escrow",
+      "Net exchange proceeds calculation accuracy check",
+      "Destination jurisdiction tax comparison",
       "Documentation tracking",
     ],
     commonSituations: [
@@ -332,48 +337,46 @@ export const servicesBatch03 = {
   "dst-evaluation-and-placement": {
     layoutKey: "timeline",
     mainDescription:
-      "<p>DST Evaluation and Placement helps investors in San Francisco, CA evaluate Delaware Statutory Trust structures for their 1031 exchange replacement property. This service provides analysis of DST benefits and coordination for qualified placement.</p><p>We evaluate DST properties for investment suitability, sponsor quality, and exchange qualification. Our team coordinates with DST sponsors, qualified intermediaries, and placement agents to facilitate DST investment within your exchange timeline.</p><p>The service includes sponsor evaluation, property analysis, and placement coordination. We work with your qualified intermediary to ensure DST evaluation supports your identification and closing deadlines.</p><p>The evaluation covers DST structure benefits, sponsor track record, and property performance. We provide timeline coordination for DST placement that aligns with your 45 day identification and 180 day closing periods.</p><p>Our placement coordination includes document review, due diligence, and closing coordination. We ensure DST investment meets your investment objectives while maintaining exchange qualification.</p>",
+      "<p>DST Evaluation and Placement helps investors in San Francisco, California evaluate Delaware Statutory Trust structures as replacement property for a 1031 exchange, and coordinate placement within the exchange timeline. A DST allows multiple investors to hold fractional, undivided beneficial interests in institutional quality real estate, which can appeal to San Francisco investors seeking a fully passive replacement asset after selling actively managed local property. Because interests in a DST are generally treated as securities, we do not sell securities and we provide introductions to licensed providers only; this section is educational and does not constitute investment or securities advice.</p><h3>How a DST Qualifies for Like Kind Treatment</h3><p>Revenue Ruling 2004-86 established the framework under which a beneficial interest in a properly structured Delaware Statutory Trust is treated as a direct interest in real property for Section 1031 purposes, rather than as an interest in a business entity, which would not qualify. To maintain that treatment, the trust must follow strict operating limitations, sometimes called the seven deadly sins, which restrict the trustee from actions such as renegotiating existing leases, entering new leases except in limited circumstances, or reinvesting sale proceeds into new property, since a DST is designed to be a passive, fixed pool of real estate rather than an actively managed fund. These restrictions are a meaningful trade-off: investors give up control over property management decisions in exchange for a structure that qualifies for exchange treatment and eliminates the operational responsibilities of direct ownership.</p><h3>Sponsor Due Diligence and Placement Timing</h3><p>Because a DST interest is a security, offerings are made only to accredited investors and only through licensed broker-dealers or registered investment advisors under an applicable private placement exemption, and any decision to invest should involve the investor's own securities professional and tax advisor reviewing the private placement memorandum in full. We help San Francisco investors evaluate sponsor track record, the underlying property's fundamentals, loan terms embedded in the trust structure, and fee layers, and we coordinate timing so that DST identification and closing fit within the standard forty-five day identification and one hundred eighty day closing deadlines, which apply to DST interests the same way they apply to direct property acquisitions. DST offerings are also frequently used to solve a small remaining equity balance at the end of an exchange, since minimum investment amounts are typically much lower than the cost of acquiring a whole property outright, which makes a DST a practical tool for fully deploying the last portion of exchange proceeds rather than leaving a gap that would otherwise create boot. As with any replacement property, boot exposure depends on how the total DST investment amount compares to what is needed to fully replace equity and debt from the relinquished property, and any shortfall is taxed as ordinary income under California law.</p><p>We also help investors understand how DST offerings are typically structured with embedded financing, since many DSTs include a proportional share of property level debt as part of the investment, which counts toward the investor's debt replacement requirement without the investor personally guaranteeing a loan. This can be an attractive feature for investors who want to replace debt from their relinquished San Francisco property without taking on new personal loan obligations, though it also means the investor has no ability to influence how that embedded debt is refinanced or managed over the hold period, consistent with the passive nature of the DST structure.</p><p>Exit timing is another factor we review with investors before placement, since DST hold periods are generally set by the sponsor and can run five to ten years or longer, with limited ability for an individual investor to force an earlier sale of their interest. We walk through the sponsor's stated hold period expectations and any secondary market limitations on transferring the interest before maturity, so the investor understands the liquidity trade-off involved in a DST placement relative to direct property ownership.</p><p>We also review the fee structure disclosed in the private placement memorandum with the investor, since DST offerings typically include acquisition fees, asset management fees, and disposition fees that reduce net returns compared to the headline distribution rate advertised for the offering. Understanding the full fee load, alongside the sponsor's track record on prior offerings, gives the investor a more complete picture to bring to their own securities professional before committing to a placement.</p>",
     faqs: [
       {
-        question: "What is a DST in San Francisco, CA exchanges?",
+        question: "What is a DST in San Francisco, California exchanges?",
         answer:
-          "A DST in San Francisco, CA exchanges is a Delaware Statutory Trust that allows multiple investors to own undivided interests in real property. DSTs provide 1031 exchange investors access to institutional quality properties.",
+          "A DST in San Francisco, California exchanges is a Delaware Statutory Trust that allows multiple investors to own undivided beneficial interests in real property. DSTs can provide 1031 exchange investors access to institutional quality properties on a passive basis. DST interests are generally securities; we do not sell securities and provide introductions to licensed providers only.",
       },
       {
-        question: "How does boot affect DST investment in San Francisco, CA?",
+        question: "How does boot affect DST investment in San Francisco, California?",
         answer:
-          "Boot received during DST investment in San Francisco, CA is taxable as capital gain. We coordinate DST placement to minimize boot while providing access to quality investment properties.",
+          "Boot received in connection with a DST investment in San Francisco, California is taxable as capital gain. We coordinate DST placement amounts against the equity and debt that need to be replaced to help minimize boot exposure.",
       },
       {
-        question: "What are DST benefits in San Francisco, CA?",
+        question: "What are DST benefits for San Francisco, California investors?",
         answer:
-          "DST benefits in San Francisco, CA include professional management, diversified ownership, and institutional quality properties. We evaluate DST structures to ensure they meet your investment criteria.",
+          "DST benefits for San Francisco, California investors include professional management, fractional ownership of institutional quality properties, and fully passive involvement. We evaluate DST structures to help investors understand whether they meet their investment criteria; this is educational information, not investment advice.",
       },
       {
-        question: "How do DSTs work with identification rules in San Francisco, CA?",
+        question: "How do DSTs work with the identification rules in San Francisco, California?",
         answer:
-          "DSTs in San Francisco, CA must be identified within your 45 day period. We coordinate DST evaluation and placement to ensure compliance with identification requirements.",
+          "DST interests must be identified within the standard forty-five day identification period, the same as direct property acquisitions, for San Francisco, California investors. We coordinate DST evaluation and placement timing to ensure compliance with identification requirements.",
       },
       {
-        question: "What DST sponsors are available in San Francisco, CA?",
+        question: "Who can invest in a DST offering from San Francisco, California?",
         answer:
-          "DST sponsors available for San Francisco, CA investors include established institutional firms with track records in property management. We evaluate sponsors based on performance and reliability.",
+          "DST offerings are generally limited to accredited investors and made only through licensed broker-dealers or registered investment advisors under an applicable private placement exemption. We provide introductions to licensed providers and do not sell securities ourselves.",
       },
       {
-        question: "Can DSTs be used for any property type in San Francisco, CA?",
+        question: "Why do San Francisco, California investors sometimes use a DST for only part of their exchange proceeds?",
         answer:
-          "DSTs in San Francisco, CA can be used for various property types including multifamily, office, and retail. We evaluate DST properties to ensure they match your investment preferences.",
+          "DST minimum investment amounts are typically much lower than the cost of acquiring a whole property, which makes a DST a practical way to deploy a small remaining equity balance at the end of an exchange rather than leaving a gap that would create boot.",
       },
     ],
     inclusions: [
-      "DST sponsor evaluation",
-      "Property performance analysis",
-      "Placement coordination",
-      "Due diligence review",
-      "Qualified intermediary coordination",
-      "Timeline management",
-      "Document review",
-      "Closing coordination",
+      "DST sponsor and track record evaluation",
+      "Revenue Ruling 2004-86 structural compliance review",
+      "Property fundamentals and loan term analysis",
+      "Licensed provider introduction for accredited investors",
+      "Timeline coordination within exchange deadlines",
+      "Placement amount coordination to manage boot exposure",
     ],
     commonSituations: [
       "Investor wants to evaluate DST options for replacement property",
@@ -401,48 +404,46 @@ export const servicesBatch03 = {
   "1031-exchange-education": {
     layoutKey: "detailed",
     mainDescription:
-      "<p>1031 Exchange Education helps investors in San Francisco, CA understand the complete 1031 exchange process from identification through closing. This service provides comprehensive education on exchange rules, timelines, and requirements.</p><p>We cover 45 day identification rules, 180 day closing deadlines, and like kind qualification requirements. Our team provides educational resources, timeline tracking, and process guidance throughout your exchange.</p><p>The service includes process overview, timeline education, and requirement explanation. We work with your qualified intermediary to ensure education supports your exchange success.</p><p>The education covers property qualification, boot avoidance, and IRS compliance. We provide detailed information on exchange accommodation titleholders, qualified escrow accounts, and documentation requirements.</p><p>Our educational approach includes personalized guidance for your specific situation. We coordinate educational sessions that align with your 45 day identification and 180 day closing timeline.</p><p>The service provides ongoing support and clarification throughout the process. We ensure you understand each step of the exchange from property identification to final closing.</p>",
+      "<p>1031 Exchange Education helps investors in San Francisco, California understand how a like-kind exchange actually works, from the moment the relinquished property goes under contract through the final closing on replacement property. This service is designed for investors evaluating whether an exchange makes sense for their situation, as well as investors already committed to one who want a clear, plain-language understanding of the rules governing their transaction. Nothing here is tax, legal, or investment advice, and every investor should confirm their specific situation with a qualified intermediary, attorney, and tax advisor before proceeding.</p><h3>The Core Mechanics of a 1031 Exchange</h3><p>Section 1031 of the Internal Revenue Code allows an investor to defer recognizing capital gain on the sale of investment or business real property, as long as the proceeds are reinvested into like-kind replacement real property through a properly structured exchange. The investor cannot receive or control the sale proceeds directly; instead, a qualified intermediary holds the funds throughout the process. From the date the relinquished property closes, the investor has forty-five calendar days to identify replacement property in writing and one hundred eighty calendar days total to close on it, and these two deadlines run concurrently rather than sequentially, meaning the forty-five day window is really the first forty-five days of the full one hundred eighty. To defer all recognized gain, the investor generally needs to acquire replacement property of equal or greater value, reinvest all net equity, and replace debt equal to or greater than what was paid off on the relinquished property. Falling short on any of these creates boot, which is taxed as capital gain, and in California specifically, that gain is taxed as ordinary income with no preferential rate, on top of federal capital gains tax and, for many investors, the federal net investment income tax.</p><h3>Common Structures and Where Investors Get Tripped Up</h3><p>Beyond the standard forward exchange, investors sometimes use a reverse exchange to acquire replacement property before selling the relinquished property, or an improvement exchange to use exchange funds for construction on the replacement property, both of which rely on an exchange accommodation titleholder under the safe harbor in Revenue Procedure 2000-37. Investors considering a Delaware Statutory Trust as replacement property should understand that DST interests are generally securities, and while a properly structured DST interest can qualify for like-kind treatment under Revenue Ruling 2004-86, we do not sell securities and refer investors to licensed providers for that piece of the transaction. The most common ways San Francisco investors run into trouble are missing the forty-five day deadline because the property search started too late, underestimating how much debt needs to be replaced on the new property and creating unintended mortgage boot, and assuming a familiar attorney or CPA can serve as qualified intermediary when the disqualified person rules actually rule that out. We walk investors through each of these issues before they become a problem, and we coordinate with the qualified intermediary, lender, and tax advisor throughout the exchange so the investor always understands where the transaction stands relative to both deadlines.</p><p>We also spend time explaining how an exchange interacts with depreciation recapture, since deferring capital gain through a 1031 exchange also defers the tax on depreciation recapture that would otherwise be due at sale, which is often a larger and more immediate tax consequence than investors expect if they were to sell without exchanging. Understanding this combined deferral, rather than thinking of capital gains tax and depreciation recapture as separate issues, helps San Francisco investors see the full financial case for pursuing an exchange rather than a taxable sale, particularly for property that has been held and depreciated over many years.</p><p>Finally, we walk investors through what happens at the end of the exchange, since a 1031 exchange defers gain rather than eliminating it permanently. If the replacement property is eventually sold without another exchange, the originally deferred gain, along with any additional appreciation, becomes taxable at that time, though some investors ultimately hold replacement property until death, at which point heirs may receive a stepped up basis under current law that can eliminate the deferred gain entirely. We present this long term picture alongside the mechanics of the exchange itself, since understanding the full lifecycle of the deferral helps investors make a more informed decision about whether an exchange fits their broader estate and investment planning goals.</p>",
     faqs: [
       {
-        question: "What is a 1031 exchange in San Francisco, CA?",
+        question: "What is a 1031 exchange in San Francisco, California?",
         answer:
-          "A 1031 exchange in San Francisco, CA allows you to defer capital gains tax by reinvesting proceeds from sold investment property into like kind replacement property. The exchange must follow IRS rules and timelines.",
+          "A 1031 exchange in San Francisco, California allows an investor to defer capital gains tax by reinvesting proceeds from sold investment property into like-kind replacement property. The exchange must follow Internal Revenue Service rules and timelines, including the forty-five day identification and one hundred eighty day closing deadlines.",
       },
       {
-        question: "How does boot affect my exchange in San Francisco, CA?",
+        question: "How does boot affect my exchange in San Francisco, California?",
         answer:
-          "Boot received during your exchange in San Francisco, CA is taxable as capital gain. We educate you on boot sources and strategies to minimize exposure throughout the exchange process.",
+          "Boot received during the exchange in San Francisco, California is taxable as capital gain, and California taxes that gain as ordinary income with no preferential rate. We educate investors on boot sources and strategies to minimize exposure throughout the exchange process.",
       },
       {
-        question: "What are the identification rules in San Francisco, CA?",
+        question: "What are the identification rules in San Francisco, California?",
         answer:
-          "Identification rules in San Francisco, CA require you to identify replacement properties in writing to your qualified intermediary by Day 45. You can identify up to three properties or follow other IRS identification methods.",
+          "Identification rules in San Francisco, California require an investor to identify replacement properties in writing to the qualified intermediary by day forty-five. Investors can identify up to three properties under the three property rule, or more properties under the two hundred percent rule.",
       },
       {
-        question: "What is the closing deadline in San Francisco, CA?",
+        question: "Do the forty-five day and one hundred eighty day deadlines run separately in San Francisco, California?",
         answer:
-          "The closing deadline in San Francisco, CA is Day 180 after closing on your relinquished property. You must close on at least one identified replacement property by midnight on Day 180.",
+          "No. The forty-five day identification period is the first forty-five days of the overall one hundred eighty day exchange period in San Francisco, California, not a separate additional window. Both deadlines run concurrently from the date the relinquished property closes.",
       },
       {
-        question: "What is a qualified intermediary in San Francisco, CA?",
+        question: "What is the most common mistake San Francisco, California investors make with a 1031 exchange?",
         answer:
-          "A qualified intermediary in San Francisco, CA is a third party that facilitates your exchange by holding exchange funds and coordinating property transfers. They ensure IRS compliance throughout the process.",
+          "The most common mistakes are starting the replacement property search too late relative to the forty-five day deadline, underestimating the debt that needs to be replaced on the new property, and assuming a familiar attorney or CPA can serve as qualified intermediary when disqualified person rules may prevent it.",
       },
       {
-        question: "Can I change my identification in San Francisco, CA?",
+        question: "How do I get started with a 1031 exchange in San Francisco, California?",
         answer:
-          "You cannot change your identification in San Francisco, CA once delivered to your qualified intermediary. We educate you on identification strategies to ensure you identify the right properties initially.",
+          "Contact us to discuss your 1031 exchange goals in San Francisco, California. We will review your situation and coordinate with qualified intermediaries and tax advisors as needed before your relinquished property closes.",
       },
     ],
     inclusions: [
-      "Exchange process overview",
-      "Timeline education",
-      "Identification rule explanation",
-      "Like kind qualification guidance",
-      "Boot education",
-      "Qualified intermediary coordination",
-      "Document requirement review",
-      "Process milestone tracking",
+      "Plain-language exchange process overview",
+      "Forty-five day and one hundred eighty day deadline education",
+      "Boot and tax consequence explanation",
+      "Reverse and improvement exchange structure overview",
+      "DST and securities disclaimer education",
+      "Common mistake prevention guidance",
     ],
     commonSituations: [
       "Investor is new to 1031 exchanges and needs complete process education",
