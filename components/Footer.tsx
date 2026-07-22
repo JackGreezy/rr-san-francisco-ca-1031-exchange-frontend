@@ -34,10 +34,6 @@ export default function Footer() {
 
             {/* Contact Info */}
             <div className="space-y-2 text-[13px] text-white/80">
-              <p>50 California Street</p>
-              <p>{PRIMARY_CITY}, {PRIMARY_STATE_ABBR} 94111</p>
-              <p className="pt-2">525 University Avenue</p>
-              <p>Palo Alto, {PRIMARY_STATE_ABBR} 94301</p>
               <p className="pt-3">
                 <a href={`tel:${PHONE_DIGITS}`} className="hover:text-white transition-colors">
                   {PHONE}
