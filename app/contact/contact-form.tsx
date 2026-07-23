@@ -41,20 +41,14 @@ type FormData = {
   name: string;
   email: string;
   phone: string;
-  projectType: string;
-  city: string;
-  property: string;
-  estimatedCloseDate: string;
-  company: string;
-  timeline: string;
-  message: string;
+  hasCompleted1031: string;
+  notes: string;
 };
 
 function ContactForm() {
   const captchaRef = useRef<HTMLDivElement | null>(null);
   const [formData, setFormData] = useState<FormData>({
-    name: "", email: "", phone: "", projectType: "", city: "",
-    property: "", estimatedCloseDate: "", company: "", timeline: "", message: "",
+    name: "", email: "", phone: "", hasCompleted1031: "", notes: "",
   });
   const [errors, setErrors] = useState<Partial<FormData>>({});
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
@@ -109,7 +103,7 @@ function ContactForm() {
       newErrors.email = "Invalid email";
     }
     if (!formData.phone.trim()) newErrors.phone = "Required";
-    if (!formData.projectType.trim()) newErrors.projectType = "Required";
+    if (!formData.hasCompleted1031.trim()) newErrors.hasCompleted1031 = "Required";
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
@@ -155,15 +149,13 @@ function ContactForm() {
         body: JSON.stringify({
           name: formData.name, email: formData.email,
           phone: formData.phone.replace(/\D/g, ''),
-          projectType: formData.projectType, city: formData.city,
-          property: formData.property, estimatedCloseDate: formData.estimatedCloseDate,
-          company: formData.company, timeline: formData.timeline,
-          details: formData.message, turnstileToken,
+          hasCompleted1031: formData.hasCompleted1031,
+          notes: formData.notes, turnstileToken,
         }),
       });
 
       if (response.ok) {
-        setFormData({ name: "", email: "", phone: "", projectType: "", city: "", property: "", estimatedCloseDate: "", company: "", timeline: "", message: "" });
+        setFormData({ name: "", email: "", phone: "", hasCompleted1031: "", notes: "" });
         if (window.turnstile && turnstileId) window.turnstile.reset(turnstileId);
         setStatus("success");
         setFeedback("Thank you. An exchange specialist will follow up within one business day.");
@@ -182,44 +174,33 @@ function ContactForm() {
 
   return (
     <div id="contact-form" className="border border-white/10 bg-brand-charcoal/50 p-8">
-      <form className="space-y-6" action="/api/contact" method="post">
+      <form className="space-y-6" action="/api/contact" method="post" onSubmit={handleSubmit}>
         <fieldset disabled={status === "submitting"} className="space-y-6">
           <div className="grid gap-6 md:grid-cols-2">
             <div>
               <label htmlFor="name" className="mb-2 block text-xs font-medium uppercase tracking-widest text-white/60">Name <span className="text-brand-copper">*</span></label>
-              <input id="name" type="text" required value={formData.name} onChange={handleChange("name")} aria-describedby={errors.name ? "name-error" : undefined} aria-invalid={!!errors.name} className="w-full bg-transparent border border-white/20 px-4 py-3 text-sm text-white placeholder-white/40 focus:border-brand-copper focus:outline-none transition-colors" placeholder="Your name" name="name"/>
+              <input id="name" type="text" required value={formData.name} onChange={handleChange("name")} aria-describedby={errors.name ? "name-error" : undefined} aria-invalid={!!errors.name} className="w-full bg-transparent border border-white/20 px-4 py-3 text-sm text-white placeholder-white/40 focus:border-brand-copper focus:outline-none transition-colors" placeholder="Your name" name="name" autoComplete="name"/>
               {errors.name && <p id="name-error" className="mt-1 text-xs text-red-400">{errors.name}</p>}
             </div>
             <div>
               <label htmlFor="phone" className="mb-2 block text-xs font-medium uppercase tracking-widest text-white/60">Phone Number <span className="text-brand-copper">*</span></label>
-              <input id="phone" type="tel" required value={formData.phone} onChange={handleChange("phone")} aria-describedby={errors.phone ? "phone-error" : undefined} aria-invalid={!!errors.phone} className="w-full bg-transparent border border-white/20 px-4 py-3 text-sm text-white placeholder-white/40 focus:border-brand-copper focus:outline-none transition-colors" placeholder="(555) 555-5555" name="phone"/>
+              <input id="phone" type="tel" required value={formData.phone} onChange={handleChange("phone")} aria-describedby={errors.phone ? "phone-error" : undefined} aria-invalid={!!errors.phone} className="w-full bg-transparent border border-white/20 px-4 py-3 text-sm text-white placeholder-white/40 focus:border-brand-copper focus:outline-none transition-colors" placeholder="(555) 555-5555" name="phone" autoComplete="tel"/>
               {errors.phone && <p id="phone-error" className="mt-1 text-xs text-red-400">{errors.phone}</p>}
             </div>
           </div>
-          <div className="grid gap-6 md:grid-cols-2">
-            <div>
-              <label htmlFor="email" className="mb-2 block text-xs font-medium uppercase tracking-widest text-white/60">Email <span className="text-brand-copper">*</span></label>
-              <input id="email" type="email" required value={formData.email} onChange={handleChange("email")} aria-describedby={errors.email ? "email-error" : undefined} aria-invalid={!!errors.email} className="w-full bg-transparent border border-white/20 px-4 py-3 text-sm text-white placeholder-white/40 focus:border-brand-copper focus:outline-none transition-colors" placeholder="your@email.com" name="email"/>
-              {errors.email && <p id="email-error" className="mt-1 text-xs text-red-400">{errors.email}</p>}
-            </div>
-
+          <div>
+            <label htmlFor="email" className="mb-2 block text-xs font-medium uppercase tracking-widest text-white/60">Email <span className="text-brand-copper">*</span></label>
+            <input id="email" type="email" required value={formData.email} onChange={handleChange("email")} aria-describedby={errors.email ? "email-error" : undefined} aria-invalid={!!errors.email} className="w-full bg-transparent border border-white/20 px-4 py-3 text-sm text-white placeholder-white/40 focus:border-brand-copper focus:outline-none transition-colors" placeholder="your@email.com" name="email" autoComplete="email"/>
+            {errors.email && <p id="email-error" className="mt-1 text-xs text-red-400">{errors.email}</p>}
           </div>
           <div>
-            <label htmlFor="projectType" className="mb-2 block text-xs font-medium uppercase tracking-widest text-white/60">Have you completed a 1031 exchange before? <span className="text-brand-copper">*</span></label>
-            <select id="projectType" className="w-full bg-brand-dark border border-white/20 px-4 py-3 text-sm text-white focus:border-brand-copper focus:outline-none transition-colors" name="hasCompleted1031" required><option value="">Select yes or no</option><option value="Yes">Yes</option><option value="No">No</option></select>
-            {errors.projectType && <p id="projectType-error" className="mt-1 text-xs text-red-400">{errors.projectType}</p>}
-          </div>
-          <div className="grid gap-6 md:grid-cols-2">
-
-
-          </div>
-          <div className="grid gap-6 md:grid-cols-2">
-
-
+            <label htmlFor="hasCompleted1031" className="mb-2 block text-xs font-medium uppercase tracking-widest text-white/60">Have you completed a 1031 exchange before? <span className="text-brand-copper">*</span></label>
+            <select id="hasCompleted1031" className="w-full bg-brand-dark border border-white/20 px-4 py-3 text-sm text-white focus:border-brand-copper focus:outline-none transition-colors" name="hasCompleted1031" required value={formData.hasCompleted1031} onChange={handleChange("hasCompleted1031")}><option value="">Select yes or no</option><option value="Yes">Yes</option><option value="No">No</option></select>
+            {errors.hasCompleted1031 && <p id="hasCompleted1031-error" className="mt-1 text-xs text-red-400">{errors.hasCompleted1031}</p>}
           </div>
           <div>
-            <label htmlFor="message" className="mb-2 block text-xs font-medium uppercase tracking-widest text-white/60">Notes</label>
-            <textarea id="message" className="w-full bg-transparent border border-white/20 px-4 py-3 text-sm text-white placeholder-white/40 focus:border-brand-copper focus:outline-none transition-colors resize-none" name="notes" rows={4} placeholder="Share any exchange questions or context"></textarea>
+            <label htmlFor="notes" className="mb-2 block text-xs font-medium uppercase tracking-widest text-white/60">Notes</label>
+            <textarea id="notes" className="w-full bg-transparent border border-white/20 px-4 py-3 text-sm text-white placeholder-white/40 focus:border-brand-copper focus:outline-none transition-colors resize-none" name="notes" rows={5} placeholder="Share any exchange questions or context" value={formData.notes} onChange={handleChange("notes")}></textarea>
           </div>
 
           <button type="submit" className="w-full border border-brand-copper bg-brand-copper px-8 py-4 text-sm font-medium uppercase tracking-widest text-white transition-all duration-300 hover:bg-brand-copper-light disabled:opacity-50 disabled:cursor-not-allowed">

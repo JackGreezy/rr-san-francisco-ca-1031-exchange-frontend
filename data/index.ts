@@ -16,5 +16,6 @@ export * as locationBatches01 from "./batches/locations/batch-01";
 export * as locationBatches02 from "./batches/locations/batch-02";
 export * as locationBatches03 from "./batches/locations/batch-03";
 export * as locationBatches04 from "./batches/locations/batch-04";
+export * as locationBatches05 from "./batches/locations/batch-05";
 export * as inventoryBatches01 from "./batches/inventory/batch-01";
 

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { getLocationBySlug, getLocationDataFromBatches } from "@/lib/locations";
+import { getLocationBySlug, getLocationDataFromBatches, type LocationRichSection } from "@/lib/locations";
 import { locationsData } from "@/data";
 import { servicesData } from "@/data";
 import {
@@ -148,6 +148,24 @@ export default async function LocationPage({
             </p>
           )}
         </div>
+
+        {locationData?.richSections && locationData.richSections.length > 0 && (
+          <div className="mb-12 space-y-8">
+            {locationData.richSections.map((section: LocationRichSection, index: number) => (
+              <div key={`rich-section-${index}`}>
+                {section.heading && (
+                  <h2 className="font-[family-name:var(--font-playfair)] text-[22px] md:text-[26px] font-normal text-[#2D2D2D] mb-3">
+                    {section.heading}
+                  </h2>
+                )}
+                <div
+                  className="text-[15px] leading-relaxed text-[#555]"
+                  dangerouslySetInnerHTML={{ __html: section.html }}
+                />
+              </div>
+            ))}
+          </div>
+        )}
 
         <div className="bg-white border border-[#E5E0D8] p-8 mb-12">
           <h2 className="font-[family-name:var(--font-playfair)] text-[24px] md:text-[28px] font-normal text-[#5A2828] mb-6">
