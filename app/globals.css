@@ -13,6 +13,12 @@
   --color-background: #F7F5F2;
   --color-divider: #E5E0D8;
   --color-text: #2D2D2D;
+  --color-brand-dark: var(--color-primary);
+  --color-brand-charcoal: color-mix(in srgb, var(--color-primary) 82%, black);
+  --color-brand-copper: var(--color-accent);
+  --color-brand-copper-light: color-mix(in srgb, var(--color-accent) 82%, white);
+  --color-brand-gold: var(--color-accent);
+  --color-brand-gold-dark: color-mix(in srgb, var(--color-accent) 82%, black);
 }
 
 :root {

@@ -1,11 +1,5 @@
 "use client";
 
-import ExchangeIntentSection from "../components/ExchangeIntentSection";
-
-
-
-
-
 
 import Script from "next/script";
 import { useMemo } from "react";
@@ -402,6 +396,6 @@ export default function Home() {
         >
           {jsonLdGraph}
         </Script>
-    <ExchangeIntentSection /></div>
+    </div>
   );
 }
