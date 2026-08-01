@@ -211,9 +211,7 @@ export default function Home() {
                 1031
               </span>
             </div>
-            <p className="text-[12px] md:text-[13px] font-light leading-[1.85] tracking-wide max-w-2xl mx-auto text-white/70">
-              SF 1031 Exchange is a boutique property identification and exchange coordination firm based in San Francisco, founded by an organic collaboration of highly successful real estate and tax professionals. Leveraging its stellar leadership and supported by the most refined resources in the industry, SF 1031 Exchange is driven by an unrelenting focus on discretion, transactional excellence and exceeding client expectation.
-            </p>
+            <p className="text-[12px] md:text-[13px] font-light leading-[1.85] tracking-wide max-w-2xl mx-auto text-white/70">A San Francisco owner may be selling because regulation, operating costs, capital work, estate decisions, or direct management has changed the property’s fit. We build the exchange solution around proceeds, debt, income, control, workload, replacement geography, and a realistic path to close.</p>
           </div>
         </div>
       </section>
@@ -324,9 +322,7 @@ export default function Home() {
       {/* ==================== SERVICES SECTION ==================== */}
       <section className="bg-[#F7F5F2] py-16 md:py-20">
         <div className="max-w-5xl mx-auto px-6 lg:px-8">
-          <h2 className="text-center font-[family-name:var(--font-playfair)] text-[28px] md:text-[36px] font-normal tracking-[0.1em] uppercase text-[#333] mb-4">
-            Our Services
-          </h2>
+          <h2 className="text-center font-[family-name:var(--font-playfair)] text-[28px] md:text-[36px] font-normal tracking-[0.1em] uppercase text-[#333] mb-4">San Francisco 1031 Exchange Solutions</h2>
           <p className="text-center text-[14px] text-[#666] mb-10 max-w-2xl mx-auto">
             Comprehensive 1031 exchange solutions tailored to your investment strategy
           </p>
@@ -353,11 +349,9 @@ export default function Home() {
 
           <div className="mt-10 text-center">
             <Link
-              href="/services"
+              href="/contact?request=properties"
               className="inline-block px-10 py-3 border border-[#5A2828] text-[10px] font-medium tracking-[0.25em] uppercase text-[#5A2828] hover:bg-[#5A2828] hover:text-white transition-colors"
-            >
-              View All Services
-            </Link>
+            >Request the San Francisco Property List</Link>
           </div>
         </div>
       </section>
@@ -366,18 +360,17 @@ export default function Home() {
       <section className="bg-[#D4C4B0] py-16 md:py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="font-[family-name:var(--font-playfair)] text-[28px] md:text-[36px] font-normal tracking-[0.1em] uppercase text-[#5A2828] mb-6">
-            Start Your Exchange
+            Leave San Francisco Property Management Behind
           </h2>
-          <p className="text-[14px] text-[#5A2828]/80 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Ready to defer your capital gains? Contact our team to discuss your 1031 exchange property identification needs in San Francisco.
-          </p>
+          <p className="text-[14px] text-[#5A2828]/80 mb-10 max-w-2xl mx-auto leading-relaxed">A DST can move daily operations to professional management while providing fractional access to institutional-quality real estate. Some offerings may accept investments near $100,000; San Francisco sellers still need to review availability, income forecasts, sponsor and asset risk, fees, leverage, liquidity limits, eligibility, and suitability.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="/contact"
               className="px-10 py-3 bg-[#5A2828] text-[10px] font-medium tracking-[0.25em] uppercase text-white hover:bg-[#4A1F1F] transition-colors"
-            >
-              Contact Us
-            </Link>
+            >Talk Through the San Francisco Sale</Link><Link
+              href="/contact?request=guide"
+              className="px-10 py-3 bg-[#5A2828] text-[10px] font-medium tracking-[0.25em] uppercase text-white hover:bg-[#4A1F1F] transition-colors"
+            >Get Free San Francisco 1031 Information</Link>
             <a
               href="tel:+14159172994"
               className="px-10 py-3 border border-[#5A2828] text-[10px] font-medium tracking-[0.25em] uppercase text-[#5A2828] hover:bg-[#5A2828] hover:text-white transition-colors"
