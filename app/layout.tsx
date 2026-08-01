@@ -26,11 +26,11 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: {
-    default: `${SITE_NAME} | California Qualified Intermediary Network`,
+    default: "1031 Exchange San Francisco | Property Solutions",
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Trusted 1031 exchange advisors for Bay Area investors. Local intermediary coordination, attorney and CPA partnerships, and compliant capital gains deferral throughout California.",
+    "San Francisco owners can plan the sale, independent QI, replacement criteria, and financing before deadlines narrow the available choices.",
   metadataBase: new URL(SITE_URL),
   icons: {
     icon: "/favicon/favicon.ico",
@@ -38,6 +38,12 @@ export const metadata: Metadata = {
     shortcut: "/favicon/favicon.ico",
   },
   manifest: "/favicon/site.webmanifest",
+
+  alternates: { canonical: "/" },
+
+  twitter: { card: "summary_large_image", title: "1031 Exchange San Francisco | Property Solutions", description: "San Francisco owners can plan the sale, independent QI, replacement criteria, and financing before deadlines narrow the available choices." },
+
+  openGraph: { title: "1031 Exchange San Francisco | Property Solutions", description: "San Francisco owners can plan the sale, independent QI, replacement criteria, and financing before deadlines narrow the available choices." },
 };
 
 export default function RootLayout({
