@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { locationsData, servicesData, propertyTypesData } from "@/data";
+import { locationsData, propertyTypesData } from "@/data";
 import {
   PRIMARY_CITY,
   PRIMARY_STATE_ABBR,
@@ -7,6 +7,34 @@ import {
   PHONE_DIGITS,
   EMAIL,
 } from "@/lib/config";
+
+const featuredLocationSlugs = [
+  "san-francisco-ca",
+  "pacific-heights-ca",
+  "marina-district-ca",
+  "financial-district-ca",
+  "soma-ca",
+  "palo-alto-ca",
+  "oakland-ca",
+  "san-mateo-ca",
+];
+
+const featuredLocations = locationsData.filter((location) =>
+  featuredLocationSlugs.includes(location.slug),
+);
+
+const featuredServices = [
+  { label: "Planning a Property Sale", href: "/services/capital-gains-on-rental-property" },
+  { label: "Inherited Investment Property", href: "/services/inherited-property-capital-gains" },
+  { label: "Passive Real Estate Options", href: "/services/passive-real-estate-income" },
+  { label: "Nationwide Replacement Properties", href: "/services/nationwide-property-identification" },
+  { label: "Net-Lease Property Search", href: "/services/nnn-property-search" },
+  { label: "DST Information", href: "/services/dst-evaluation-and-placement" },
+  { label: "Reverse Exchange Information", href: "/services/reverse-1031-exchange-explained" },
+  { label: "Qualified Intermediary Help", href: "/services/qualified-intermediary-coordination" },
+];
+
+const featuredPropertyTypes = propertyTypesData.slice(0, 8);
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -46,6 +74,15 @@ export default function Footer() {
               </p>
             </div>
 
+            <div className="flex flex-col gap-3">
+              <Link href="/contact#contact-form" className="inline-flex min-h-11 items-center justify-center bg-white px-5 text-[10px] font-semibold uppercase tracking-[0.16em] text-[#5A2828]">
+                Free Consultation
+              </Link>
+              <Link href="/contact?request=properties#contact-form" className="inline-flex min-h-11 items-center justify-center border border-white/35 px-5 text-center text-[10px] font-semibold uppercase tracking-[0.16em] text-white">
+                Get a Free Property List
+              </Link>
+            </div>
+
             {/* Google Maps Embed */}
             <div className="w-full aspect-[4/3] max-w-full md:max-w-[280px]">
               <iframe
@@ -67,7 +104,7 @@ export default function Footer() {
               Service Areas
             </h3>
             <ul className="grid grid-cols-2 md:grid-cols-1 gap-x-4 gap-y-1.5">
-              {locationsData.map((location) => (
+              {featuredLocations.map((location) => (
                 <li key={location.slug}>
                   <Link
                     href={`/service-areas/${location.slug}`}
@@ -86,13 +123,13 @@ export default function Footer() {
               Services
             </h3>
             <ul className="grid grid-cols-2 md:grid-cols-1 gap-x-4 gap-y-1.5">
-              {servicesData.map((service) => (
-                <li key={service.slug}>
+              {featuredServices.map((service) => (
+                <li key={service.href}>
                   <Link
-                    href={`/services/${service.slug}`}
+                    href={service.href}
                     className="text-[12px] text-white/60 hover:text-white transition-colors"
                   >
-                    {service.name}
+                    {service.label}
                   </Link>
                 </li>
               ))}
@@ -106,7 +143,7 @@ export default function Footer() {
                 Property Types
               </h3>
               <ul className="grid grid-cols-2 md:grid-cols-1 gap-x-4 gap-y-1.5">
-                {propertyTypesData.map((type) => (
+                {featuredPropertyTypes.map((type) => (
                   <li key={type.slug}>
                     <Link
                       href={type.route}
@@ -129,7 +166,6 @@ export default function Footer() {
                   { label: "Service Areas", href: "/service-areas" },
                   { label: "Services", href: "/services" },
                   { label: "Property Types", href: "/property-types" },
-                  { label: "IRS Section 1031", href: "/irs-section-1031" },
                   { label: "Tools", href: "/tools" },
                   { label: "Blog", href: "/blog" },
                   { label: "About", href: "/about" },
@@ -153,7 +189,7 @@ export default function Footer() {
         {/* SEO Rich Text */}
         <div className="mt-14 pt-10 border-t border-white/10">
           <p className="text-[11px] leading-[1.8] text-white/40 max-w-4xl">
-            SF 1031 Exchange provides comprehensive 1031 exchange property identification and coordination services throughout {PRIMARY_CITY}, {PRIMARY_STATE_ABBR} and the greater Bay Area. We assist investors with forward exchanges, reverse exchanges, improvement exchanges, and Delaware Statutory Trust placements. Our team coordinates with qualified intermediaries, escrow officers, lenders, and tax advisors to help investors defer capital gains taxes under IRS Section 1031. We serve neighborhoods including Pacific Heights, Marina District, Nob Hill, Russian Hill, SoMa, and the Financial District, as well as surrounding cities including Palo Alto, Oakland, Berkeley, and San Rafael.
+            SF 1031 Exchange provides turnkey 1031 exchange solutions and replacement property information throughout {PRIMARY_CITY}, {PRIMARY_STATE_ABBR} and the greater Bay Area. We help owners organize planned sales, replacement criteria, direct property searches, net-lease options, and passive DST information while working alongside the appropriate independent professionals. We serve neighborhoods including Pacific Heights, Marina District, Nob Hill, Russian Hill, SoMa, and the Financial District, as well as surrounding cities including Palo Alto, Oakland, Berkeley, and San Rafael.
           </p>
         </div>
       </div>
@@ -164,14 +200,6 @@ export default function Footer() {
           <p className="text-[11px] text-white/40 leading-relaxed mb-4">
             <span className="text-white/60 font-medium">Compliance:</span> This site helps investors identify potential replacement properties for Section 1031 exchanges. This site is not a Qualified Intermediary, law firm, broker, or CPA. Users should consult a Qualified Intermediary and tax advisor before acting.
           </p>
-          <div className="flex flex-wrap gap-4 text-[11px] text-white/40">
-            <a href="https://www.irs.gov/forms-pubs/about-form-8824" target="_blank" rel="noopener noreferrer" className="hover:text-white/60 transition-colors">
-              IRS Form 8824
-            </a>
-            <a href="https://www.irs.gov/irb/2008-10_IRB#REV-PROC-2008-16" target="_blank" rel="noopener noreferrer" className="hover:text-white/60 transition-colors">
-              Rev. Proc. 2008-16
-            </a>
-          </div>
         </div>
       </div>
 

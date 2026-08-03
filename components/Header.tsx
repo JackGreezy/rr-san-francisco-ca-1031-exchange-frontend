@@ -3,6 +3,26 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { EMAIL, PHONE, PHONE_DIGITS } from "@/lib/config";
+
+function LogoContent({ isTransparent }: { isTransparent: boolean }) {
+  const textColor = isTransparent ? "text-white" : "text-[#5A2828]";
+  const subTextColor = isTransparent ? "text-white/60" : "text-[#5A2828]/70";
+
+  return (
+    <div className="flex flex-col items-center">
+      <div className="flex items-baseline">
+        <span className={`font-[family-name:var(--font-playfair)] text-[32px] md:text-[40px] font-normal leading-none ${textColor}`}>
+          SF
+        </span>
+        <span className={`text-[32px] md:text-[40px] font-normal ${textColor}`}>.</span>
+      </div>
+      <span className={`text-[8px] md:text-[9px] font-medium tracking-[0.35em] uppercase -mt-1 ${subTextColor}`}>
+        1031
+      </span>
+    </div>
+  );
+}
 
 export default function Header() {
   const pathname = usePathname();
@@ -28,10 +48,6 @@ export default function Header() {
   }, []);
 
   useEffect(() => {
-    setMobileMenuOpen(false);
-  }, [pathname]);
-
-  useEffect(() => {
     if (mobileMenuOpen) {
       document.body.style.overflow = "hidden";
     } else {
@@ -43,27 +59,6 @@ export default function Header() {
   }, [mobileMenuOpen]);
 
   const isTransparent = isHomepage && !scrolled && !mobileMenuOpen;
-
-  // Show hero logo on transparent header, beautiful SF. logo when scrolled
-  const LogoContent = () => {
-    const textColor = isTransparent ? "text-white" : "text-[#5A2828]";
-    const subTextColor = isTransparent ? "text-white/60" : "text-[#5A2828]/70";
-    
-    // Matching the screenshot exactly: SF with dot, 1031 underneath
-    return (
-      <div className="flex flex-col items-center">
-        <div className="flex items-baseline">
-          <span className={`font-[family-name:var(--font-playfair)] text-[32px] md:text-[40px] font-normal leading-none ${textColor}`}>
-            SF
-          </span>
-          <span className={`text-[32px] md:text-[40px] font-normal ${textColor}`}>.</span>
-        </div>
-        <span className={`text-[8px] md:text-[9px] font-medium tracking-[0.35em] uppercase -mt-1 ${subTextColor}`}>
-          1031
-        </span>
-      </div>
-    );
-  };
 
   return (
     <>
@@ -77,11 +72,22 @@ export default function Header() {
         <nav className="max-w-[1400px] mx-auto flex items-center justify-between px-6 lg:px-12 py-4">
           {/* Logo */}
           <Link href="/" className="hover:opacity-80 transition-opacity">
-            <LogoContent />
+            <LogoContent isTransparent={isTransparent} />
           </Link>
 
           {/* Right side navigation */}
           <div className="flex items-center gap-4 md:gap-6">
+            <a
+              href={`tel:${PHONE_DIGITS}`}
+              className={`hidden min-h-11 items-center px-5 py-2 text-[10px] font-semibold uppercase tracking-[0.16em] transition-all duration-300 md:inline-flex ${
+                isTransparent
+                  ? "bg-white text-[#5A2828] hover:bg-[#F7F5F2]"
+                  : "bg-[#5A2828] text-white hover:bg-[#4A1F1F]"
+              }`}
+            >
+              Call {PHONE}
+            </a>
+
             {/* Contact Us Button */}
             <Link
               href="/contact"
@@ -121,7 +127,7 @@ export default function Header() {
 
       {/* Half-page Menu Panel - Slides from right */}
       <div 
-        className={`fixed top-0 right-0 h-full w-full md:w-1/2 bg-[#F7F5F2] z-[55] transform transition-transform duration-500 ease-out ${
+        className={`fixed top-0 right-0 h-full w-[90vw] max-w-[460px] bg-[#F7F5F2] z-[55] transform transition-transform duration-500 ease-out ${
           mobileMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -181,16 +187,16 @@ export default function Header() {
               Get in Touch
             </p>
             <a
-              href="tel:+14159172994"
+              href={`tel:${PHONE_DIGITS}`}
               className="block font-[family-name:var(--font-playfair)] text-[20px] text-[#5A2828] hover:text-[#C4A87C] transition-colors mb-2"
             >
-              +1.415.917.2994
+              {PHONE}
             </a>
             <a
-              href="mailto:info@sf1031.com"
-              className="block text-[14px] text-[#666] hover:text-[#5A2828] transition-colors"
+              href={`mailto:${EMAIL}`}
+              className="block break-all text-[14px] text-[#666] hover:text-[#5A2828] transition-colors"
             >
-              info@sf1031.com
+              {EMAIL}
             </a>
           </div>
 

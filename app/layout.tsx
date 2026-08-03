@@ -5,7 +5,6 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import StickyCTA from "@/components/StickyCTA";
-import ContactPopup from "@/components/ContactPopup";
 import { SITE_NAME, SITE_URL } from "@/lib/config";
 
 const playfair = Playfair_Display({
@@ -26,11 +25,11 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: {
-    default: "1031 Exchange San Francisco | Property Solutions",
+    default: "1031 Exchange San Francisco | Free Consultation & Help",
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "San Francisco owners can plan the sale, independent QI, replacement criteria, and financing before deadlines narrow the available choices.",
+    "Free, turnkey 1031 exchange help for San Francisco property owners, including planned sales, replacement property searches, net-lease options, and passive DST information.",
   metadataBase: new URL(SITE_URL),
   icons: {
     icon: "/favicon/favicon.ico",
@@ -41,9 +40,9 @@ export const metadata: Metadata = {
 
   alternates: { canonical: "/" },
 
-  twitter: { card: "summary_large_image", title: "1031 Exchange San Francisco | Property Solutions", description: "San Francisco owners can plan the sale, independent QI, replacement criteria, and financing before deadlines narrow the available choices." },
+  twitter: { card: "summary_large_image", title: "1031 Exchange San Francisco | Free Consultation & Help", description: "Free, turnkey 1031 exchange help for San Francisco property owners, replacement property searches, and passive DST information." },
 
-  openGraph: { title: "1031 Exchange San Francisco | Property Solutions", description: "San Francisco owners can plan the sale, independent QI, replacement criteria, and financing before deadlines narrow the available choices." },
+  openGraph: { title: "1031 Exchange San Francisco | Free Consultation & Help", description: "Free, turnkey 1031 exchange help for San Francisco property owners, replacement property searches, and passive DST information." },
 };
 
 export default function RootLayout({
@@ -58,7 +57,6 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <StickyCTA />
-        <ContactPopup />
         <Analytics />
       </body>
     </html>

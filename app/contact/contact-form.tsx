@@ -173,7 +173,7 @@ function ContactForm() {
   };
 
   return (
-    <div id="contact-form" className="border border-white/25 bg-brand-charcoal/50 p-8">
+    <div id="contact-form" className="scroll-mt-28 border border-white/25 bg-brand-charcoal/50 p-5 shadow-2xl sm:p-8">
       <form className="space-y-6" action="/api/contact" method="post" onSubmit={handleSubmit}>
         <fieldset disabled={status === "submitting"} className="space-y-6">
           <div className="grid gap-6 md:grid-cols-2">
@@ -204,7 +204,7 @@ function ContactForm() {
           </div>
 
           <button type="submit" className="w-full border border-brand-copper bg-brand-copper px-8 py-4 text-sm font-medium uppercase tracking-widest text-black transition-all duration-300 hover:bg-brand-copper-light disabled:opacity-50 disabled:cursor-not-allowed">
-            {status === "submitting" ? "Submitting..." : "Submit →"}
+            {status === "submitting" ? "Submitting..." : "Request Free Guidance →"}
           </button>
           <p className="text-xs text-white/70 text-center">Educational content only. Not tax or legal advice.</p>
           {feedback && (
@@ -218,7 +218,7 @@ function ContactForm() {
 
 export function ContactFormWrapper() {
   return (
-    <Suspense fallback={<div className="border border-white/25 bg-brand-charcoal/50 p-8 text-white/85">Loading form...</div>}>
+    <Suspense fallback={<div className="border border-white/25 bg-brand-charcoal/50 p-5 text-white/85 sm:p-8">Loading form...</div>}>
       <ContactForm />
     </Suspense>
   );
